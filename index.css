@@ -13,3 +13,18 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 12px;
 }
+
+.main {
+	position: absolute; 
+		left: 300px; 
+		top: 20px; 
+}
+
+#BTN_1 {
+	position: absolute; 
+		left: 670px; 
+		top: 500px;
+	font-family: 'Nova Square', cursive;
+	font-size: 15px;
+	color: rgb(201,236,254);
+}
