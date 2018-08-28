@@ -9,7 +9,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 }
 
 body {
-	background-color: rgb(192, 230, 255);
+	background-color: rgb(255,255,255);
 	font-family: "Times New Roman", Times, serif;
 	font-size: 12px;
 }
@@ -20,11 +20,3 @@ body {
 		top: 20px; 
 }
 
-#BTN_1 {
-	position: absolute; 
-		left: 670px; 
-		top: 500px;
-	font-family: 'Nova Square', cursive;
-	font-size: 15px;
-	color: rgb(201,236,254);
-}
