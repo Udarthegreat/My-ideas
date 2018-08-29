@@ -10,7 +10,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 
 body {
 	/*background-color: rgb(255,255,255);*/
-	background-image: url("test_background_1.jpg");
+	background-image: url("test_background_1.jpg");/*backgroun image*/
 	background-color: #cccccc; /* Used if the image is unavailable */
 	height: 500px; /* You must set a specified height */
 	background-position: center; /* Center the image */
