@@ -10,7 +10,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 
 body {
 	/*background-color: rgb(255,255,255);*/
-	background-image: url("test_background_1.jpg"); /*background image*/
+	background-image: url("astronomy-black-wallpaper-constellation-2150.jpg"); /*background image*/
 	background-color: #cccccc; /* Used if the image is unavailable */
 	height: 500px; /* You must set a specified height */
 	background-position: center; /* Center the image */
@@ -24,17 +24,18 @@ body {
 .main {
 	position: absolute; 
 		left: 400px; 
-		top: 500px; 
+		top: 800px; 
+	
 }
 
 .img_1 {
 	position: absolute; 
-		left: 40px; 
-		top: 60px; 
+		left: 35px; 
+		top: 75px; 
 }
 
-.title{
-	
+.top_bar{
+	background-image: url("earth-space.jpg");
 }
 
 .h1_1{
@@ -50,6 +51,27 @@ body {
 	position: absolute; 
 		left: 450px; 
 		top: 250px; 
+	font-size: 25px;
+	color: rgb(0,68,255);
+	font-family: 'Nova Flat', cursive;
+}
+
+.divider_1{
+	position: absolute;
+		top: 350px;
+		left: 0px;
+}
+
+.divider_2{
+	position: absolute;
+		top: 700px;
+		left: 0px;
+}
+
+.paragraph_1{
+	position: absolute; 
+		left: 10px; 
+		top: 400px; 
 	font-size: 25px;
 	color: rgb(0,68,255);
 	font-family: 'Nova Flat', cursive;
