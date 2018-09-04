@@ -21,9 +21,16 @@ body {
 	background-attachment: fixed;
 }
 
-.main {
+.main_1 {
 	position: absolute; 
-		left: 400px; 
+		left: 50px; 
+		top: 800px; 
+	
+}
+
+.main_2 {
+	position: absolute; 
+		left: 500px; 
 		top: 800px; 
 	
 }
@@ -34,8 +41,13 @@ body {
 		top: 75px; 
 }
 
-.top_bar{
-	background-image: url("earth-space.jpg");
+#explanation_paragraph{
+	/*background-image: url("earth-space.jpg"); */
+	background-image: url("earth-space.jpg"); /*background image*/
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .h1_1{
@@ -76,3 +88,4 @@ body {
 	color: rgb(0,68,255);
 	font-family: 'Nova Flat', cursive;
 }
+
