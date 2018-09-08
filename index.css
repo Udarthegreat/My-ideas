@@ -9,10 +9,10 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 }
 
 body {
-	/*background-color: rgb(255,255,255);*/
+	
 	background-image: url("astronomy-black-wallpaper-constellation-2150.jpg"); /*background image*/
 	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 500px; /* You must set a specified height */
+	height: 500px; 
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container*/
@@ -51,7 +51,7 @@ body {
 }
 
 #explanation_paragraph{
-	/*background-image: url("earth-space.jpg"); */
+	
 	background-image: url("earth-space.jpg"); /*background image*/
 	background-attachment: fixed;
     background-position: center;
