@@ -166,3 +166,18 @@ body {
     0 -2px 0 #000000;
 }
 
+.tag_SVG{
+	color: rgb(0,68,255);
+	font-family: 'Nova Flat', cursive;
+	font-size: 15px;
+	/* text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000; */
+}
