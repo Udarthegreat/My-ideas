@@ -181,15 +181,15 @@ body {
 }
 
 .tag_text_1{
-	font-family: 'Nova Flat', cursive;
-	font-size: 15px;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 20px;
 	/* color: rgb(0,68,255); */
 	position: absolute;
 		left: 1px;
-		top: 10000000000000px;
+		top: 0px;
 }
 
 .tag_text_2{
-	font-family: 'Nova Flat', cursive;
-	font-size: 15px;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 20px;
 }
