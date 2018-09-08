@@ -12,10 +12,11 @@ body {
 	
 	background-image: url("astronomy-black-wallpaper-constellation-2150.jpg"); /*background image*/
 	background-color: #cccccc; /* Used if the image is unavailable */
-	height: 500px; 
+	/* height: 500px;  */
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container*/
+	background-attachment: fixed;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 12px;
 	background-attachment: fixed;
@@ -167,9 +168,6 @@ body {
 }
 
 .tag_SVG{
-	color: rgb(0,68,255);
-	font-family: 'Nova Flat', cursive;
-	font-size: 15px;
 	/* text-shadow:
     /* Outline */
     -1px -1px 0 #000000,
@@ -180,4 +178,18 @@ body {
     2px 0 0 #000000,
     0 2px 0 #000000,
     0 -2px 0 #000000; */
+}
+
+.tag_text_1{
+	font-family: 'Nova Flat', cursive;
+	font-size: 15px;
+	/* color: rgb(0,68,255); */
+	position: absolute;
+		left: 1px;
+		top: 10000000000000px;
+}
+
+.tag_text_2{
+	font-family: 'Nova Flat', cursive;
+	font-size: 15px;
 }
