@@ -167,29 +167,24 @@ body {
     0 -2px 0 #000000;
 }
 
-.tag_SVG{
-	/* text-shadow:
-    /* Outline *//*
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000; */
-}
+
 
 .tag_text_1{
 	font-family: 'Nanum Pen Script', cursive;
 	font-size: 20px;
 	/* color: rgb(0,68,255); */
-	position: absolute;
+	/* position: absolute;
 		left: 1px;
-		top: 0px;
+		top: 0px; */
 }
 
 .tag_text_2{
 	font-family: 'Nanum Pen Script', cursive;
 	font-size: 20px;
+}
+
+.tag_text_1{
+	position: absolute;
+		left: 2px;
+		top: 1000000000000000px;
 }
