@@ -45,6 +45,12 @@ body {
 	
 }
 
+.main_4{
+	position: absolute; 
+		left: 500px; 
+		top: 2200px; 
+}
+
 .img_1 {
 	position: absolute; 
 		left: 35px; 
