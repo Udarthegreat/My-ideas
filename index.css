@@ -123,24 +123,6 @@ body {
     0 -2px 0 #000000;
 }
 
-/* .p_3{
-	font-size: 14px;
-	color: rgb(255,255,255);
-	font-family: 'Nova Flat', cursive;
-	position: absolute; 
-		left: 550px; 
-		top: 80px;
-	text-shadow:
-    /* Outline *//*
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
-} */
 
 .divider_1{
 	position: absolute;
@@ -157,9 +139,11 @@ body {
 .paragraph_1{
 	position: absolute; 
 		left: 0px; 
-		top: 400px; 
+		/*or
+		left:-200px; */
+		top: 360px; 
 	font-size: 25px;
-	color: rgb(0,68,255);
+	color: rgb(255,255,255);
 	font-family: 'Nova Flat', cursive;
 	text-shadow:
     /* Outline */
@@ -179,9 +163,26 @@ body {
 	
 }
 
-.tag_text_2{
+.tag_text_2_1{
 	font-family: 'Nanum Pen Script', cursive;
 	font-size: 20px;
+}
+
+.tag_text_2_2{
+	font-family: 'Nanum Pen Script', cursive;
+	/*font-style: bold;*/
+	color: rgba(255, 255, 255,1);
+	/*! color: white; */
+	font-size: 21px;
+	/* text-shadow: */
+    /* -1px -1px 0 #000000, */
+    /* 1px -1px 0 #000000, */
+    /* -1px 1px 0 #000000, */
+    /* 1px 1px 0 #000000,   */
+    /* -2px 0 0 #000000, */
+    /* 2px 0 0 #000000, */
+    /* 0 2px 0 #000000, */
+    /* 0 -2px 0 #000000; */
 }
 
 .tag_1{
