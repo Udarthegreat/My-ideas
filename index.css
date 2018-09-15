@@ -184,7 +184,7 @@ body {
 
 .tooltip {
 	position: relative;
-		left: 200px;
+		left: 100px;
 		top: 2500px;
     display: inline-block;
     border-bottom: 1px dotted rgba(0, 0, 0, 0.466); /* If you want dots under the hoverable text */
@@ -194,7 +194,7 @@ body {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: rgba(0, 0, 0, 0.349);
+    background-color: rgba(0, 0, 0, 0.452);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px 0;
@@ -221,6 +221,12 @@ body {
 	margin-left: 5px;
 	margin-left: 6px;
 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hover_over{
+	font-family: 'Ubuntu Mono', monospace;
+	color: rgba(0, 0, 0, 0.979);
+	font-size: 16px;
 }
 
 
