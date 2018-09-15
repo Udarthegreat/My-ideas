@@ -52,14 +52,6 @@ body {
 		top: 75px; 
 }
 
-#explanation_paragraph{
-	
-	background-image: url("earth-space.jpg"); /*background image*/
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .h1_1{
 	position: absolute; 
