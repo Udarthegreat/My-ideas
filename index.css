@@ -26,23 +26,18 @@ body {
 	position: absolute; 
 		left: 50px; 
 		top: 850px; 
-	
-	
 }
 
 .main_2 {
 	position: absolute; 
 		left: 500px; 
 		top: 1370px; 
-	
 }
 
 .main_3 {
 	position: absolute; 
 		left: 950px; 
 		top: 850px; 
-	
-	
 }
 
 .main_4{
@@ -171,9 +166,9 @@ body {
 .tag_text_2_2{
 	font-family: 'Nanum Pen Script', cursive;
 	/*font-style: bold;*/
-	color: rgba(255, 255, 255,1);
+	/* color: rgba(255, 255, 255,1); */
 	/*! color: white; */
-	font-size: 21px;
+	font-size: 30px;
 	/* text-shadow: */
     /* -1px -1px 0 #000000, */
     /* 1px -1px 0 #000000, */
