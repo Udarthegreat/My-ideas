@@ -217,6 +217,12 @@ body {
     visibility: visible;
 }
 
+.line_1{
+	margin-left: 5px;
+	margin-left: 6px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
 
 /* 
     font-family: 'Gamja Flower', cursive;
