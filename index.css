@@ -155,20 +155,6 @@ body {
 	font-size: 20px;
 }
 
-.tag_text_2_2{
-	font-family: 'Nanum Pen Script', cursive;
-	color: rgba(255, 255, 255,1);
-	font-size: 30px;
-	/* text-shadow: */
-    /* -1px -1px 0 #000000, */
-    /* 1px -1px 0 #000000, */
-    /* -1px 1px 0 #000000, */
-    /* 1px 1px 0 #000000,   */
-    /* -2px 0 0 #000000, */
-    /* 2px 0 0 #000000, */
-    /* 0 2px 0 #000000, */
-    /* 0 -2px 0 #000000; */
-}
 
 .tag_1{
 	position: absolute;
@@ -187,7 +173,7 @@ body {
 		left: 100px;
 		top: 2500px;
     display: inline-block;
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.466); /* If you want dots under the hoverable text */
+    border-bottom: 1px dotted rgba(3, 3, 3, 0.466); /* If you want dots under the hoverable text */
 }
 
 /* Tooltip text */
@@ -202,15 +188,13 @@ body {
  
     /* Position the tooltip text - see examples below! */
     position: absolute;
-    z-index: 2;
+	z-index: 2;
+	width: 120px;
+		bottom: 100%;
+		left: 50%; 
+		margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
 
-.tooltip .tooltiptext {
-    width: 120px;
-    bottom: 100%;
-    left: 50%; 
-    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
-} 
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
