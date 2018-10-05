@@ -12,7 +12,6 @@ body {
 	
 	background-image: url("astronomy-black-wallpaper-constellation-2150.jpg"); /*background image*/
 	background-color: #cccccc; /* Used if the image is unavailable */
-	/* height: 500px;  */
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container*/
@@ -126,8 +125,6 @@ body {
 .paragraph_1{
 	position: absolute; 
 		left: 0px; 
-		/*or
-		left:-200px; */
 		top: 360px; 
 	font-size: 25px;
 	color: rgb(255,255,255);
