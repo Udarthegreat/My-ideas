@@ -183,7 +183,7 @@ body {
     padding: 10px 0;
     border-radius: 6px;
  
-    /* Position the tooltip text - see examples below! */
+    /* Position the tooltip text */
     position: absolute;
 	z-index: 2;
 	/*second part*/
