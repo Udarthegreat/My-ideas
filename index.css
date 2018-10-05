@@ -11,7 +11,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 body {
 	
 	background-image: url("astronomy-black-wallpaper-constellation-2150.jpg"); /*background image*/
-	background-color: #cccccc; /* Used if the image is unavailable */
+	background-color: rgb(128, 128, 128); /* Used if the image is unavailable */
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container*/
