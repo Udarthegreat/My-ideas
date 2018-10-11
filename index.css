@@ -234,6 +234,16 @@ body {
 	width: 100%;
 	text-align: center;
 	margin-top: 30px;
+	text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
 }
 
 .overlay a {
@@ -265,6 +275,23 @@ body {
   }
 }
 
+
+.nav_activate{
+	font-size:30px;
+	cursor:pointer;
+	color:white;
+	position:fixed;
+	text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
 /* 
     font-family: 'Gamja Flower', cursive;
     font-family: 'Source Sans Pro', sans-serif;
