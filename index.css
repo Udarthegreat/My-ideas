@@ -291,6 +291,7 @@ body {
 	cursor:pointer;
 	color:white;
 	position:fixed;
+	z-index: 50;
 	text-shadow:
     /* Outline */
     -1px -1px 0 #000000,
