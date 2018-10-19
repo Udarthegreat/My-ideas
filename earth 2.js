@@ -6,6 +6,9 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 
+//need to add a if statement so that the nav bar will not pop up when you are viewing a modalImg
+
+
 // Get the modal
 // var modal = document.getElementById('myModal');
 
