@@ -158,34 +158,7 @@
 					  <img class="modal-content" id="img01">
 					  <div id="caption"> </div>
 					</div>
-					<script>
-						// Get the modal
-						var modal = document.getElementById('myModal');
-
-						// Get the image and insert it inside the modal - use its "alt" text as a caption
-						var img_a = document.getElementById('myImg_1');
-						var img_b = document.getElementById('myImg_2');
-						var modalImg = document.getElementById("img01");
-						var captionText = document.getElementById("caption");
-						img_a.onclick = function(){
-							modal.style.display = "block";
-							modalImg.src = this.src;
-							captionText.innerHTML = this.alt;
-						}
-						img_b.onclick = function(){
-							modal.style.display = "block";
-							modalImg.src = this.src;
-							captionText.innerHTML = this.alt;
-						}
-
-						// Get the <span> element that closes the modal
-						var span = document.getElementsByClassName("close")[0];
-
-						// When the user clicks on <span> (x), close the modal
-						span.onclick = function() { 
-							modal.style.display = "none";
-						}
-					</script>
+					
 			</div>
 			
 			
@@ -193,7 +166,7 @@
 				<svg height="700" width="600" id="part_1">
 					<rect x="0" y="10" rx="0" ry="0" width="420" height="510" style="fill:rgb(36,36,36);stroke-width:1;stroke:rgb(36,36,36)" />
 				</svg>
-					<img src="to be drawn.jpg" alt="test image" id="myImg_2" style="width:100%;max-width:350px" class="img_1"> <!--height="400" width="350"-->
+					<img src="to be drawn.jpg" alt="test image" id="myImg_3" style="width:100%;max-width:350px" class="img_1"> <!--height="400" width="350"-->
 					<!-- The Modal -->
 					<div id="myModal" class="modal">
 					  <span class="close">&times; </span>
@@ -206,7 +179,7 @@
 					<svg height="700" width="600" id="part_1">
 						<rect x="0" y="10" rx="0" ry="0" width="420" height="510" style="fill:rgb(36,36,36);stroke-width:1;stroke:rgb(36,36,36)" />
 					</svg>
-					<img src="to be drawn.jpg" alt="test image" id="myImg_2" style="width:100%;max-width:350px" class="img_1"> <!--height="400" width="350"-->
+					<img src="to be drawn.jpg" alt="test image" id="myImg_4" style="width:100%;max-width:350px" class="img_1"> <!--height="400" width="350"-->
 					<!-- The Modal -->
 					<div id="myModal" class="modal">
 					  <span class="close">&times; </span>
@@ -226,6 +199,46 @@
 				  <!-- Modal Caption (Image Text) -->
 				  <!-- <div id="caption"></div> -->
 				<!-- </div>  -->
+			<script>
+						// Get the modal
+						var modal = document.getElementById('myModal');
+
+						// Get the image and insert it inside the modal - use its "alt" text as a caption
+						var img_a = document.getElementById('myImg_1');
+						var img_b = document.getElementById('myImg_2');
+						var img_c = document.getElementById('myImg_3');
+						var img_d = document.getElementById('myImg_4');
+						var modalImg = document.getElementById("img01");
+						var captionText = document.getElementById("caption");
+						img_a.onclick = function(){
+							modal.style.display = "block";
+							modalImg.src = this.src;
+							captionText.innerHTML = this.alt;
+						}
+						img_b.onclick = function(){
+							modal.style.display = "block";
+							modalImg.src = this.src;
+							captionText.innerHTML = this.alt;
+						}
+						img_c.onclick = function(){
+							modal.style.display = "block";
+							modalImg.src = this.src;
+							captionText.innerHTML = this.alt;
+						}
+						img_d.onclick = function(){
+							modal.style.display = "block";
+							modalImg.src = this.src;
+							captionText.innerHTML = this.alt;
+						}
+
+						// Get the <span> element that closes the modal
+						var span = document.getElementsByClassName("close")[0];
+
+						// When the user clicks on <span> (x), close the modal
+						span.onclick = function() { 
+							modal.style.display = "none";
+						}
+					</script>
 		</div>
 	</body>
 </html>
