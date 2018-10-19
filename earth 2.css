@@ -304,21 +304,19 @@ body {
     0 -2px 0 #000000;
 }
 
- /* Style the Image Used to Trigger the Modal */
 #myImg {
-    border-radius: 20px;
+    border-radius: 2px;
     cursor: pointer;
     transition: 0.3s;
-/* } */
+}
 
 #myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
-    position: absolute; /* Stay in place */
-		left: 100px;
-    z-index: 60; /* Sit on top */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -329,15 +327,15 @@ body {
     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
-/* Modal Content (Image) */
+/* Modal Content (image) */
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 90%;
     max-width: 700px;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
+/* Caption of Modal Image */
 #caption {
     margin: auto;
     display: block;
@@ -349,14 +347,21 @@ body {
     height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
 }
 
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
 @keyframes zoom {
-    from {transform:scale(0)}
+    from {transform:scale(0)} 
     to {transform:scale(1)}
 }
 
@@ -371,7 +376,7 @@ body {
     transition: 0.3s;
 }
 
-.close:hover, 
+.close:hover,
 .close:focus {
     color: #bbb;
     text-decoration: none;
@@ -383,7 +388,7 @@ body {
     .modal-content {
         width: 100%;
     }
-} 
+}
 /* 
     /* font-family: 'Gamja Flower', cursive; */
     /* font-family: 'Source Sans Pro', sans-serif; */
