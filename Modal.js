@@ -1,6 +1,5 @@
 // Get the modal
 var modal = document.getElementById('myModal');
-
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img_a = document.getElementById('myImg_1');
 var img_b = document.getElementById('myImg_2');
