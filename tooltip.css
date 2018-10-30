@@ -55,7 +55,7 @@
     border-bottom: 1px dotted rgba(3, 3, 3, 0.466); /* If you want dots under the hoverable text */
 }
 
-.tooltip_2 .tooltiptext_1 {
+.tooltip_2 .tooltiptext_2 {
     visibility: hidden;
     width: 120px;
     background-color: rgba(0, 0, 0, 0.452);
@@ -74,6 +74,6 @@
 		margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
 
-.tooltip_2:hover .tooltiptext_1 {
+.tooltip_2:hover .tooltiptext_2 {
     visibility: visible;
 }
