@@ -1,19 +1,19 @@
 @charset "UTF-8";
-/* .tooltip_2 { */
-	/* position: relative; */
-		/* left: 0px; */
-		/* top: 3800px; */
-    /* display: inline-block; */
-    /* border-bottom: 1px dotted rgba(3, 3, 3, 0.466); /* If you want dots under the hoverable text */ */
-/* } */
-
 .tooltip_2 {
 	position: relative;
-		left: 100px;
+		left: -150px;
 		top: 3800px;
     display: inline-block;
     border-bottom: 1px dotted rgba(3, 3, 3, 0.466); /* If you want dots under the hoverable text */
 }
+
+/* .tooltip_2 { */
+	/* position: relative; */
+		/* left: 100px; */
+		/* top: 3800px; */
+    /* display: inline-block; */
+    /* border-bottom: 1px dotted rgba(3, 3, 3, 0.466); /* If you want dots under the hoverable text */ */
+/* } */
 
 /* Tooltip text */
 .tooltip_2 .tooltiptext_2 {
