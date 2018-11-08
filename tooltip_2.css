@@ -16,12 +16,12 @@
     background-color: rgba(0, 0, 0, 0.452);
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 10px 0;
+    padding: 12px 0;
     border-radius: 6px;
  
     /* Position the tooltip text */
     position: absolute;
-	z-index: 2;
+	z-index: 3;
 	/*second part*/
 	width: 140px;
 		bottom: 100%;
