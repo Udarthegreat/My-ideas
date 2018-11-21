@@ -19,19 +19,16 @@
 	<meta name="earth 2.0 interactive" content="my ideas">
 	<script src="Modal.js"></script>
 	<link rel="stylesheet" text="text/css" href="earth 2.0 interactive.css">
-	
 	</head> 
 	<div class="canvas">
 		<canvas></canvas>
 		<div id="info"></div>
-
 		<script id="vs" type="x-shader/vertex">
 			attribute vec3 position;
 			void main() {
 				gl_Position = vec4( position, 1.0 );
 			}
 		</script>
-
 		<script id="fs" type="x-shader/fragment">
 			uniform float time;
 			uniform vec2 resolution;
@@ -44,7 +41,6 @@
 			}
 		</script>
 	</div>
-	
 	<div class="main_text">
 		<p>this is going to be a interactive for people to explore my idea</p>
 		<p>it is a work in progress, I will finish this when I finish the static page</p>
@@ -52,6 +48,5 @@
 	<div>
 		<script src="../earth-2.0/webGL earth 2.0/earth 2.0 main.js"></script>
 	</div>
-
 </body>
 </html>
