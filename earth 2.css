@@ -157,7 +157,6 @@ body {
 .tag_text_1{
 	font-family: 'Nanum Pen Script', cursive;
 	font-size: 20px;
-	
 }
 
 .tag_text_2_1{
@@ -172,20 +171,20 @@ body {
 
 .tag_1{
 	position: absolute;
-	left: 4px;
-	top: 830px; 
+		left: 4px;
+		top: 830px; 
 }
 
 .tag_2{
 	position: absolute;
-	left: 4px;
-	top: 2000px; 
+		left: 4px;
+		top: 2000px; 
 }
 
 .tag_3{
 	position: absolute;
-	left: 4px;
-	top: 2880px; 
+		left: 4px;
+		top: 2880px; 
 }
 
 
