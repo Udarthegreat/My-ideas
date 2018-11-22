@@ -23,7 +23,10 @@ body {
 
 .Title_section{
 	color: rgba(255, 255, 255, 0.74);
-	font-family: 'Nova Flat', cursive;
+    font-family: 'Nova Flat', cursive;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
 }
 
 .title_text{
