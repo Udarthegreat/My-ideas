@@ -24,14 +24,21 @@ body {
 .Title_section{
 	color: rgba(255, 255, 255, 0.74);
     font-family: 'Nova Flat', cursive;
+}
+
+.title_text{
+    font-size: 50px;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 50px;
 }
 
-.title_text{
-    font-size: 50px;
+.p_1{
+    color: rgba(255, 255, 255, 0.74);
+    font-family: 'Nova Flat', cursive;
+    font-size: 20px;
 }
+
 /*.background_1{
 
 }*/
