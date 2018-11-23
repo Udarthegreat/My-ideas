@@ -1,4 +1,4 @@
-# earth-2.0
+#earth-2.0
 #ideas
 #my ideas
 #space
