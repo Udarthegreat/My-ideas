@@ -7,6 +7,7 @@ var img_c = document.getElementById('myImg_3');
 var img_d = document.getElementById('myImg_4');
 var img_e = document.getElementById('myImg_5');
 var img_f = document.getElementById('myImg_6');
+var img_g = document.getElementById('myImg_7');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img_a.onclick = function(){
@@ -35,6 +36,11 @@ img_e.onclick = function(){
     captionText.innerHTML = this.alt;
 }
 img_f.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+img_g.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
