@@ -6,6 +6,9 @@
         <clipPath id="_clipPath_pL2OF0M2ZIBr4R60S6yamSV83gHRYcIc">
             <rect x="-13" y="-110" width="1920" height="2173"/>
         </clipPath>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Anton|Bree+Serif|Lobster|Merriweather|Pacifico|Permanent+Marker|Righteous|Staatliches|Ubuntu|ZCOOL+KuaiLe');
+        </style>
     </defs>
     <g clip-path="url(#_clipPath_pL2OF0M2ZIBr4R60S6yamSV83gHRYcIc)">
         <g>
@@ -52,7 +55,7 @@
                     </linearGradient>
                     <rect x="59.6" y="-110" width="1749.4" height="925" transform="matrix(1,0,0,1,0,0)" fill="url(#_lgradient_3)"/>
                     <g transform="matrix(5.449,0,0,5.449,59.6,136.25)">
-                        <text transform="matrix(1,0,0,1,0,76.957)" style="font-family:'Open Sans';font-weight:400;font-size:72px;font-style:normal;fill:#000000;stroke:none;">My  Ideas </text>
+                        <text transform="matrix(1,0,0,1,0,76.957)" style="font-family: 'ZCOOL KuaiLe', cursive;font-weight:400;font-size:72px;font-style:normal;fill:#000000;stroke:none;">My  Ideas </text>
                     </g>
                 </g>
             </g>
