@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+<!-- Generator: Inkscape -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   style="isolation:isolate"
+   viewBox="284 134 1350 881"
+   width="1350"
+   height="881"
+   version="1.1"
+   id="svg997"
+   sodipodi:docname="singularity.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata1001">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     
+     id="namedview999"
+     showgrid="false"
+
+      />
+  <defs
+     id="defs959">
+    <clipPath
+       id="_clipPath_1IB84w7a2IfEonUPDc68xHx6jIPXNyO8">
+      <rect
+         x="284"
+         y="134"
+         width="1350"
+         height="881"
+         id="rect956" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#_clipPath_1IB84w7a2IfEonUPDc68xHx6jIPXNyO8)"
+     id="g995">
+    <g
+       id="g993">
+      <g
+         id="g965">
+        <g
+           transform="translate(284,958)"
+           id="g963">
+          <text
+             transform="translate(0,21.377)"
+             style="font-style:normal;font-weight:400;font-size:20px;font-family:'Open Sans';fill:#000000;stroke:none"
+             id="text961">more to come soon.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</text>
+        </g>
+      </g>
+      <g
+         id="g991">
+        <defs
+           id="defs973">
+          <mask
+             id="_mask_LyxzdEFXQmFJlJvtFifnHjJ8ugixyHx1">
+            <path
+               d="m 324.251,134 h 1269.498 c 22.215,0 40.251,18.036 40.251,40.251 V 859.749 C 1634,881.964 1615.964,900 1593.749,900 H 324.251 C 302.036,900 284,881.964 284,859.749 V 174.251 C 284,152.036 302.036,134 324.251,134 Z"
+               style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+               id="path967"
+               inkscape:connector-curvature="0" />
+          </mask>
+          <mask
+             id="_mask_LcWUtYYldTwUMfZYFVMoPRVhEZOvw8sO">
+            <path
+               d="m 324.251,134 h 1269.498 c 22.215,0 40.251,18.036 40.251,40.251 V 859.749 C 1634,881.964 1615.964,900 1593.749,900 H 324.251 C 302.036,900 284,881.964 284,859.749 V 174.251 C 284,152.036 302.036,134 324.251,134 Z"
+               style="fill:#ffffff;stroke:#000000;stroke-miterlimit:10"
+               id="path970"
+               inkscape:connector-curvature="0" />
+          </mask>
+        </defs>
+        <g
+           mask="url(#_mask_LcWUtYYldTwUMfZYFVMoPRVhEZOvw8sO)"
+           id="g977">
+          <g
+             mask="url(#_mask_LyxzdEFXQmFJlJvtFifnHjJ8ugixyHx1)"
+             id="g975" />
+        </g>
+        <g
+           mask="url(#_mask_LyxzdEFXQmFJlJvtFifnHjJ8ugixyHx1)"
+           id="g981">
+          <image
+             width="1100"
+             height="733"
+             transform="matrix(1.308,0,0,1.189,194,27.207)"
+             preserveAspectRatio="none"
+             xlink:href="data:image/png;base64,"
+             href="test_background_1.jpg"
+             id="image979" />
+        </g>
+        <g
+           style="opacity:0.12000002;mix-blend-mode:normal"
+           id="g985">
+          <path
+             d="m 326.349,134 h 1265.302 c 23.373,0 42.349,18.976 42.349,42.349 V 857.651 C 1634,881.024 1615.024,900 1591.651,900 H 326.349 C 302.976,900 284,881.024 284,857.651 V 176.349 C 284,152.976 302.976,134 326.349,134 Z"
+             style="fill:#000000;stroke:none;stroke-miterlimit:10"
+             id="path983"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(3.4455909,0,0,6.1395452,314.29203,180.88832)"
+           id="g989">
+          <text
+             transform="translate(0,76.957)"
+             style="font-style:normal;font-weight:400;font-size:72px;font-family:'Open Sans';fill:#ffffff;stroke:none"
+             id="text987">
+            <tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Nova Flat';-inkscape-font-specification:'Nova Flat'"
+               id="tspan4708">singularity</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
