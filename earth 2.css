@@ -146,6 +146,8 @@ body {
 		left: 0px; 
 		top: 360px; 
 	font-size: 25px;
+	line-height: 1.4;
+	font-weight: 900;
 	color: rgb(255,255,255);
 	font-family: 'Nova Flat', cursive;
 	text-shadow:
@@ -162,7 +164,10 @@ body {
 
 .tag_text_1{
 	font-family: 'Nanum Pen Script', cursive;
-	font-size: 20px;
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 900;
+	font-style: normal;
 }
 
 .tag_text_2_1{
