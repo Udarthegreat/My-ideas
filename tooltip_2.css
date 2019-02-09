@@ -42,5 +42,7 @@
 .hover_over{
 	font-family: 'Ubuntu Mono', monospace;
 	color: rgba(0, 0, 0, 0.979);
+	padding-right: 10px;
+	padding-left: 10px;
 	font-size: 16px;
 }
