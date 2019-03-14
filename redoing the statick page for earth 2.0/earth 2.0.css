@@ -1,7 +1,7 @@
 .parallax {
     /* The image used */
-    background-color: rgb(0,0,0);
-    
+    background-image: url("test_background_1.jpg");
+
     /* Set a specific height */
     min-height: 500px; 
 
