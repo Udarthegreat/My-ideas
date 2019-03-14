@@ -10,6 +10,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 .parallax {
     /* The image used */
     background-image: url("bright-clouds-cold-618833.jpg");
+    z-index: 1;
 
     /* Set a specific height */
     min-height: 500px; 
@@ -21,6 +22,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
     background-size: cover;
 }
 .parallax-e-2{
+    z-index: 3;
     height:1000px;
     background-image: url("clouds-cloudy-conifers-247478.jpg");
     font-size:36px
@@ -33,6 +35,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 	font-size: 100px;
 	color: rgb(255,255,255);
     font-family: 'Nova Flat', cursive;
+    z-index: 2;
 	text-shadow:
     /* Outline */
     -1px -1px 0 #000000,
@@ -51,6 +54,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 	font-size: 25px;
 	color: rgb(255,255,255);
     font-family: 'Nova Flat', cursive;
+    z-index: 2;
 	text-shadow:
     /* Outline */
     -1px -1px 0 #000000,
