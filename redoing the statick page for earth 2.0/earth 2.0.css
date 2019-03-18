@@ -11,10 +11,8 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
     /* The image used */
     background-image: url("bright-clouds-cold-618833.jpg");
     z-index: 1;
-
     /* Set a specific height */
     min-height: 500px; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
