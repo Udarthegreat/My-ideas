@@ -7,6 +7,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 		padding: 0;
 		margin: 0;
 }
+
 .parallax {
     /* The image used */
     background-image: url("bright-clouds-cold-618833.jpg");
