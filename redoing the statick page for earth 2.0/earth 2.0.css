@@ -94,45 +94,6 @@ body, html {
     font-size:36px
 }
 
-.h1_1{
-    position: fixed;
-		left: 380px; 
-		top: 100px; 
-	font-size: 100px;
-	color: rgb(255,255,255);
-    font-family: 'Nova Flat', cursive;
-    z-index: 2;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
-}
-.p_1{
-    position: fixed;
-		left: 450px; 
-		top: 250px; 
-	font-size: 25px;
-	color: rgb(255,255,255);
-    font-family: 'Nova Flat', cursive;
-    z-index: 2;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
-}
-
 #explaintxt{
     /*background-color: rgb(255, 255, 255);*/
     text-align:center;
