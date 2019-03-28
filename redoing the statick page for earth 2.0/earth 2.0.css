@@ -136,10 +136,30 @@ body, html {
 #explaintxt{
     /*background-color: rgb(255, 255, 255);*/
     text-align:center;
-    padding:50px 80px;
+    padding:80px;
+    /*padding*/
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        margin-top: 5px;
     text-align: justify;
     font-size: 18px;
 	color: rgb(0, 0, 0);
     font-family: 'Nova Flat', cursive;
+    z-index: 2;
+}
+
+#explainhead{
+    text-align:center;
+    padding:80px;
+    /*padding*/
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        padding-top: 25px;
+        margin-top: 15px;
+    text-align: justify;
+    font-size: 25px;
+	color: rgb(0, 0, 0);
+    font-family: 'Homemade Apple', cursive;
     z-index: 2;
 }
