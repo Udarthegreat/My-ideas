@@ -47,11 +47,11 @@ body, html {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #000;
+    color: rgb(0, 0, 0);
   }
   
   .caption span.border {
-    background-color: rgba(39, 39, 39, 0.575);
+    background-color: rgba(39, 39, 39, 0.473);
     color: rgb(255, 255, 255);
     padding: 18px;
     font-size: 25px;
@@ -62,8 +62,8 @@ body, html {
   h3 {
     letter-spacing: 5px;
     text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
+    /*font: 20px "Lato", sans-serif;*/
+    color: rgb(255, 255, 255);
   }
 
   /* Turn off parallax scrolling for tablets and phones */
@@ -133,12 +133,12 @@ body, html {
     0 -2px 0 #000000;
 }
 
-.explaintxt{
-    background-color: rgb(255, 255, 255);
+#explaintxt{
+    /*background-color: rgb(255, 255, 255);*/
     text-align:center;
     padding:50px 80px;
     text-align: justify;
-    font-size: 25px;
+    font-size: 18px;
 	color: rgb(0, 0, 0);
     font-family: 'Nova Flat', cursive;
     z-index: 2;
