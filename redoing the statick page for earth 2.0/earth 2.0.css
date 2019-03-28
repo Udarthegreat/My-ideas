@@ -8,6 +8,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 		margin: 0;
 }
 
+/* -1 */
 
 body, html {
     height: 100%;
@@ -50,8 +51,8 @@ body, html {
   }
   
   .caption span.border {
-    background-color: #111;
-    color: #fff;
+    background-color: rgba(39, 39, 39, 0.575);
+    color: rgb(255, 255, 255);
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
@@ -71,6 +72,8 @@ body, html {
       background-attachment: scroll;
     }
   }
+
+  /* -1 */
 
 .parallax {
     /* The image used */
