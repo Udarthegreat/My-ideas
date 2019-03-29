@@ -96,7 +96,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 	padding: 10px;
 	text-decoration: none;
 	font-size: 36px;
-	color: #818181;
+	color: rgb(189, 189, 189);
 	display: block;
 	transition: 0.3s;
 }
