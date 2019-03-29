@@ -8,6 +8,10 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 		margin: 0;
 }
 
+.background-main{
+    background-color: rgb(255, 255, 255)
+}
+
  /* Style the tab */
  .tab {
     overflow: hidden;
