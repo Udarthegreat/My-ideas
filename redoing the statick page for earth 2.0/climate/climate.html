@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="climate.js"></script>
+   <script src="NAVbar.js"></script>
+   <!--[if lt IE 9]>
+      <script>
+         document.createElement("article");
+         document.createElement("aside");
+         document.createElement("footer");
+         document.createElement("header");
+         document.createElement("main");
+         document.createElement("nav");
+         document.createElement("section");
+      </script>
+   <![endif]-->
+   <meta charset=UTF-8>
+   <meta name="earth 2.0 page" content="my ideas">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>climate ideas</title>
+   <link rel="stylesheet" type="text/css" media="screen" href="climate.css" />
+   <link rel="stylesheet" text="text/css" href="Modal.css">
+   <link rel="stylesheet" text="text/css" href="tooltip_1.css">
+   <link rel="stylesheet" text="text/css" href="tooltip_2.css">
+   <link rel="stylesheet" text="text/css" href="NAVbar.css">
+   <link rel="stylesheet" text="text/css" href="">
+</head>
+
+<body>
+   <!--NAVBAR-->
+   <div>
+      <div id="myNav" class="overlay">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="earth 2.0.html">earth 2.0</a>
+            <a href="climate.html">climate</a>
+            <a href="#">singularity</a>
+            <a href="#">others</a>
+            <!--I will add more here latter-->
+         </div>
+      </div>
+      <span class="nav_activate" style="" onclick="openNav()">&#9776; navigation</span>
+   </div>
+   <div>
+      <pre>
+
+
+
+
+
+      </pre>
+   </div>
+   <div class="background-main">
+      <h2>Tabs</h2>
+      <p>Click on the buttons inside the tabbed menu:</p>
+      <div class="tab">
+         <button class="tablinks" onclick="openCity(event, 'Tab_1')">London</button>
+         <button class="tablinks" onclick="openCity(event, 'Tab_2')">Paris</button>
+         <button class="tablinks" onclick="openCity(event, 'Tab_3')">Tokyo</button>
+      </div>
+      <div id="Tab_1" class="tabcontent">
+         <h3>London</h3>
+         <p>London is the capital city of England.</p>
+      </div>
+      <div id="Tab_2" class="tabcontent">
+         <h3>Paris</h3>
+         <p>Paris is the capital of France.</p>
+      </div>
+      <div id="Tab_3" class="tabcontent">
+         <h3>Tokyo</h3>
+         <p>Tokyo is the capital of Japan.</p>
+      </div>
+   </div>
+   </div>
+   </div>
+   <!--This is the section were I link scripts that need to be linked after everything else-->
+   <!--for some readone reason the link to the Js file that runs the code for the Modals has to be here not in the header were the link to the NAvbar Js file-->
+   <script src="Modal.js"></script>
+   </div>
+</body>
+
+</html>

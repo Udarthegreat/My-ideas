@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+article,aside,footer,header,main,nav,section {
+  display: block;
+}
+
+html,body,h1,h2,h4,h5,h6,ul,li,a,p,article,aside,footer,header,main,nav,section {
+  padding: 0;
+  margin: 0;
+}
+
+.background-main {
+  background-color: rgb(255, 255, 255)
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(155, 155, 155);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgb(156, 156, 156);
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid rgb(206, 206, 206);
+  border-top: none;
+}

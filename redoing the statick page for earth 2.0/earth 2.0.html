@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--[if lt IE 9]>
-        <script>
+          <script>
             document.createElement("article");
             document.createElement("aside");
             document.createElement("footer");
@@ -11,39 +11,93 @@
             document.createElement("main");
             document.createElement("nav");
             document.createElement("section");
-        </script>
+          </script>
         <![endif]-->
         <title>earth 2.0 static</title>
-        <script src="NAVbar.js"></script> 
+        <script src="NAVbar.js"></script>
+        <style>
+          @import url('https://fonts.googleapis.com/css?family=Nova+Flat');
+          @import url('https://fonts.googleapis.com/css?family=Pacifico');
+          @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
         <meta charset = UTF-8>
         <meta name="earth 2.0 page" content="my ideas">
-        <link rel=StyleSheet href="earth 2.0.css" type="text/css">
+        <link rel="stylesheet"  type="text/css" href="earth 2.0.css">
         <link rel="stylesheet" text="text/css" href="Modal.css">
         <link rel="stylesheet" text="text/css" href="tooltip_1.css">
         <link rel="stylesheet" text="text/css" href="tooltip_2.css">
         <link rel="stylesheet" text="text/css" href="NAVbar.css">
-    </head>
-    <body>
+  </head>
+  <body>
+    <!--NAVBAR-->
     <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-            <a href="index.html">Home</a>
-            <a href="earth 2.html">earth 2.0</a>
-            <a href="#">singularity</a>
-            <a href="#">others</a><!--I will add more here latter-->
-        </div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="earth 2.0.html">earth 2.0</a>
+          <a href="climate.html">climate</a>
+          <a href="#">singularity</a>
+          <a href="#">others</a><!--I will add more here latter-->
+      </div>
     </div>
     <span class="nav_activate" style="" onclick="openNav()">&#9776; navigation</span>
-    <div class="parallax">
-        <h1 class="h1_1" >earth 2.0</h1>
-        <p>my ideas for our future</p>
+    <!--heading-->
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="border">earth 2.0</span>
+          </div>
+        </div>
+        <!--bar 1-->
+        <div>
+          <h3 style="text-align:center;" id="explainhead">what you will see here</h3>
+          <pre id="explaintxt">
+            This is my idea for how we could theoretically make it to another planet that is 
+            suitable for human life carrying everything we would need. 
+            this is meant to hold all of humanity and use an Alcubierre drive 
+            to go max speed,the rocket (VASMIR) engines to navigate through small spaces, 
+            the fact that it is truly massive will be evident as you continue to scroll down, 
+            I have attached the image files that show my idea sketches. 
+            I am hoping that this will be given a look and a thought by all whom it may concern. 
+            if you want to look at the drawings in full color then go to the drawings section
+            for full the color drawings.
+            (this paragraph may be updated in the future).
+          </pre>
+        </div>
+      <!--body 1-->
+      <div class="bgimg-2">
+        <div class="caption">
+          <span class="border" style="background-color:transparent;font-size:25px;color: #ffffff;">~</span>
+        </div>
+      </div>
+      <!--bar 2-->
+      <div style="position:relative;">
+        <div style="color:#ddd;background-color:rgb(0, 0, 0);text-align:center;padding:50px 80px;text-align: justify;">
+          <p>~</p>
+        </div>
+      </div>
+    <!--body 2-->
+    <div class="bgimg-3">
+      <div class="caption">
+        <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">~</span>
+      </div>
     </div>
-
-    <div class = "parallax-e-2">
-    Scroll Up and Down this page to see the parallax scrolling effect.
-    This div is just here to enable scrolling.
-    Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    <!--bar 3-->
+    <div style="position:relative;">
+      <div style="color:rgb(255, 255, 255);background-color:rgb(0, 0, 0);text-align:center;padding:50px 80px;text-align: justify;">
+        <p>~</p>
+      </div>
     </div>
-
-    </body>
+    <!--body 3-->
+    <div class="bgimg-1">
+      <div class="caption">
+        <span class="border">~</span>
+      </div>
+    </div>
+  </div>
+    <!--This is the section were I link scripts that need to be linked after everything else-->
+    <!--for some readone reason the link to the Js file that runs the code for the Modals has to be here not in the header were the link to the NAvbar Js file-->
+    <script src="Modal.js"></script>
+  </div>
+  </body>
 </html>

@@ -8,6 +8,73 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 		margin: 0;
 }
 
+/* -1 */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    /*color: #777*/
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("bright-clouds-cold-618833.jpg");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("clouds-cloudy-conifers-247478.jpg");
+    min-height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("bright-clouds-cold-618833.jpg");
+    min-height: 400px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  .caption span.border {
+    background-color: rgba(39, 39, 39, 0.692);
+    color: rgb(255, 255, 255);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: 'Nova Flat', cursive;
+  }
+  
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    /*font: 20px "Lato", sans-serif;*/
+    color: rgb(255, 255, 255);
+  }
+
+  /* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+
+  /* -1 */
+
 .parallax {
     /* The image used */
     background-image: url("bright-clouds-cold-618833.jpg");
@@ -27,42 +94,37 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
     font-size:36px
 }
 
-.h1_1{
-    position: fixed;
-		left: 380px; 
-		top: 100px; 
-	font-size: 100px;
-	color: rgb(255,255,255);
+#explaintxt{
+    /*background-color: rgb(255, 255, 255);*/
+    text-align:center;
+    padding:80px;
+    /*padding*/
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        margin-top: 5px;
+        padding-left: 320px;
+        margin-left: 5px;
+    text-align: justify;
+    font-size: 18px;
+	color: rgb(0, 0, 0);
     font-family: 'Nova Flat', cursive;
     z-index: 2;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
-}
-.p_1{
-    position: fixed;
-		left: 450px; 
-		top: 250px; 
-	font-size: 25px;
-	color: rgb(255,255,255);
-    font-family: 'Nova Flat', cursive;
-    z-index: 2;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
 }
 
+#explainhead{
+    text-align:center;
+    padding:80px;
+    /*padding*/
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+        padding-top: 25px;
+        margin-top: 15px;
+    text-align: justify;
+	color: rgb(0, 0, 0);
+    font-family: 'Permanent Marker', cursive;
+    z-index: 2;
+    text-align:center;
+    font-size: 47px;
+    line-height: 0.9;
+}
