@@ -50,6 +50,5 @@ html,body,h1,h2,h4,h5,h6,ul,li,a,p,article,aside,footer,header,main,nav,section 
 }
 
 .tabgroup_1{
-	position: relative;
-		left:   20px;
+	background-color: rgb(255,255,255);
 }
