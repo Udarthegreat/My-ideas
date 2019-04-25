@@ -51,6 +51,7 @@ html,body,h1,h2,h4,h5,h6,ul,li,a,p,article,aside,footer,header,main,nav,section 
   padding: 6px 12px;
   border: 1px solid rgba(255, 255, 255,0);
   border-top: none;
+  font-size: 30px;
 }
 
 .tabgroup_1{
