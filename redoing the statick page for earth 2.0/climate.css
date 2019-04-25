@@ -9,6 +9,13 @@ html,body,h1,h2,h4,h5,h6,ul,li,a,p,article,aside,footer,header,main,nav,section 
   margin: 0;
 }
 
+
+.text_1{
+	left:50px;
+}
+
+
+/*tabs*/
 .basevalues{
 	background-color:  rgb(12,50,66);
 }
