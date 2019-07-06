@@ -4,6 +4,8 @@ A1:
      take all images from paper to e-paper
      for navbar implament ability to click outside and close navbar
      fix small grapjiccle glitches
+     update any md files to proper syntax
+     add a section for small projects (name it something like "others)
 Done:
 
 
