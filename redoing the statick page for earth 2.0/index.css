@@ -4,26 +4,14 @@ article, aside, footer, header, main, nav, section{
 }
 	
 html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
-		padding: 0;
-		margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
-/* body,
-html {
-    height: 500px;
-} */
-
 body {
-	
-	background-image: url("astronomy-black-wallpaper-constellation-2150.jpg"); /*background image*/
 	background-color: rgb(128, 128, 128); /* Used if the image is unavailable */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container*/
-	background-attachment: fixed;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 12px;
-	background-attachment: fixed;
 }
 
 
@@ -32,7 +20,7 @@ body {
     /* The image used */
     background-image: url('abandoned-forest-hd-wallpaper-34950.jpg');
     /* Full height */
-    height: 500px;
+    height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -40,31 +28,39 @@ body {
     background-size: cover;
 }
 
+.p_1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-left: 80px;
+    height:1000px;
+    background-image:url("clouds-conifer-daylight-371589.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.p_1text{
+    color: rgb(255, 255, 255);
+    font-family: 'Nova Flat', cursive;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.267)
+}
 
-.Title_section{
-	color: rgba(255, 255, 255, 0.74);
+.title_text{
+	background-color: rgba(255, 255, 255, 0.74);
     font-family: 'Nova Flat', cursive;
 }
 
 .title_text{
+    position: relative;
+        top: 300px;
     font-size: 50px;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 50px;
 }
-
-.p_1{
-    color: rgba(255, 255, 255, 0.74);
-    font-family: 'Nova Flat', cursive;
-    font-size: 20px;
-}
-
-/*.background_1{
-
-}*/
-
-
 
 /* 
     font-family: 'Gamja Flower', cursive;
