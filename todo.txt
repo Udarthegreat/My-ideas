@@ -1,0 +1,15 @@
+A1:
+     seperate shader from html in interactive vertion of earth 2.0
+     add images to earth 2.0
+     take all images from paper to e-paper
+     for navbar implament ability to click outside and close navbar
+     fix small grapjiccle glitches
+Done:
+
+
+
+A2:
+	make standardized CSS and JS for diferent functions 
+
+
+Done:
