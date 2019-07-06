@@ -8,6 +8,11 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 		margin: 0;
 }
 
+/* body,
+html {
+    height: 500px;
+} */
+
 body {
 	
 	background-image: url("astronomy-black-wallpaper-constellation-2150.jpg"); /*background image*/
@@ -20,6 +25,22 @@ body {
 	font-size: 12px;
 	background-attachment: fixed;
 }
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url('abandoned-forest-hd-wallpaper-34950.jpg');
+    /* Full height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 .Title_section{
 	color: rgba(255, 255, 255, 0.74);
