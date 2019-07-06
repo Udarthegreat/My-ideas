@@ -1,0 +1,66 @@
+@charset "UTF-8";
+article, aside, footer, header, main, nav, section{
+	display: block;
+}
+	
+html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
+		padding: 0;
+		margin: 0;
+}
+
+body {
+	
+	background-image: url("astronomy-black-wallpaper-constellation-2150.jpg"); /*background image*/
+	background-color: rgb(128, 128, 128); /* Used if the image is unavailable */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container*/
+	background-attachment: fixed;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	background-attachment: fixed;
+}
+
+.Title_section{
+	color: rgba(255, 255, 255, 0.74);
+    font-family: 'Nova Flat', cursive;
+}
+
+.title_text{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.p_1{
+    color: rgba(255, 255, 255, 0.74);
+    font-family: 'Nova Flat', cursive;
+    font-size: 20px;
+}
+
+/*.background_1{
+
+}*/
+
+
+
+/* 
+    font-family: 'Gamja Flower', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poor Story', cursive;
+    font-family: 'Baloo Tammudu', cursive;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-family: 'Patua One', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Nanum Gothic Coding', monospace;
+*/
