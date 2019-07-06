@@ -11,11 +11,15 @@
           "default": "avoid",
           "oneOf": [
             {
-              "enum": ["avoid"],
+              "enum": [
+                "avoid"
+              ],
               "description": "Omit parens when possible. Example: `x => x`"
             },
             {
-              "enum": ["always"],
+              "enum": [
+                "always"
+              ],
               "description": "Always include parens. Example: `(x) => x`"
             }
           ]
@@ -35,19 +39,27 @@
           "default": "auto",
           "oneOf": [
             {
-              "enum": ["auto"],
+              "enum": [
+                "auto"
+              ],
               "description": "Maintain existing\n(mixed values within one file are normalised by looking at what's used after the first line)"
             },
             {
-              "enum": ["lf"],
+              "enum": [
+                "lf"
+              ],
               "description": "Line Feed only (\\n), common on Linux and macOS as well as inside git repos"
             },
             {
-              "enum": ["crlf"],
+              "enum": [
+                "crlf"
+              ],
               "description": "Carriage Return + Line Feed characters (\\r\\n), common on Windows"
             },
             {
-              "enum": ["cr"],
+              "enum": [
+                "cr"
+              ],
               "description": "Carriage Return character only (\\r), used very rarely"
             }
           ]
@@ -61,15 +73,21 @@
           "default": "css",
           "oneOf": [
             {
-              "enum": ["css"],
+              "enum": [
+                "css"
+              ],
               "description": "Respect the default value of CSS display property."
             },
             {
-              "enum": ["strict"],
+              "enum": [
+                "strict"
+              ],
               "description": "Whitespaces are considered sensitive."
             },
             {
-              "enum": ["ignore"],
+              "enum": [
+                "ignore"
+              ],
               "description": "Whitespaces are considered insensitive."
             }
           ]
@@ -92,36 +110,125 @@
         "parser": {
           "description": "Which parser to use.",
           "oneOf": [
-            { "enum": ["flow"], "description": "Flow" },
-            { "enum": ["babel"], "description": "JavaScript" },
-            { "enum": ["babel-flow"], "description": "Flow" },
-            { "enum": ["typescript"], "description": "TypeScript" },
-            { "enum": ["css"], "description": "CSS" },
-            { "enum": ["less"], "description": "Less" },
-            { "enum": ["scss"], "description": "SCSS" },
-            { "enum": ["json"], "description": "JSON" },
-            { "enum": ["json5"], "description": "JSON5" },
-            { "enum": ["json-stringify"], "description": "JSON.stringify" },
-            { "enum": ["graphql"], "description": "GraphQL" },
-            { "enum": ["markdown"], "description": "Markdown" },
-            { "enum": ["mdx"], "description": "MDX" },
-            { "enum": ["vue"], "description": "Vue" },
-            { "enum": ["yaml"], "description": "YAML" },
-            { "enum": ["html"], "description": "HTML" },
-            { "enum": ["angular"], "description": "Angular" }
+            {
+              "enum": [
+                "flow"
+              ],
+              "description": "Flow"
+            },
+            {
+              "enum": [
+                "babel"
+              ],
+              "description": "JavaScript"
+            },
+            {
+              "enum": [
+                "babel-flow"
+              ],
+              "description": "Flow"
+            },
+            {
+              "enum": [
+                "typescript"
+              ],
+              "description": "TypeScript"
+            },
+            {
+              "enum": [
+                "css"
+              ],
+              "description": "CSS"
+            },
+            {
+              "enum": [
+                "less"
+              ],
+              "description": "Less"
+            },
+            {
+              "enum": [
+                "scss"
+              ],
+              "description": "SCSS"
+            },
+            {
+              "enum": [
+                "json"
+              ],
+              "description": "JSON"
+            },
+            {
+              "enum": [
+                "json5"
+              ],
+              "description": "JSON5"
+            },
+            {
+              "enum": [
+                "json-stringify"
+              ],
+              "description": "JSON.stringify"
+            },
+            {
+              "enum": [
+                "graphql"
+              ],
+              "description": "GraphQL"
+            },
+            {
+              "enum": [
+                "markdown"
+              ],
+              "description": "Markdown"
+            },
+            {
+              "enum": [
+                "mdx"
+              ],
+              "description": "MDX"
+            },
+            {
+              "enum": [
+                "vue"
+              ],
+              "description": "Vue"
+            },
+            {
+              "enum": [
+                "yaml"
+              ],
+              "description": "YAML"
+            },
+            {
+              "enum": [
+                "html"
+              ],
+              "description": "HTML"
+            },
+            {
+              "enum": [
+                "angular"
+              ],
+              "description": "Angular"
+            }
           ]
         },
         "pluginSearchDirs": {
           "description": "Custom directory that contains prettier plugins in node_modules subdirectory.\nOverrides default behavior when plugins are searched relatively to the location of Prettier.\nMultiple values are accepted.",
           "default": [],
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         },
         "plugins": {
           "description": "Add a plugin. Multiple plugins can be passed as separate `--plugin`s.",
           "default": [],
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         },
         "printWidth": {
           "description": "The line length where Prettier will try wrap.",
@@ -133,11 +240,23 @@
           "default": "preserve",
           "oneOf": [
             {
-              "enum": ["always"],
+              "enum": [
+                "always"
+              ],
               "description": "Wrap prose if it exceeds the print width."
             },
-            { "enum": ["never"], "description": "Do not wrap prose." },
-            { "enum": ["preserve"], "description": "Wrap prose as-is." }
+            {
+              "enum": [
+                "never"
+              ],
+              "description": "Do not wrap prose."
+            },
+            {
+              "enum": [
+                "preserve"
+              ],
+              "description": "Wrap prose as-is."
+            }
           ]
         },
         "rangeEnd": {
@@ -174,20 +293,29 @@
           "description": "Print trailing commas wherever possible when multi-line.",
           "default": "none",
           "oneOf": [
-            { "enum": ["none"], "description": "No trailing commas." },
             {
-              "enum": ["es5"],
+              "enum": [
+                "none"
+              ],
+              "description": "No trailing commas."
+            },
+            {
+              "enum": [
+                "es5"
+              ],
               "description": "Trailing commas where valid in ES5 (objects, arrays, etc.)"
             },
             {
-              "enum": ["all"],
+              "enum": [
+                "all"
+              ],
               "description": "Trailing commas wherever possible (including function arguments)."
             }
           ]
         },
         "useTabs": {
           "description": "Indent with tabs instead of spaces.",
-          "default": false,
+          "default": true,
           "type": "boolean"
         }
       }
@@ -200,20 +328,36 @@
           "description": "Provide a list of patterns to override prettier configuration.",
           "items": {
             "type": "object",
-            "required": ["files"],
+            "required": [
+              "files"
+            ],
             "properties": {
               "files": {
                 "description": "Include these files in this override.",
                 "oneOf": [
-                  { "type": "string" },
-                  { "type": "array", "items": { "type": "string" } }
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
                 ]
               },
               "excludeFiles": {
                 "description": "Exclude these files from this override.",
                 "oneOf": [
-                  { "type": "string" },
-                  { "type": "array", "items": { "type": "string" } }
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
                 ]
               },
               "options": {
@@ -229,7 +373,11 @@
     }
   },
   "allOf": [
-    { "$ref": "#/definitions/optionsDefinition" },
-    { "$ref": "#/definitions/overridesDefinition" }
+    {
+      "$ref": "#/definitions/optionsDefinition"
+    },
+    {
+      "$ref": "#/definitions/overridesDefinition"
+    }
   ]
 }
