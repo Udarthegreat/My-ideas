@@ -1,6 +1,10 @@
 ### A1:
      [ ]fix small graphical glitches
-     [ ]get the basic layout for the homepage
+     [ ]get the basic layout for the separate pages
+          [x]home page
+          [ ]earth 2.0
+          [ ]climate
+          [ ]others
      [x]update any md files to proper syntax
      [x]add a section for small projects (name it something like "others)
 ### A2:
@@ -13,6 +17,7 @@
      [ ]add a page for about me
      [ ]add a credits page
      [ ]fix up images used
+     [ ]fix the comming soon background color (the width)
      
 ## some point in the future
 	[ ] host all fonts locally (disconnect from google fonts)
