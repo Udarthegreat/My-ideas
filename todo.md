@@ -1,4 +1,5 @@
 ### A1:
+     [ ]make the others page and get it were it needs to be
      [ ]fix small graphical glitches
      [ ]get the basic layout for the separate pages
           [x]home page
