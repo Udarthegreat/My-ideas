@@ -9,6 +9,7 @@
      [x]update any md files to proper syntax
      [x]add a section for small projects (name it something like "others)
      [ ]make sure that all pages have the new others page linked in the nav bar
+     [ ]get the interactive working (for cloth sim)
 ### A2:
      [ ]make standardized CSS and JS for different functions 
      [ ]separate shader from html in interactive version of earth 2.0
