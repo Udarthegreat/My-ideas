@@ -80,9 +80,21 @@ and that is all.
         </div>
         <div class="p_2 parallax">
             <div>
-                <iframe class="item_1">
+                <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+                    Your browser does not support the HTML5 canvas tag.</canvas>
 
-                </iframe>
+                <script>
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    // Create gradient
+                    var grd = ctx.createLinearGradient(0, 0, 200, 0);
+                    grd.addColorStop(0, "red");
+                    grd.addColorStop(1, "white");
+                    // Fill with gradient
+                    ctx.fillStyle = grd;
+                    ctx.fillRect(10, 10, 150, 80);
+                </script>
+
             </div>
             <p class="p_2text">more coming soon</p>
         </div>
