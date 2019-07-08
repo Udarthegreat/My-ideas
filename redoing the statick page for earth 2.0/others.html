@@ -15,12 +15,57 @@
             document.createElement("section");
         </script>
     <![endif]-->
+    <style>
+        body,
+        html {
+            height: 100%;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url('img_parallax.jpg');
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 
 <body>
-    <div>
-        <p>lorem ipsum</p>
+    <div class="main">
+        <div class="parallax">
+
+        </div>
+
+        <div style="height:1000px;background-color:red;font-size:36px">
+            Scroll Up and Down this page to see the parallax scrolling effect.
+            This div is just here to enable scrolling.
+            Tip: Try to remove the background-attachment property to remove the scrolling effect.
+        </div>
+
+        <div class="parallax">
+            <div>
+                <iframe class="item_1">
+
+                </iframe>
+            </div>
+        </div>
     </div>
+
 </body>
 
 </html>
+
+</head>
+
+<div>
+
+
+
+</div>

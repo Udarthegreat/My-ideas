@@ -1,1 +1,20 @@
 @charset "UTF-8";
+	
+html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	background-color: rgb(128, 128, 128); /* Used if the image is unavailable */
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+
+.main{
+
+}
+
+.item_1{
+
+}
