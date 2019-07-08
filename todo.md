@@ -1,6 +1,6 @@
 ### A1:
      [ ]fix small graphical glitches
-     [ ]get the basic layour for the homepage
+     [ ]get the basic layout for the homepage
      [x]update any md files to proper syntax
      [x]add a section for small projects (name it something like "others)
 ### A2:
