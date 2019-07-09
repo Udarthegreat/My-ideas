@@ -16,12 +16,9 @@ body {
 }
 
 .main{
-
+ color: rgb(255, 255, 255);
 }
 
-.item_1{
-
-}
 
 .parallax {
     /* The image used */
@@ -73,14 +70,14 @@ body {
     background-color: rgba(0, 0, 0, 0.267)
 }
 
-.p_2{
-
-}
-
 .cloth_sim{
     position: relative;
         top: 50px;
         left: 500px;
+}
+
+.p_2{
+
 }
 
 .p_2text{

@@ -83,6 +83,12 @@ and that is all.
                 <canvas class="cloth_sim" id="cloth_sim" width="600" height="400" style="border:1px solid #d3d3d3;">
                     Your browser does not support the HTML5 canvas tag.</canvas>
                 <script>
+                    var canvas = document.getElementById("cloth_sim");
+                    var ctx = canvas.getContext("2d");
+                    ctx.font = "30px Arial";
+                    ctx.fillText("Hello World", 200, 200);
+                </script>
+                <script>
                     var c = document.getElementById("cloth_sim");
                     var ctx = c.getContext("2d");
                     // Create gradient
@@ -93,6 +99,7 @@ and that is all.
                     ctx.fillStyle = grd;
                     ctx.fillRect(0, 0, 600, 400);
                 </script>
+
             </div>
             <p class="p_2text">more coming soon</p>
         </div>
