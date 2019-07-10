@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Times New Roman';
+	src: url('times.eot');
+	src: url('times.eot?#iefix') format('embedded-opentype'),
+		url('times.woff') format('woff'),
+		url('times.ttf') format('truetype');
+}
