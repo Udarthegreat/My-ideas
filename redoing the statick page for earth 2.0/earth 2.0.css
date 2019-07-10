@@ -59,24 +59,6 @@ body, html {
   font-family: 'Nova Flat', cursive;
 }
 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 30px;
-  width: 100p%;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
-.caption span.border {
-  background-color: rgba(39, 39, 39, 0.692);
-  color: rgb(255, 255, 255);
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-  font-family: 'Nova Flat', cursive;
-}
-
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -84,65 +66,73 @@ h3 {
   color: rgb(255, 255, 255);
 }
 
-  /* Turn off parallax scrolling for tablets and phones */
+/* Turn off parallax scrolling for tablets and phones
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-      background-attachment: scroll;
-    }
-  }
+.bgimg-1, .bgimg-2, .bgimg-3 {
+background-attachment: scroll;
+}
+} */
 
-  /* -1 */
+/* -1 */
 
 .parallax {
-    /* The image used */
-    background-image: url("bright-clouds-cold-618833.jpg");
-    z-index: 1;
-    /* Set a specific height */
-    min-height: 500px; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background-image: url("bright-clouds-cold-618833.jpg");
+  z-index: 1;
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parallax-e-2{
-    z-index: 3;
-    height:1000px;
-    background-image: url("clouds-cloudy-conifers-247478.jpg");
-    font-size:36px
+  z-index: 3;
+  height:1000px;
+  background-image: url("clouds-cloudy-conifers-247478.jpg");
+  font-size:36px
 }
 
 #explaintxt{
-    /*background-color: rgb(255, 255, 255);*/
-    text-align:center;
-    padding:80px;
-    /*padding*/
-        padding-bottom: 20px;
-        margin-bottom: 30px;
-        padding-top: 15px;
-        margin-top: 5px;
-        padding-left: 320px;
-        margin-left: 5px;
-    text-align: justify;
-    font-size: 18px;
-	color: rgb(0, 0, 0);
-    font-family: 'Nova Flat', cursive;
-    z-index: 2;
+  /*background-color: rgb(255, 255, 255);*/
+  text-align:center;
+  padding:80px;
+  /*padding*/
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  margin-top: 5px;
+  padding-left: 320px;
+  margin-left: 5px;
+  text-align: justify;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-family: 'Nova Flat', cursive;
+  z-index: 2;
 }
 
 #explainhead{
-    text-align:center;
-    padding:80px;
-    /*padding*/
-        padding-bottom: 5px;
-        margin-bottom: 15px;
-        padding-top: 25px;
-        margin-top: 15px;
-    text-align: justify;
-	color: rgb(0, 0, 0);
-    font-family: 'Permanent Marker', cursive;
-    z-index: 2;
-    text-align:center;
-    font-size: 47px;
-    line-height: 0.9;
+  text-align:center;
+  padding:80px;
+  /*padding*/
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  padding-top: 25px;
+  margin-top: 15px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+  font-family: 'Permanent Marker', cursive;
+  z-index: 2;
+  text-align:center;
+  font-size: 47px;
+  line-height: 0.9;
+}
+
+.slide_show{
+  position: absolute;
+    left: 30px;
+    top: 30px;
+  width: 1400px;
+  height: 800px;
 }
