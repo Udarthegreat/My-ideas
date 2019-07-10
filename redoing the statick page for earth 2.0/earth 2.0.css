@@ -4,17 +4,17 @@ article, aside, footer, header, main, nav, section{
 }
 	
 html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
-  padding: 0;
-  margin: 0;
+		padding: 0;
+		margin: 0;
 }
 
 /* -1 */
 
 body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  /*color: #777*/
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    /*color: #777*/
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -33,7 +33,7 @@ body, html {
 
 .bgimg-2 {
   background-image: url("clouds-cloudy-conifers-247478.jpg");
-  min-height: 2900px;
+  min-height: 1900px;
 }
 
 .bgimg-3 {
@@ -41,11 +41,29 @@ body, html {
   min-height: 400px;
 }
 
+.caption1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.caption1 span.border {
+  background-color: rgba(39, 39, 39, 0.692);
+  color: rgb(255, 255, 255);
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-family: 'Nova Flat', cursive;
+}
+
 .caption {
   position: absolute;
   left: 0;
-  top: 40px;
-  width: 100%;
+  top: 30px;
+  width: 100p%;
   text-align: center;
   color: rgb(0, 0, 0);
 }
