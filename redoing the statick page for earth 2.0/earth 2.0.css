@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("file:///C|/Users/george habinyak/Documents/GitHub/My-ideas/webfonts/PermanentMarker_Regular/stylesheet.css");
 article, aside, footer, header, main, nav, section{
 	display: block;
 }
@@ -113,25 +114,25 @@ background-attachment: scroll;
 }
 
 #explainhead{
-  text-align:center;
-  padding:80px;
-  /*padding*/
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-  padding-top: 25px;
-  margin-top: 15px;
-  text-align: justify;
-  color: rgb(0, 0, 0);
-  font-family: 'Permanent Marker', cursive;
-  z-index: 2;
-  text-align:center;
-  font-size: 47px;
-  line-height: 0.9;
+	text-align: center;
+	padding: 80px;
+	/*padding*/
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	padding-top: 25px;
+	margin-top: 15px;
+	text-align: justify;
+	color: rgb(0, 0, 0);
+	font-family: "PermanentMarker Regular";
+	z-index: 2;
+	text-align: center;
+	font-size: 47px;
+	line-height: 0.9;
 }
 
 .slide_show{
   position: absolute;
-    left: 30px;
+    left: 400px;
     top: 30px;
   width: 1400px;
   height: 800px;
