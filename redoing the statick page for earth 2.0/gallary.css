@@ -1,5 +1,11 @@
+@charset "UTF-8";
 
-body {
+.slide_show{
+    width: 600px;
+    height: 600px;
+}
+
+.body {
     font-family: Arial;
     margin: 0;
 }
@@ -8,7 +14,7 @@ body {
     box-sizing: border-box;
 }
 
-img {
+.img {
     vertical-align: middle;
 }
 
