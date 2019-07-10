@@ -4,4 +4,9 @@
     "cSpell.words": [
         "PEXELS",
     ],
+    "cSpell.ignoreWords": [
+        "arial",
+        "closebtn",
+        "excanvas"
+    ],
 }
