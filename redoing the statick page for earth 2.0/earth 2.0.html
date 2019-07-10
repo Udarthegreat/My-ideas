@@ -29,6 +29,7 @@
   <link rel="stylesheet" text="text/css" href="tooltip_1.css">
   <link rel="stylesheet" text="text/css" href="tooltip_2.css">
   <link rel="stylesheet" text="text/css" href="NAVbar.css">
+  <link rel="stylesheet" text="text/css" href="gallary.css">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
       <a href="earth 2.0.html">earth 2.0</a>
       <a href="climate.html">climate</a>
       <a href="#">singularity</a>
-      <a href="#">others</a>
+      <a href="others.html">others</a>
       <!--I will add more here latter-->
     </div>
   </div>
@@ -67,10 +68,107 @@
             (this paragraph may be updated in the future).
           </pre>
   </div>
-  <!--body 1-->
+  <!--images 1-->
   <div class="bgimg-2">
     <div class="caption">
-      <span class="border" style="background-color:transparent;font-size:25px;color: #ffffff;">~</span>
+      <h2 style="text-align:center">Slideshow Gallery</h2>
+
+      <div class="container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+          <img src="4k-wallpaper-close-up-dew-807598.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+          <img src="arch-bridge-clouds-814499.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+          <img src="bench-carved-stones-cemetery-257360.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+          <img src="blooming-blur-close-up-459059.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+          <img src="beautiful-daylight-environment-709552.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+          <img src="animal-animal-photography-daylight-36762.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="4k-wallpaper-close-up-dew-807598.jpg" style="width:100%"
+              onclick="currentSlide(1)" alt="The Woods">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="arch-bridge-clouds-814499.jpg" style="width:100%" onclick="currentSlide(2)"
+              alt="Cinque Terre">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="bench-carved-stones-cemetery-257360.jpg" style="width:100%"
+              onclick="currentSlide(3)" alt="Mountains and fjords">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="blooming-blur-close-up-459059.jpg" style="width:100%"
+              onclick="currentSlide(4)" alt="Northern Lights">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="beautiful-daylight-environment-709552.jpg" style="width:100%"
+              onclick="currentSlide(5)" alt="Nature and sunrise">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="animal-animal-photography-daylight-36762.jpg" style="width:100%"
+              onclick="currentSlide(6)" alt="Snowy Mountains">
+          </div>
+        </div>
+      </div>
+
+      <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+      </script>
     </div>
   </div>
   <!--bar 2-->
@@ -100,7 +198,7 @@
   </div>
   </div>
   <!--This is the section were I link scripts that need to be linked after everything else-->
-  <!--for some readone reason the link to the Js file that runs the code for the Modals has to be here not in the header were the link to the NAvbar Js file-->
+  <!--for some randome reason the link to the Js file that runs the code for the Modals has to be here not in the header were the link to the NAvbar Js file-->
   <script src="Modal.js"></script>
   </div>
 </body>
