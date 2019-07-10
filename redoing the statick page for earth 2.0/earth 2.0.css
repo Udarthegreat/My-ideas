@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url("file:///C|/Users/george habinyak/Documents/GitHub/My-ideas/webfonts/PermanentMarker_Regular/stylesheet.css");
+@import url("../webfonts/NovaSquare/stylesheet.css");
+
 article, aside, footer, header, main, nav, section{
 	display: block;
 }
@@ -96,21 +98,21 @@ background-attachment: scroll;
 }
 
 #explaintxt{
-  /*background-color: rgb(255, 255, 255);*/
-  text-align:center;
-  padding:80px;
-  /*padding*/
-  padding-bottom: 20px;
-  margin-bottom: 30px;
-  padding-top: 15px;
-  margin-top: 5px;
-  padding-left: 320px;
-  margin-left: 5px;
-  text-align: justify;
-  font-size: 18px;
-  color: rgb(0, 0, 0);
-  font-family: 'Nova Flat', cursive;
-  z-index: 2;
+	/*background-color: rgb(255, 255, 255);*/
+	text-align: center;
+	padding: 80px;
+	/*padding*/
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+	padding-top: 15px;
+	margin-top: 5px;
+	padding-left: 320px;
+	margin-left: 5px;
+	text-align: justify;
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+	font-family: NovaSquare;
+	z-index: 2;
 }
 
 #explainhead{
