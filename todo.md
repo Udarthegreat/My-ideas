@@ -4,7 +4,7 @@
      [ ]get the basic layout for the separate pages
           [x]home page
           [x]earth 2.0
-          [ ]climate
+          [x]climate
           [x]others
      [x]update any md files to proper syntax
      [x]add a section for small projects (name it something like "others)
@@ -20,8 +20,9 @@
      [ ]add a page for about me
      [ ]add a credits page
      [ ]fix up images used
-     [ ]fix the comming soon background color (the width)
+     [ ]fix the coming soon background color (the width)
      [ ]get the interactive working (for cloth sim)
+     [ ]make the climate page have the paralax effect and format properly
 ## some point in the future
 	[ ] host all fonts locally (disconnect from google fonts)
      [ ]try to use as many of my own images in the page as possible
