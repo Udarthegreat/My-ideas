@@ -52,11 +52,9 @@ body, html {
     top: 50%;
   width: 100%;
   text-align: center;
-  color: rgb(0, 0, 0);
 }
 
 .caption1 span.border {
-	background-color: rgba(39, 39, 39, 0.692);
 	color: rgb(255, 255, 255);
 	padding: 18px;
 	font-size: 25px;
