@@ -66,13 +66,13 @@ body {
 	font-size: 60px;
 }
 
-@media screen and (max-height: 500px) {\
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-	font-size: 40px;
-	top: 15px;
-	right: 35px;
-  }
+@media screen and (max-height: 500px) {
+	.overlay a {font-size: 20px}
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
 }
 
 
