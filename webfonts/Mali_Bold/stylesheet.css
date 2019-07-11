@@ -1,0 +1,7 @@
+@font-face {
+	font-family: 'Mali Bold';
+	src: url('Mali-Bold.eot');
+	src: url('Mali-Bold.eot?#iefix') format('embedded-opentype'),
+		url('Mali-Bold.woff') format('woff'),
+		url('Mali-Bold.ttf') format('truetype');
+}

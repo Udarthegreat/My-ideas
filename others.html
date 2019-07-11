@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+        <script>
+            document.createElement("article");
+            document.createElement("aside");
+            document.createElement("footer");
+            document.createElement("header");
+            document.createElement("main");
+            document.createElement("nav");
+            document.createElement("section");
+        </script>
+    <![endif]-->
+    <!--[if IE]><script src = "excanvas.js"></script><![endif]-->
+    <title>others</title>
+    <script src="NAVbar.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Nova+Square');
+        @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+        @import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+        @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+        @import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+        @import url('https://fonts.googleapis.com/css?family=Kosugi+Maru');
+        @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+        @import url('https://fonts.googleapis.com/css?family=Mukta');
+        @import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+        @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
+        @import url('https://fonts.googleapis.com/css?family=Nunito');
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+        @import url('https://fonts.googleapis.com/css?family=Patua+One');
+        @import url('https://fonts.googleapis.com/css?family=Poor+Story');
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+        @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+        @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+        @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+        @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+    </style>
+    <link rel="stylesheet" text="text/css" href="others.css">
+    <link rel="stylesheet" text="text/css" href="NAVbar.css">
+</head>
+
+<body>
+    <div class="main_body">
+        <div class="navigation div">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="earth 2.0.html">earth 2.0</a>
+                    <a href="climate.html">environment</a>
+                    <a href="#">singularity</a>
+                    <a href="others.html">others</a>
+                </div>
+            </div>
+            <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
+        </div>
+        <div class="parallax">
+            <h1 class="title_text" style="margin-top: 0px;">Others</h1>
+        </div>
+        <div class="p_1">
+            <pre class="p_1text" style="margin-top: 0px;padding-top: 30px;padding-left: 35px;">on this page you will find a wide assortment  
+of simple projects (most of which are web based)
+that did not fit in to any other section, I am 
+planning to add  more and more as new ideas come
+to mind. 
+    </pre>
+        </div>
+        <div class="p_2 parallax">
+            <div>
+                <canvas class="cloth_sim" id="cloth_sim" width="600" height="400" style="border:1px solid #d3d3d3;">
+                    Your browser does not support the HTML5 canvas tag.</canvas>
+                <script src="cloth_sim.js"></script>
+            </div>
+            <p class="p_2text">more coming soon</p>
+        </div>
+    </div>
+</body>
+
+</html>
