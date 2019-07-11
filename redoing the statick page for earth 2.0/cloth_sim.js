@@ -14,4 +14,4 @@ ctx.fillRect(0, 0, 600, 300);
 // // Fill with gradient
 // ctx.fillStyle = grd2;
 ctx.font = "30px Arial";
-ctx.fillText("Hello World", 200, 350);
+ctx.fillText("cloth sim, coming soon", 130, 350);
