@@ -4,182 +4,80 @@ article, aside, footer, header, main, nav, section{
 }
 	
 html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
-		padding: 0;
-		margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-	
-	background-image: url("astronomy-black-wallpaper-constellation-2150.jpg"); /*background image*/
-	background-color: #cccccc; /* Used if the image is unavailable */
-	/* height: 500px;  */
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-size: cover; /* Resize the background image to cover the entire container*/
-	background-attachment: fixed;
+	background-color: rgb(128, 128, 128); /* Used if the image is unavailable */
 	font-family: "Times New Roman", Times, serif;
 	font-size: 12px;
-	background-attachment: fixed;
 }
 
-.main_1 {
-	position: absolute; 
-		left: 50px; 
-		top: 850px; 
+.parallax {
+    /* The image used */
+    background-image: url('abandoned-forest-hd-wallpaper-34950.jpg');
+    /* Full height */
+    height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.main_2 {
-	position: absolute; 
-		left: 500px; 
-		top: 1370px; 
+.title_text{
+	background-color: rgba(255, 255, 255, 0.555);
+    font-family: 'Nova Flat', cursive;
 }
 
-.main_3 {
-	position: absolute; 
-		left: 950px; 
-		top: 850px; 
+.title_text{
+    position: relative;
+        top: 351px;
+        left: 400px;
+    margin-top: 0px;
+    width: 610.2px;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
 }
 
-.main_4{
-	position: absolute; 
-		left: 500px; 
-		top: 2200px; 
+.p_1{
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-left: 70px;
+    margin-bottom: 0px;
+    height:500px;
+    background-image:url("clouds-conifer-daylight-371589.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.img_1 {
-	position: absolute; 
-		left: 35px; 
-		top: 75px; 
-}
-
-
-.h1_1{
-	position: absolute; 
-		left: 380px; 
-		top: 100px; 
-	font-size: 100px;
-	color: rgb(255,255,255);
-	font-family: 'Nova Flat', cursive;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
-}
-
-.p_1 {
-	position: absolute; 
-		left: 450px; 
-		top: 250px; 
-	font-size: 25px;
-	color: rgb(255,255,255);
-	font-family: 'Nova Flat', cursive;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
+.p_1text{
+    color: rgb(255, 255, 255);
+    font-family: 'Nova Flat', cursive;
+    width: 800.0px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.267)
 }
 
 .p_2{
-	font-size: 14px;
-	color: rgb(255,255,255);
-	font-family: 'Nova Flat', cursive;
-	position: absolute; 
-		left: 500px; 
-		top: 80px;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
+
 }
 
-
-.divider_1{
-	position: absolute;
-		top: 340px;
-		left: 0px;
-}
-
-.divider_2{
-	position: absolute;
-		top: 750px;
-		left: 0px;
-}
-
-.paragraph_1{
-	position: absolute; 
-		left: 0px; 
-		/*or
-		left:-200px; */
-		top: 360px; 
-	font-size: 25px;
-	color: rgb(255,255,255);
-	font-family: 'Nova Flat', cursive;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
-}
-
-.tag_text_1{
-	font-family: 'Nanum Pen Script', cursive;
-	font-size: 20px;
-	
-}
-
-.tag_text_2_1{
-	font-family: 'Nanum Pen Script', cursive;
-	font-size: 20px;
-}
-
-.tag_text_2_2{
-	font-family: 'Nanum Pen Script', cursive;
-	color: rgba(255, 255, 255,1);
-	font-size: 30px;
-	/* text-shadow: */
-    /* -1px -1px 0 #000000, */
-    /* 1px -1px 0 #000000, */
-    /* -1px 1px 0 #000000, */
-    /* 1px 1px 0 #000000,   */
-    /* -2px 0 0 #000000, */
-    /* 2px 0 0 #000000, */
-    /* 0 2px 0 #000000, */
-    /* 0 -2px 0 #000000; */
-}
-
-.tag_1{
-	position: absolute;
-	left: 4px;
-	top: 830px; 
-}
-
-.tag_2{
-	position: absolute;
-	left: 4px;
-	top: 2000px; 
+.p_2text{
+    position: relative;
+        top: 290px;
+        left: 500px;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Nova Flat', cursive;
+    font-size: 50px;
+    width: 500.0px;
+    background-color: rgba(255, 255, 255, 0.267)
 }
 
 /* 
