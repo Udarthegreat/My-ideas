@@ -5,4 +5,3 @@
 ### I got the background image from PEXELS by searching "space"
 ### I will update this as I get closer to finishing this project which I currently am not all that close to being.  
 ## My ideas sorted by page 
-
