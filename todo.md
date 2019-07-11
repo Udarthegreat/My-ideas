@@ -3,7 +3,7 @@
      [ ]fix small graphical glitches
      [ ]get the basic layout for the separate pages
           [x]home page
-          [ ]earth 2.0
+          [x]earth 2.0
           [ ]climate
           [x]others
      [x]update any md files to proper syntax
