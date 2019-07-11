@@ -2,7 +2,7 @@
  * Provides requestAnimationFrame in a cross browser way.
  */
 window.requestAnimationFrame = window.requestAnimationFrame || (function () {
-    return  window.webkitRequestAnimationFrame ||
+    return window.webkitRequestAnimationFrame ||
         window.mozRequestAnimationFrame ||
         window.oRequestAnimationFrame ||
         window.msRequestAnimationFrame ||
@@ -16,10 +16,12 @@ var canvas,
     vertex_shader, fragment_shader,
     currentProgram,
     vertex_position,
-    parameters = {  start_time: new Date().getTime(),
+    parameters = {
+        start_time: new Date().getTime(),
         time: 0,
         screenWidth: 0,
-        screenHeight: 0 };
+        screenHeight: 0
+    };
 init();
 animate();
 function init() {
@@ -37,7 +39,7 @@ function init() {
     // Create Vertex buffer (2 triangles)
     buffer = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
-    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([ -1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0 ]), gl.STATIC_DRAW);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1.0, -1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0, 1.0, -1.0, 1.0]), gl.STATIC_DRAW);
     // Create Program
     currentProgram = createProgram(vertex_shader, fragment_shader);
     onWindowResize();
@@ -70,7 +72,7 @@ function createShader(src, type) {
     gl.shaderSource(shader, src);
     gl.compileShader(shader);
     if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
-        alert(( type === gl.VERTEX_SHADER ? "VERTEX" : "FRAGMENT" ) + " SHADER:\n" + gl.getShaderInfoLog(shader));
+        alert((type === gl.VERTEX_SHADER ? "VERTEX" : "FRAGMENT") + " SHADER:\n" + gl.getShaderInfoLog(shader));
         return null;
     }
     return shader;
