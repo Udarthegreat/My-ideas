@@ -8,7 +8,7 @@
           [x]others
      [x]update any md files to proper syntax
      [x]add a section for small projects (name it something like "others)
-     [ ]make sure that all pages have the new others page linked in the nav bar
+     [x]make sure that all pages have the new others page linked in the nav bar
      
 ### A2:
      [ ]make standardized CSS and JS for different functions 
