@@ -89,16 +89,16 @@ body {
     height: 200px;
 }
 
-.link-bg_1{
-    position: relative;
-        top: 50px;
-        left: 600px;
-}
-
 .link-bg{
     width: 300px;
     height: 315px;
     background-color:rgba(88, 88, 88, 0.603);
+}
+
+.link-bg_1{
+    position: relative;
+        top: 50px;
+        left: 600px;
 }
 
 .link-bg_2{
@@ -107,7 +107,7 @@ body {
         left: 200px;
 }
 
-.link-btn_1{
+.link-btn{
     position: relative;
         top: 10px;
         left: 50px;
@@ -121,11 +121,11 @@ body {
     -webkit-appearance: button;
 }
 
-.link-btn_1:hover{
+.link-btn:hover{
     cursor: pointer;
 }
 
-.bg-btn_1{
+.bg-btn{
     position: relative;
         top: 50px;
     height: 55px;
