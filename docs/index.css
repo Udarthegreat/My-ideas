@@ -112,6 +112,10 @@ body {
     -webkit-appearance: button;
 }
 
+.link-btn_1:hover{
+    cursor: pointer;
+}
+
 /* 
     font-family: 'Gamja Flower', cursive;
     font-family: 'Source Sans Pro', sans-serif;
