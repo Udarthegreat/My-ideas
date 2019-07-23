@@ -102,7 +102,11 @@ body {
     position: relative;
         top: 50px;
         left: 50px;
-    background-color:rgb(88, 88, 88);
+    background-color:rgb(21, 23, 160);
+    outline-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 30px;
+    /* outline-width: 100px; */
 }
 
 /* 
