@@ -16,14 +16,24 @@ body {
 
 .parallax {
     /* The image used */
-    background-image: url('abandoned-forest-hd-wallpaper-34950.jpg');
+    /* background-image: url('abandoned-forest-hd-wallpaper-34950.jpg'); */
     /* Full height */
-    height: 700px;
+    /* height: 700px; */
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax_1{
+    background-image: url('abandoned-forest-hd-wallpaper-34950.jpg');
+    height: 700px;
+}
+
+.parallax_2{
+    background-image: url('bright-clouds-cold-618833.jpg');
+    height: 1000px;
 }
 
 .title_text{
@@ -70,7 +80,7 @@ body {
 
 .p_2text{
     position: relative;
-        top: 490px;
+        top: 900px;
         left: 500px;
     margin-top: 0px;
     color: rgb(0, 0, 0);
@@ -103,7 +113,7 @@ body {
 
 .link-bg_2{
     position: relative;
-        top: 200px;
+        top: 90px;
         left: 200px;
 }
 
