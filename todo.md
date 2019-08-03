@@ -11,6 +11,7 @@
      [x]make sure that all pages have the new others page linked in the nav bar
      
 ### A2:
+     [x]update the explanatiopn section for earth 2.0
      [ ]finish the home page
      [ ]add images to earth 2.0
      [ ]add a page for about me
