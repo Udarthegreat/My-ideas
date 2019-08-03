@@ -123,6 +123,7 @@ background-attachment: scroll;
 	color: rgb(255, 255, 255);
 	font-family: "NovaSquare";
   z-index: 2;
+  text-shadow:
     /* Outline */
   -1px -1px 0 #000000,
   1px -1px 0 #000000,
@@ -149,6 +150,7 @@ background-attachment: scroll;
 	text-align: center;
 	font-size: 47px;
   line-height: 0.9;
+  text-shadow:
     /* Outline */
   -1px -1px 0 #000000,
   1px -1px 0 #000000,
