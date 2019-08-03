@@ -113,7 +113,7 @@ background-attachment: scroll;
 	padding: 80px;
 	/*padding*/
 	padding-bottom: 20px;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	padding-top: 15px;
 	margin-top: 5px;
 	padding-left: 320px;
@@ -141,7 +141,7 @@ background-attachment: scroll;
 	padding-bottom: 5px;
 	margin-bottom: 15px;
 	padding-top: 25px;
-	margin-top: 15px;
+	margin-top: 0px;
 	text-align: justify;
 	color: rgb(255, 255, 255);
 	font-family: "PermanentMarker Regular";
@@ -164,6 +164,6 @@ background-attachment: scroll;
   position: absolute;
     left: 400px;
     top: 30px;
-  width: 1400px;
+  width: 1000px;
   height: 800px;
 }
