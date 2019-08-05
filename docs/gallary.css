@@ -67,7 +67,7 @@
 /* Position the buttons where they are supposed to be */
 .next {
   position: absolute;
-    left: 630px;
+    left: 510px;
     top: 320px;
   width: 100%;
   border-radius: 20px 20px 20px 20px;
@@ -76,7 +76,7 @@
 
 .prev{
   position: absolute;
-    left: -20px;
+    left: 100px;
     top: 320px;
   right: 0;
   border-radius: 20px 20px 20px 20px;
