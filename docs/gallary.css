@@ -78,7 +78,7 @@
 .next {
   position: absolute;
     left: 510px;
-    top: 320px;
+    top: 250px;
   width: 100%;
   border-radius: 20px 20px 20px 20px;
   width: 50px;
@@ -87,11 +87,10 @@
 .prev{
   position: absolute;
     left: 100px;
-    top: 320px;
+    top: 250px;
   right: 0;
   border-radius: 20px 20px 20px 20px;
   width: 50px;
-  
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -113,10 +112,14 @@
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #222;
+  background-color: rgb(36, 36, 36);
   padding: 2px 16px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
+
+/* .bottom_text{
+  padding-top: 12px;
+} */
 
 .row:after {
   content: "";
@@ -139,3 +142,4 @@
 .demo:hover {
   opacity: 1;
 }
+
