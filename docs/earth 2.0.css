@@ -22,7 +22,7 @@ body, html {
     /*color: #777*/
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -42,8 +42,13 @@ body, html {
 }
 
 .bgimg-3 {
-  background-image: url("bright-clouds-cold-618833.jpg");
+  background-image: url("arch-bridge-clouds-814499.jpg");
   min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("abandoned-forest-hd-wallpaper-34950.jpg");
+  height: 100%;
 }
 
 .caption1 {
