@@ -15,6 +15,7 @@
      [ ]separate shader from html in interactive version of earth 2.0
      [ ]fix small graphical glitches
      [ ]for navbar implement ability to click outside and close navbar
+     [ ]add a resume page
      [ ]take all images from paper to e-paper
      [ ]add images to earth 2.0
      [ ]add a page for about me
