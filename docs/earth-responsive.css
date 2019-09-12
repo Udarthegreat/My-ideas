@@ -6,23 +6,23 @@
 		top: 30px;
 	}
 	.img_1{
-	height: 355px;
-	width: 255px;
+		height: 355px;
+		width: 255px;
 	}
 
 	.img_2{
-		height: 455px;
-		width:355px;
+		height: 355px;
+		width:  255px;
 	}
 	.next {
 	  position: absolute;
 		left: 470px;
-		top: 210px;
+		top: 190px;
 	}
 
 	.prev{
 	  position: absolute;
 		left: 140px;
-		top: 210px;
+		top: 190px;
 	}
 }
