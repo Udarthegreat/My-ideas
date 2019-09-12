@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @media only screen and (max-width: 1920px) {
 	.slide_show{
-		
+	  position: absolute;
+		left: 400px;
+		top: 30px;
+	  width: 1000px;
+	  height: 800px;
+	}
 	}
   }
