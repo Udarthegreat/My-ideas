@@ -2,10 +2,8 @@
 @media only screen and (max-width: 1920px) {
 	.slide_show{
 	  position: absolute;
-		left: 400px;
+		left: 350px;
 		top: 30px;
-	  width: 1000px;
-	  height: 800px;
 	}
 	}
   }
