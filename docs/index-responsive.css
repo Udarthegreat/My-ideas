@@ -26,9 +26,9 @@
 			left: 480px;
 	}
 	.link-bg_2{
-    position: relative;
-        top: 90px;
-        left: 100px;
+	position: relative;
+		top: 90px;
+		left: 100px;
 	}
 
 	.link-bg_3{
@@ -37,9 +37,8 @@
 			left: 850px;
 	}
 	.p_2text{
-    position: relative;
-        top: 900px;
-        left: 400px;
+	position: relative;
+		top: 900px;
+		left: 400px;
 	}
-  }
 }
