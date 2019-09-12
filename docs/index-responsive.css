@@ -36,5 +36,10 @@
 			top: -225px;
 			left: 850px;
 	}
+	.p_2text{
+    position: relative;
+        top: 900px;
+        left: 400px;
+	}
   }
 }
