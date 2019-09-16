@@ -5,4 +5,9 @@
         top: 360px;
         left: 475px;
 	}
+	.p_1text{
+    position: relative;
+        top: 100px;
+        left: 250px;
+	}
 }
