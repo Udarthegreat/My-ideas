@@ -10,4 +10,14 @@
         top: 100px;
         left: 250px;
 	}
+	.cloth_sim{
+		position: relative;
+        top: 50px;
+        left: 380px;
+	}
+	.p_2text{
+    position: relative;
+        top: 100px;
+        left: 380px;
+	}
 }
