@@ -12,5 +12,7 @@
 		position: relative;
 			top: 600px;
 			left: 380px;
+			width: 450.0px;
+			padding-left: 15px;
 	}
 }
