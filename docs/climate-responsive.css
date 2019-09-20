@@ -8,4 +8,9 @@
 	height: 60.6667px;
 	width: 340.2px;
 	}
+	.p_2text{
+		position: relative;
+			top: 600px;
+			left: 380px;
+	}
 }
