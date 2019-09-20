@@ -21,7 +21,13 @@ body, html {
 } */
 
 .text_1{
-	left:50px;
+	position: relative;
+		left:50px;
+	color: rgb(0,0,0);
+	background-color:rgba(255,255,255,0.5);
+	width:70px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 
