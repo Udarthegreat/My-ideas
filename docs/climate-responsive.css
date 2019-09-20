@@ -18,12 +18,12 @@
 	.tabgroup_1{
 		background-color: rgba(255,255,255,0.5);
 		height: 300px;
-		width: 500px;
+		width: 700px;
 		position: relative;
-			left: 35%;
+			left: 23%;
 	}
 	.text_1{
 		position: relative;
-			left:630px;
+			left:570px;
 	}
 }
