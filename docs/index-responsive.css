@@ -14,7 +14,7 @@
   and (min-resolution: 192dpi) { 
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1290px) {
 	.title_text{
 		position: relative;
 			top: 285px;
