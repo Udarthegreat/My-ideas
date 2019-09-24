@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.parallax {
+    /* The image used */
+    /* background-image: url('abandoned-forest-hd-wallpaper-34950.jpg'); */
+    /* Full height */
+    /* height: 700px; */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_1{
+    background-image: url('abandoned-forest-hd-wallpaper-34950.jpg');
+    height: 700px;
+}
+
+.parallax_2{
+    background-image: url('bright-clouds-cold-618833.jpg');
+    height: 1000px;
+}
