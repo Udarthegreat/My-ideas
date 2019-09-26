@@ -1,9 +1,12 @@
 @charset "UTF-8";
 @media only screen and (max-width: 1290px){
 	.title_text{
-		position: relative;
-			top: 200px;
-			left: 315px;
+    position: relative;
+        top: 280px;
+        left: 460px;
+	margin-top: 0px;
+	height: 60.6667px;
+	width: 340.2px;
 	}
 	.link-bg_1{
 		position: relative;
