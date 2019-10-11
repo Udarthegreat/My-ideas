@@ -13,7 +13,8 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 	margin: 0;
 }
 
-.contrast {-webkit-filter: contrast(120%);filter: contrast(120%);}
+.contrast {-webkit-filter: contrast(140%);filter: contrast(140%);}
+.brightness {-webkit-filter: brightness(130%);filter: brightness(130%);}
 
 body, html {
     height: 100%;
