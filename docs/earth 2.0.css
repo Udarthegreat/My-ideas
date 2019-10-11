@@ -13,9 +13,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 	margin: 0;
 }
 
-/* -1 */
-
-.contrast {-webkit-filter: contrast(180%);filter: contrast(180%);}
+.contrast {-webkit-filter: contrast(100%);filter: contrast(100%);}
 
 body, html {
     height: 100%;
