@@ -184,3 +184,10 @@ background-attachment: scroll;
 	height: 455px;
 	width:355px;
 }
+.sld-txt{
+  background-color: rgba(255, 255, 255, 0.555);
+  width: 200px;
+  position: relative;
+    right: -33%;
+  margin-bottom: 5px;
+}
