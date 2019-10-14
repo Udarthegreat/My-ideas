@@ -141,6 +141,7 @@ background-attachment: scroll;
 }
 
 #explainhead{
+	font-size:47px;
 	text-align: center;
 	padding: 80px;
 	/*padding*/
@@ -153,7 +154,6 @@ background-attachment: scroll;
 	font-family: "PermanentMarker Regular";
 	z-index: 2;
 	text-align: center;
-	font-size: 47px;
   line-height: 0.9;
   text-shadow:
     /* Outline */
