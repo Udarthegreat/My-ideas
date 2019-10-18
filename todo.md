@@ -36,5 +36,5 @@
     [ ]try to use as many of my own images in the page as possible
     [ ]for navbar implement ability to click outside and close navbar
     [ ]take all images from paper to e-paper
-    [ ] turn the image slide show into a custome html element (web component)
+    [ ] turn the image slide show into a custom html element (web component)
     [ ] make as much of the page web components 
