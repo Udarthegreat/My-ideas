@@ -24,6 +24,14 @@
 			top: -225px;
 			left: 850px;
 	}
+	.p_1{
+		height: 450px;
+		padding-left: 50px;
+		padding-top: 50px;
+	}
+	.p_1text{
+		font-size: 18px;
+	}
 	.p_2text{
 	position: relative;
 		top: 900px;
