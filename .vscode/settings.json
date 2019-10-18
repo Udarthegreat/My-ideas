@@ -2,7 +2,9 @@
     "editor.fontSize": 17,
     "editor.formatOnSave": true,
     "cSpell.words": [
+        "Hoverable",
         "PEXELS",
+        "Sidenav"
     ],
     "cSpell.ignoreWords": [
         "arial",
