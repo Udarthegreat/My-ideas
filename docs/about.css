@@ -15,7 +15,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 
 .column-1{
 	height: 100%;
-	width: 30%;
+	width: 26%;
 	position: fixed;
 	z-index: 1;
 	top: 0;
