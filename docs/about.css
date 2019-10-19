@@ -45,7 +45,5 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 }
 
 .about-me{
-	position: fixed;
-	width: 100%;
-	height: 100%;
+	font-size: 18px;
 }
