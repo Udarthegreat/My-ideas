@@ -8,6 +8,10 @@
 		font: 400 15px "Lato", sans-serif;
     color: #777
 	} */
+	.column {
+	  float: left;
+	  width: 11.2%;
+	}
 	.slide_show{
 	  position: absolute;
 		left: 350px;
@@ -63,5 +67,8 @@
 	}
 	.sld-txt{
 		right: -22%;
+	}
+	.bottom_text{
+		
 	}
 }
