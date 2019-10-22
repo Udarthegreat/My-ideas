@@ -26,7 +26,7 @@
 	}
 	.next {
 	  position: absolute;
-		left: 470px;
+		left: 460px;
 		top: 190px;
 	}
 
@@ -57,20 +57,9 @@
 		margin-top: 0px;
 		text-align: justify;
 		color: rgb(255, 255, 255);
-		font-family: "PermanentMarker Regular";
 		z-index: 2;
 		text-align: center;
 		line-height: 0.9;
-		text-shadow:
-		/* Outline */
-		-1px -1px 0 #000000,
-		1px -1px 0 #000000,
-		-1px 1px 0 #000000,
-		1px 1px 0 #000000,  
-		-2px 0 0 #000000,
-		2px 0 0 #000000,
-		0 2px 0 #000000,
-		0 -2px 0 #000000;
 	}
 	.sld-txt{
 		right: -22%;
