@@ -45,5 +45,6 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 }
 
 .about-me{
+	margin-left: 3%;
 	font-size: 18px;
 }
