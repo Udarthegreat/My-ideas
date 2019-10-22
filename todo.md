@@ -15,8 +15,8 @@
     [x]update the explanation section for earth 2.0
     [x]finish the home page
     [x]add images to earth 2.0
-    [ ]add a page for about me
-    [ ]add a credits page
+    [x]add a page for about me
+	[ ]finish about me page
     [x]make the climate page have the parallax effect and format properly
     [ ]give the climate page some substance 
     [ ]fix up images used
@@ -38,3 +38,5 @@
     [ ]take all images from paper to e-paper
     [ ] turn the image slide show into a custom html element (web component)
     [ ] make as much of the page web components 
+    [ ]add a credits page
+	
