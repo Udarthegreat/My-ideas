@@ -14,8 +14,10 @@
 		top: 30px;
 	}
 	.img_1{
+		padding-left: 00px;
+		margin-right: 35%;
 		height: 355px;
-		width: 255px;
+		width: 265px;
 	}
 
 	.img_2{
@@ -69,5 +71,8 @@
 		2px 0 0 #000000,
 		0 2px 0 #000000,
 		0 -2px 0 #000000;
+	}
+	.sld-txt{
+		right: -22%;
 	}
 }
