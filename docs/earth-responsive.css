@@ -11,14 +11,14 @@
 	.column {
 	  float: left;
 	  width: 11.2%;
-	  margin-left:0.2%;
-	  margin-right:0.2%;
+	  margin-left:0.8%;
+	  margin-right:0.8%;
 	}
 	.slide_show{
 	  position: absolute;
 		left: 340px;
 		top: 30px;
-		width: 78%;
+		width: 72%;
 	}
 	.img_1{
 		padding-left: 00px;
@@ -33,13 +33,13 @@
 	}
 	.next {
 	  position: absolute;
-		left: 454px;
+		left: 48%;
 		top: 190px;
 	}
 
 	.prev{
 	  position: absolute;
-		left: 137px;
+		left: 12%;
 		top: 190px;
 	}
 	#explaintxt{
@@ -75,7 +75,7 @@
 		
 	}
 	.caption-container {
-	  width:73%;
+	  width:80%;
 	  height:10%;
 	}
 	.row{
