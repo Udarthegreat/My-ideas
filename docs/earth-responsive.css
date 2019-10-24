@@ -75,4 +75,17 @@
 	  width:70%;
 	  height:10%;
 	}
+	.row{
+		margin-left: 1%;
+	}
+	.column{
+		margin-left:0.1%;
+		margin-right:0.1%;
+	}
+	.img_2{
+		padding-left: 00px;
+		margin-right: 35%;
+		height: 355px;
+		width: 265px;
+	}
 }
