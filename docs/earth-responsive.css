@@ -22,7 +22,7 @@
 	}
 	.img_1{
 		padding-left: 00px;
-		margin-right: 35%;
+		margin-right: 22%;
 		height: 355px;
 		width: 265px;
 	}
@@ -33,13 +33,13 @@
 	}
 	.next {
 	  position: absolute;
-		left: 48%;
+		left: 54%;
 		top: 190px;
 	}
 
 	.prev{
 	  position: absolute;
-		left: 12%;
+		left: 18%;
 		top: 190px;
 	}
 	#explaintxt{
