@@ -39,4 +39,4 @@
     [ ] turn the image slide show into a custom html element (web component)
     [ ] make as much of the page web components 
     [ ]add a credits page
-	
+	[ ] fix error on img_a.onclick = function(){
