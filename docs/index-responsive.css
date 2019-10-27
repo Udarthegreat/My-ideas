@@ -40,13 +40,14 @@
 }
 
 @media only screen 
-/* and (min-width : 414px)  */
-and (max-width : 736px) 
-and (orientation : landscape) {
+and (max-width : 460px) 
+/* and (orientation : landscape) */
+{
 	.title_text{
 	position: relative;
 		top: 275px;
 		left: 0px;
+	font-size: 1.3rem;
 	margin-top: 0px;
 	height: 60.6667px;
 	width: 100%;
