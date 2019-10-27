@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("file:///C|/Users/george habinyak/Documents/GitHub/My-ideas/webfonts/PermanentMarker_Regular/stylesheet.css");
+@import url("../webfonts/PermanentMarker_Regular/stylesheet.css");
 @import url("../webfonts/NovaSquare/stylesheet.css");
 @import url("../webfonts/NovaFlat_Regular/stylesheet.css");
 
@@ -11,6 +11,10 @@ article, aside, footer, header, main, nav, section{
 html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
 	padding: 0;
 	margin: 0;
+}
+
+body{
+	font-size: 12px;
 }
 
 .column-1{
@@ -46,5 +50,5 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 
 .about-me{
 	margin-left: 3%;
-	font-size: 18px;
+	font-size: 1.3rem;
 }
