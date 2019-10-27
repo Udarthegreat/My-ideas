@@ -12,6 +12,11 @@
      
 ### A2:
     [ ]make website responsive on different screen sizes (what this update is all about) 
+        [ ]index
+        [ ]earth 2.0
+        [ ]climate
+        [ ]about me
+        [ ]others
     [x]update the explanation section for earth 2.0
     [x]finish the home page
     [x]add images to earth 2.0
@@ -19,17 +24,16 @@
 	[ ]finish about me page
     [x]make the climate page have the parallax effect and format properly
     [ ]give the climate page some substance 
-    [ ]fix up images used
     [ ]fix the coming soon background color (the width)
     [ ]fix small graphical glitches
-###A3
+### A3
 	[ ]Hoverable Sidenav Button to pop up the navbar click link
 	[ ]get the interactive working (for cloth sim)
 	[ ]make standardized CSS and JS for different functions 
 	[ ]complete earth 2.0
 	[ ]add model effect to all images in earth 2.0
 	[ ]separate shader from html in interactive version of earth 2.0
-	
+	[ ]fix up images used
 	
 ## some point in the future
     [ ] host all fonts locally (disconnect from google fonts)
@@ -40,3 +44,4 @@
     [ ] make as much of the page web components 
     [ ]add a credits page
 	[ ] fix error on img_a.onclick = function(){
+    
