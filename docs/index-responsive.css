@@ -1,4 +1,24 @@
 @charset "UTF-8";
+
+@media only screen 
+and (min-width : 414px) 
+and (max-width : 736px) 
+and (orientation : landscape) {
+	.title_text{
+	position: relative;
+		top: 275px;
+		left: 0px;
+	margin-top: 0px;
+	height: 60.6667px;
+	width: 100%;
+	margin-top: 0px;
+	left: 0px;
+	margin-left: 0px;
+	padding-left: 3%;
+	padding-right: 3%;
+	}
+}
+
 @media only screen and (max-width: 1290px){
 	.title_text{
     position: relative;
@@ -38,3 +58,5 @@
 		left: 400px;
 	}
 }
+
+
