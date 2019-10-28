@@ -47,14 +47,17 @@ and (max-width : 460px)
 	position: relative;
 		top: 275px;
 		left: 0px;
-	font-size: 1.3rem;
+	font-size: 1.6rem;
+	font-weight: bold;
 	margin-top: 0px;
-	height: 60.6667px;
 	width: 100%;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	margin-top: 0px;
 	left: 0px;
 	margin-left: 0px;
 	padding-left: 3%;
-	padding-right: 3%;
+	padding-right: 0%;
 	}
 }
