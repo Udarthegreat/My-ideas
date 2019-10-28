@@ -6,7 +6,7 @@
         top: 275px;
         left: 280px;
 	margin-top: 0px;
-	height: 60.6667px;
+	/* height: 60.6667px; */
 	width: 610.2px;
 	}
 	.link-bg_1{
@@ -53,7 +53,6 @@ and (max-width : 460px)
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-top: 0px;
-	left: 0px;
 	margin-left: 0px;
 	padding-left: 3%;
 	padding-right: 0%;
