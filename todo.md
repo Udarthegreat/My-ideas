@@ -25,7 +25,7 @@
     [x]make the climate page have the parallax effect and format properly
     [ ]give the climate page some substance 
     [ ]fix the coming soon background color (the width)
-    [ ]fix the index title bg height for phone problem
+    [x]fix the index title bg height for phone problem
     [ ]fix small graphical glitches
 ### A3
 	[ ]Hoverable Sidenav Button to pop up the navbar click link
