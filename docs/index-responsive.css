@@ -45,16 +45,17 @@ and (max-width : 460px)
 {
 	.title_text{
 	position: relative;
-		top: 275px;
+		top: 31%;
 		left: 0px;
 	font-size: 1.6rem;
 	font-weight: bold;
 	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	margin-top: 0px;
+	margin-bottom: 0px;
 	margin-left: 0px;
 	padding-left: 3%;
-	padding-right: 0%;
+	padding-right: 3%;
 	}
 }
