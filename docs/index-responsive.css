@@ -58,4 +58,10 @@ and (max-width : 460px)
 	padding-left: 3%;
 	padding-right: 3%;
 	}
+	.p_1text{
+		font-size: 1.1rem;
+	}
+	.p_1{
+		display: none;
+	}
 }
