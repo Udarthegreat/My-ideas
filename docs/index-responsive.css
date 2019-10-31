@@ -97,5 +97,8 @@ and (max-width : 460px)
     border-radius: 50%;
     width: 200px;
     height: 200px;
-}
+	}
+	.parallax_2{
+		height:100%;
+	}
 }
