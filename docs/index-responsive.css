@@ -69,12 +69,13 @@ and (max-width : 460px)
 			top: 0px;
 			left: 0px;
 		margin-left: 5%;
-		margin-top: 70%;
+		margin-top: 10%;
 	}
 	.link-bg_2{
 	position: relative;
 		top: 0px;
 		left: 0px;
+	margin-left: 5%;
 	
 	}
 	.link-bg_3{
