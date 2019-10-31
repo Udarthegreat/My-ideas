@@ -112,4 +112,7 @@ and (max-width : 460px)
 		font-family: "NovaFlat Regular";
 		background-color: rgba(39, 39, 39, 0.692)
 	}
+	.explain{
+		display: none;
+	}
 }
