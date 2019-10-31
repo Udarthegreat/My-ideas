@@ -80,8 +80,10 @@ and (max-width : 460px)
 	}
 	.link-bg_3{
 		position: relative;
-			top: -225px;
-			left: 850px;
+			top: 0px;
+			left: 0px;
+		margin-left: 5%;
+		margin-top: 10%;
 	}
 	.link-bg{
     width: 300px;
