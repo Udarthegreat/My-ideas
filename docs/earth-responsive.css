@@ -93,5 +93,20 @@
 and (max-width : 460px) 
 /* and (orientation : landscape) */
 {
- 
+	.caption1 {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	}
+
+	.caption1 span.border {
+		color: rgb(255, 255, 255);
+		padding: 18px;
+		font-size: 25px;
+		letter-spacing: 10px;
+		font-family: "NovaFlat Regular";
+		background-color: rgba(39, 39, 39, 0.692)
+	}
 }
