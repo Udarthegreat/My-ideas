@@ -35,9 +35,9 @@
 .title_text{
     position: relative;
         top: 351px;
-
 	display: flex;
 		justify-content: center;
+		align-content: center;
     margin-bottom: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
