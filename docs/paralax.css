@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .parallax {
     /* The image used */
     /* background-image: url('abandoned-forest-hd-wallpaper-34950.jpg'); */
@@ -9,6 +10,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.container {
+	display: flex; /* or inline-flex */
 }
 
 .parallax_1{
@@ -24,12 +29,15 @@
 .title_text{
 	background-color: rgba(255, 255, 255, 0.555);
     font-family: 'Nova Flat', cursive;
+	 text-align: center;
 }
 
 .title_text{
     position: relative;
         top: 351px;
-        left: 400px;
+
+	display: flex;
+		justify-content: center;
     margin-bottom: 0px;
     padding-top: 10px;
     padding-bottom: 10px;

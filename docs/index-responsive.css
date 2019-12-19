@@ -4,7 +4,9 @@
 	.title_text{
     position: relative;
         top: 36%;
-        left: 22vw;
+
+	display: flex;
+		justify-content: center;
 	margin-top: 0px;
 	/* height: 60.6667px; */
 	width: 610.2px;
