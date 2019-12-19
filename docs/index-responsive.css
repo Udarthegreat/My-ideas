@@ -21,7 +21,7 @@
 	}
 	.link-bg_3{
 		position: relative;
-			top: -225px;
+			top: -545px;
 			left: 850px;
 	}
 	.p_1{
@@ -37,6 +37,25 @@
 		top: 900px;
 		left: 400px;
 	}
+}
+
+@media only screen 
+and (max-width : 705px) 
+{
+	.title_text{
+	position: relative;
+		top: 40%;
+		left: 0px;
+	font-size: 3rem;
+	font-weight: bold;
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 @media only screen 
