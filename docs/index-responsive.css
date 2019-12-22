@@ -11,18 +11,12 @@
     }
     .link-bg_1{
         position: relative;
-        top: 50px;
-        left: 480px;
     }
     .link-bg_2{
         position: relative;
-        top: 90px;
-        left: 100px;
     }
     .link-bg_3{
         position: relative;
-        top: -545px;
-        left: 850px;
     }
     .p_1{
         height: 450px;
@@ -75,21 +69,15 @@
     }
     .link-bg_1{
         position: relative;
-        top: 0px;
-        left: 0px;
         margin-left: 5%;
         margin-top: 10%;
     }
     .link-bg_2{
         position: relative;
-        top: 0px;
-        left: 0px;
         margin-left: 5%;
     }
     .link-bg_3{
         position: relative;
-        top: 0px;
-        left: 0px;
         margin-left: 5%;
         margin-top: 10%;
     }
