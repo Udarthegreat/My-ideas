@@ -30,14 +30,15 @@
 .title_text{
 	background-color: rgba(255, 255, 255, 0.555);
     font-family: 'Nova Flat', cursive;
-	 text-align: center;
+	text-align: center;
 }
 
 .title_text{
     position: relative;
-        top: 351px;
+        top: 36%;
 	display: flex;
-		align-content: center;
+        align-content: center;
+    height: 60.6667px;
     margin-bottom: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
