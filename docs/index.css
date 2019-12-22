@@ -14,9 +14,17 @@ body {
 	font-size: 12px;
 }
 
-.links{
-    display: grid 
+.links {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
 }
+
+.L.1 { grid-area: 1 / 1 / 2 / 2; }
+.L-2 { grid-area: 2 / 2 / 3 / 3; }
+.L-3 { grid-area: 1 / 3 / 2 / 4; } 
 
 .earth_img{
     position: relative;
