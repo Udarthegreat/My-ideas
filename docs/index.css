@@ -14,6 +14,10 @@ body {
 	font-size: 12px;
 }
 
+.links{
+    display: grid 
+}
+
 .earth_img{
     position: relative;
         top: 20px;

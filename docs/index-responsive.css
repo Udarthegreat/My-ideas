@@ -50,15 +50,13 @@ and (max-width : 705px)
 	font-size: 3rem;
 	font-weight: bold;
 	width: 100%;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding: 3%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	padding-left: 3%;
-	padding-right: 3%;
 }
 
+}
 @media only screen 
 and (max-width : 460px) 
 /* and (orientation : landscape) */
@@ -70,13 +68,10 @@ and (max-width : 460px)
 	font-size: 1.6rem;
 	font-weight: bold;
 	width: 100%;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding: 3%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	padding-left: 3%;
-	padding-right: 3%;
 	}
 	.p_1text{
 		font-size: 1.1rem;
@@ -96,7 +91,7 @@ and (max-width : 460px)
 		top: 0px;
 		left: 0px;
 	margin-left: 5%;
-	
+
 	}
 	.link-bg_3{
 		position: relative;
@@ -106,17 +101,17 @@ and (max-width : 460px)
 		margin-top: 10%;
 	}
 	.link-bg{
-    width: 300px;
-    height: 315px;
-    background-color:rgba(88, 88, 88, 0.603);
+	width: 300px;
+	height: 315px;
+	background-color:rgba(88, 88, 88, 0.603);
 	}
 	.earth_img{
-    position: relative;
-        top: 20px;
-        left: 50px;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+	position: relative;
+		top: 20px;
+		left: 50px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
 	}
 	.parallax_2{
 		height:100%;
