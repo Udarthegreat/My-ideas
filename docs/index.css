@@ -1,65 +1,60 @@
 @charset "UTF-8";
 article, aside, footer, header, main, nav, section{
-	display: block;
+    display: block;
 }
-	
 html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
     padding: 0;
     margin: 0;
 }
-
 body {
-	background-color: rgb(128, 128, 128); /* Used if the image is unavailable */
-	font-family: "Times New Roman", Times, serif;
-	font-size: 12px;
+    background-color: rgb(128, 128, 128);
+    /* Used if the image is unavailable */
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
 }
-
 .links {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 10px;
-grid-row-gap: 10px;
-margin-left: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 1%;
 }
-
-.L.1 { grid-area: 1 / 1 / 2 / 2; }
-.L-2 { grid-area: 2 / 2 / 3 / 3; }
-.L-3 { grid-area: 1 / 3 / 2 / 4; } 
-
+.L.1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.L-2 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+.L-3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
 .earth_img{
     position: relative;
-        top: 20px;
-        left: 50px;
+    top: 20px;
+    left: 50px;
     border-radius: 50%;
     width: 200px;
     height: 200px;
 }
-
 .link-bg{
     width: 60%;
     height: 120%;
     background-color:rgba(88, 88, 88, 0.603);
 }
-
 .link-bg_1{
     position: relative;
 }
-
 .link-bg_2{
     position: relative;
-
 }
-
 .link-bg_3{
     position: relative;
-
 }
-
 .link-btn{
     position: relative;
-        top: 10px;
-        left: 50px;
+    top: 10px;
+    left: 50px;
     background-color:rgb(21, 23, 160);
     outline-color: rgb(0, 0, 0);
     width: 200px;
@@ -69,16 +64,14 @@ margin-left: 1%;
     border: 2px solid rgb(0, 0, 0);
     -webkit-appearance: button;
 }
-
 .link-btn:hover{
     cursor: pointer;
 }
-
 .bg-btn{
     position: relative;
-        top: 50px;
+    top: 50px;
     height: 55px;
-    background-color:rgba(56, 56, 56, 0.603); 
+    background-color:rgba(56, 56, 56, 0.603);
 }
 
 /* 
