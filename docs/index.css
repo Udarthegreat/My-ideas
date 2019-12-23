@@ -18,7 +18,7 @@ body {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 .L-1{
     grid-area: 1 / 1 / 2 / 2;
@@ -31,15 +31,15 @@ body {
 }
 .earth_img{
     position: relative;
-    top: 20px;
-    left: 50px;
+    top: 5%;
+    left: 5%;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 40%;
+    height: 70%;
 }
 .link-bg{
     width: 60%;
-    height: 120%;
+    height: 100%;
     background-color:rgba(88, 88, 88, 0.603);
 }
 .link-bg_1{
@@ -69,7 +69,7 @@ body {
 }
 .bg-btn{
     position: relative;
-    top: 50px;
+    top: 10%;
     height: 55px;
     background-color:rgba(56, 56, 56, 0.603);
 }
