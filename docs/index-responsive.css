@@ -9,15 +9,6 @@
         height: 60.6667px;
         width: 610.2px;
     }
-    .link-bg_1{
-        position: relative;
-    }
-    .link-bg_2{
-        position: relative;
-    }
-    .link-bg_3{
-        position: relative;
-    }
     .p_1{
         height: 450px;
         padding-left: 50px;
@@ -65,39 +56,6 @@
         font-size: 1.1rem;
     }
     .p_1{
-        display: none;
-    }
-    .link-bg_1{
-        position: relative;
-        margin-left: 5%;
-        margin-top: 10%;
-    }
-    .link-bg_2{
-        position: relative;
-        margin-left: 5%;
-    }
-    .link-bg_3{
-        position: relative;
-        margin-left: 5%;
-        margin-top: 10%;
-    }
-    .link-bg{
-        width: 300px;
-        height: 315px;
-        background-color:rgba(88, 88, 88, 0.603);
-    }
-    .earth_img{
-        position: relative;
-        top: 20px;
-        left: 50px;
-        border-radius: 50%;
-        width: 200px;
-        height: 200px;
-    }
-    .parallax_2{
-        height:100%;
-    }
-    .p_2text{
         display: none;
     }
 }

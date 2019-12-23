@@ -29,50 +29,7 @@ body {
 .L-3{
     grid-area: 1 / 3 / 2 / 4;
 }
-.earth_img{
-    position: relative;
-    top: 5%;
-    left: 5%;
-    border-radius: 50%;
-    width: 40%;
-    height: 120px;
-}
-.link-bg{
-    width: 60%;
-    height: 90%;
-    background-color:rgba(88, 88, 88, 0.603);
-}
-.link-bg_1{
-    position: relative;
-}
-.link-bg_2{
-    position: relative;
-}
-.link-bg_3{
-    position: relative;
-}
-.link-btn{
-    position: relative;
-    top: 10px;
-    left: 50px;
-    background-color:rgb(21, 23, 160);
-    outline-color: rgb(0, 0, 0);
-    width: 200px;
-    height: 35px;
-    text-align: center;
-    font-size: 20px;
-    border: 2px solid rgb(0, 0, 0);
-    -webkit-appearance: button;
-}
-.link-btn:hover{
-    cursor: pointer;
-}
-.bg-btn{
-    position: relative;
-    top: 10%;
-    height: 40%;
-    background-color:rgba(56, 56, 56, 0.603);
-}
+
 
 /* 
     font-family: 'Gamja Flower', cursive;
