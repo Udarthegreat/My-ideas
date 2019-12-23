@@ -20,6 +20,7 @@ grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 10px;
 grid-row-gap: 10px;
+margin-left: 1%;
 }
 
 .L.1 { grid-area: 1 / 1 / 2 / 2; }
@@ -36,8 +37,8 @@ grid-row-gap: 10px;
 }
 
 .link-bg{
-    width: 300px;
-    height: 315px;
+    width: 60%;
+    height: 120%;
     background-color:rgba(88, 88, 88, 0.603);
 }
 
