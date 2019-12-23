@@ -35,11 +35,11 @@ body {
     left: 5%;
     border-radius: 50%;
     width: 40%;
-    height: 70%;
+    height: 120px;
 }
 .link-bg{
     width: 60%;
-    height: 100%;
+    height: 90%;
     background-color:rgba(88, 88, 88, 0.603);
 }
 .link-bg_1{
@@ -70,7 +70,7 @@ body {
 .bg-btn{
     position: relative;
     top: 10%;
-    height: 55px;
+    height: 40%;
     background-color:rgba(56, 56, 56, 0.603);
 }
 
