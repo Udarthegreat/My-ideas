@@ -36,6 +36,12 @@
 	- [ ] add model effect to all images in earth 2.0
 	- [ ] separate shader from html in interactive version of earth 2.0
 	- [ ] fix up images used
+	- [ ] work more on responsiveness for pages
+		- [ ] index
+		- [ ] earth 2.0
+		- [ ] climate
+		- [ ] about me
+		- [ ] others
 	
 ## some point in the future
 	- [ ] host all fonts locally (disconnect from google fonts)
