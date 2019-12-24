@@ -35,6 +35,10 @@ body {
     background-color: rgb(209, 209, 209);
 }
 
+.lnk-img{
+    height: 30%;
+    width: 30%;
+}
 /* 
     font-family: 'Gamja Flower', cursive;
     font-family: 'Source Sans Pro', sans-serif;
