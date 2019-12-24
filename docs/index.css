@@ -45,6 +45,16 @@ body {
     margin-left: 22%;
     margin-top: 11%;
 }
+
+.lnk-contain{
+    background-color: rgba(187, 187, 187, 0.534);
+    width: 90%;
+    width: 20%;
+}
+
+.lnk-btn{
+
+}
 /* 
     font-family: 'Gamja Flower', cursive;
     font-family: 'Source Sans Pro', sans-serif;
