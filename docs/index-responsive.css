@@ -39,7 +39,19 @@
         margin-bottom: 0px;
         margin-left: 0px;
     }
+    .links{
+        height: 60%;
+    }
+    .link-grp{
+    width: 90%;
+    height: 90%;
+    }
+    .p_2text{
+        top: 800px;
+        left: 150px;
+    }
 }
+
 @media only screen and (max-width : 460px) 
 /* and (orientation : landscape) */
 {
