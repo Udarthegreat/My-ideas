@@ -32,12 +32,18 @@ body {
 }
 
 .link-grp{
-    background-color: rgb(209, 209, 209);
+    background-color: rgba(92, 90, 90, 0.521);
+    margin-left: 5%;
+    width: 60%;
+    height: 90%;
 }
 
 .lnk-img{
-    height: 30%;
-    width: 30%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin-left: 22%;
+    margin-top: 11%;
 }
 /* 
     font-family: 'Gamja Flower', cursive;
