@@ -125,7 +125,10 @@
 		left: -34%;
 	}
 	.row{
-		margin-left: -42%;
+		margin-left: 0%;
+		position: relative;
+		left: -68%;
+		width: 181%;
 	}
 	.numbertext {
 		z-index: 10;
