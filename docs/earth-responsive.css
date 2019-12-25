@@ -28,8 +28,10 @@
 	}
 
 	.img_2{
+		padding-left: 00px;
+		margin-right: 22%;
 		height: 355px;
-		width:  255px;
+		width: 265px;
 	}
 	.next {
 		position: absolute;
@@ -81,12 +83,10 @@
 	.row{
 		margin-left: 2%;
 	}
-	.img_2{
-		padding-left: 00px;
-		margin-right: 35%;
-		height: 355px;
-		width: 265px;
-	}
+}
+
+@media only screen and (max-width : 705px) {
+	
 }
 
 @media only screen 
