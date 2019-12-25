@@ -86,7 +86,28 @@
 }
 
 @media only screen and (max-width : 705px) {
-	
+	.explain{
+		display: none;
+	}
+	.img_1{
+		padding-left: 00px;
+		margin-right: 00%;
+		position: relative;
+			right: 44%;
+		height: 355px;
+		width: 265px;
+	}
+
+	.img_2{
+		padding-left: 00px;
+		margin-right: 22%;
+		height: 355px;
+		width: 265px;
+	}
+	.sld-txt{
+		text-align:center;
+		right: 14%;
+	}
 }
 
 @media only screen 
