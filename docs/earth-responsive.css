@@ -99,6 +99,9 @@
 	}
 
 	.img_2{
+		position: relative;
+		margin-right: 0%;
+		left: -31%;
 		padding-left: 00px;
 		margin-right: 22%;
 		height: 355px;
