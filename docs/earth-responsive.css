@@ -150,7 +150,7 @@ and (max-width : 460px)
 	top: 50%;
 	width: 100%;
 	text-align: center;
-	background-color: rgba(39, 39, 39, 0.692)
+
 	}
 
 	.caption1 span.border {
@@ -164,6 +164,9 @@ and (max-width : 460px)
 		font-family: "NovaFlat Regular";
 	}
 	.explain{
+		display: none;
+	}
+	.row{
 		display: none;
 	}
 }
