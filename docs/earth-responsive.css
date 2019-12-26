@@ -153,14 +153,24 @@ and (max-width : 460px)
 	}
 
 	.img_1{
-			padding-left: 00px;
-			margin-right: 00%;
-			position: relative;
-				left: 0px;
-				right: 0px;
-			height: 100%;
-			width: 90%;
-		}
+		padding-left: 00px;
+		margin-right: 00%;
+		position: relative;
+			left: 0px;
+			right: 0px;
+		height: 100%;
+		width: 90%;
+	}
+
+	.img_2{
+		padding-left: 00px;
+		margin-right: 00%;
+		position: relative;
+			left: 0px;
+			right: 0px;
+		height: 100%;
+		width: 90%;
+	}
 
 	* {
 	box-sizing: border-box;
@@ -200,20 +210,20 @@ and (max-width : 460px)
 
 	/* Position the "next button" to the right */
 	.next {
-  position: absolute;
-    left: 51%;
-  width: 100%;
-  border-radius: 20px 20px 20px 20px;
-  width: 50px;
-}
+		position: absolute;
+			left: 84%;
+		width: 100%;
+		border-radius: 20px 20px 20px 20px;
+		width: 50px;
+	}
 
-.prev{
-  position: absolute;
-    left: 9%;
-  right: 0;
-  border-radius: 20px 20px 20px 20px;
-  width: 50px;
-}
+	.prev{
+		position: absolute;
+			left: 5%;
+		right: 0;
+		border-radius: 20px 20px 20px 20px;
+		width: 50px;
+	}
 
 	/* On hover, add a black background color with a little bit see-through */
 	.prev:hover,
