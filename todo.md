@@ -24,10 +24,8 @@
 	- [ ] finish about me page
 	- [x] make the climate page have the parallax effect and format properly
 	- [ ] give the climate page some substance 
-	- [ ] fix the coming soon background color (the width)
 	- [x] fix the index title bg height for phone problem
 	- [ ] fix small graphical glitches
-**goal: get done by christmas 2019**
 ### A3
 	- [ ]Hoverable Sidenav Button to pop up the navbar click link
 	- [ ] get the interactive working (for cloth sim)
@@ -36,6 +34,7 @@
 	- [ ] add model effect to all images in earth 2.0
 	- [ ] separate shader from html in interactive version of earth 2.0
 	- [ ] fix up images used
+	- [ ] add black bar to others page between section 1 and 2 in phone mode
 	- [ ] work more on responsiveness for pages
 		- [ ] index
 		- [ ] earth 2.0
@@ -50,6 +49,7 @@
 	- [ ]	take all images from paper to e-paper
 	- [ ] turn the image slide show into a custom html element (web component)
 	- [ ] make as much of the page web components 
+	- [ ] fix the coming soon background color (the width)
 	- [ ] add a credits page
 		- [ ] fix error on img_a.onclick = function(){
 		- [ ] I need to find a way that it can take up 100% of the space taken up by 
