@@ -34,6 +34,7 @@
 	- [ ] add model effect to all images in earth 2.0
 	- [ ] separate shader from html in interactive version of earth 2.0
 	- [ ] fix up images used
+	- [ ] fix the text not wraping in about me for all sizes so that text does not get cut in smaller sizes
 	- [ ] add black bar to others page between section 1 and 2 in phone mode
 	- [ ] work more on responsiveness for pages
 		- [ ] index
