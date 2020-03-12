@@ -43,6 +43,7 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 
 @media only screen 
 and (max-width : 460px) 
+{
 	.hero-img{
 	width: 75%;
 	height: 20%;
