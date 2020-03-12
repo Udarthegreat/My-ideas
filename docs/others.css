@@ -75,8 +75,8 @@ body {
 
 .cloth_sim{
     position: relative;
-        top: 50px;
-        left: 500px;
+        top: 10%;
+        left: 30%;
 }
 
 .p_2{
@@ -85,13 +85,13 @@ body {
 
 .p_2text{
     position: relative;
-        top: 100px;
-        left: 500px;
+        top: 10%;
+        left: 40%;
     margin-top: 0px;
     color: rgb(0, 0, 0);
     font-family: 'Nova Flat', cursive;
-    font-size: 50px;
-    width: 500.0px;
+    font-size: 3rem;
+    width: 35%;
     background-color: rgba(255, 255, 255, 0.267)
 }
 
