@@ -72,9 +72,9 @@
 	.sld-txt{
 		right: -28%;
 	}
-	.bottom_text{
+	/* .bottom_text{
 		
-	}
+	} */
 	.caption-container {
 		width:80%;
 		height:10%;
@@ -93,8 +93,8 @@
 		margin-right: 00%;
 		position: relative;
 			right: 44%;
-		height: 355px;
-		width: 265px;
+		height: 70%;
+		width: 50%;
 	}
 
 	.img_2{
@@ -103,8 +103,8 @@
 		left: -31%;
 		padding-left: 00px;
 		margin-right: 22%;
-		height: 355px;
-		width: 265px;
+		height: 70%;
+		width: 50%;
 	}
 	.sld-txt{
 		left: -13%;
@@ -126,11 +126,11 @@
 		position: relative;
 		left: -34%;
 	}
-	.row{
+	.grd-container{
 		margin-left: 0%;
 		position: relative;
-		left: -68%;
-		width: 181%;
+		left: -50%;
+		grid-template-columns: 11% 11% 11% 11% 11% 11%;
 	}
 	.numbertext {
 		z-index: 10;
@@ -147,7 +147,7 @@ and (max-width : 460px)
 	.explain{
 		display: none;
 	}
-	.row{
+	.grd-container{
 		display: none;
 	}
 

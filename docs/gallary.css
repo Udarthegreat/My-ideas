@@ -135,35 +135,53 @@
 
 .grd-container {
 	display: grid;
-	grid-template-columns: 12% 12% 12% 12% 12% 12%;
+	grid-template-columns: 10% 10% 10% 10% 10% 10%;
 	grid-template-rows: 20%;
 	grid-auto-columns: 12% 12% 12% 12% 12% 12%;
 	grid-auto-rows: 20%;
-	grid-gap: 1em 1em;
+	grid-gap: 5% 5%;
 }
 
 .grd-1 {
-	grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
 }
 
 .grd-2 {
-	grid-area: 1 / 2 / 2 / 3;
+  grid-area: 1 / 2 / 2 / 3;
+  width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
 }
 
 .grd-3 {
-	grid-area: 1 / 3 / 2 / 4;
+  grid-area: 1 / 3 / 2 / 4;
+  width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
 }
 
 .grd-4 {
-	grid-area: 1 / 4 / 2 / 5;
+  grid-area: 1 / 4 / 2 / 5;
+  width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
 }
 
 .grd-5 {
-	grid-area: 1 / 5 / 2 / 6;
+  grid-area: 1 / 5 / 2 / 6;
+  width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
 }
 
 .grd-6 {
-	grid-area: 1 / 6 / 2 / 7;
+  grid-area: 1 / 6 / 2 / 7;
+  width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
 }
 
 
