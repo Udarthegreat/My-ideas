@@ -36,6 +36,7 @@
 	- [ ] fix the text not wrapping in about me for all sizes so that text does not get cut in smaller sizes
 	- [ ] add black bar to others page between section 1 and 2 in phone mode
 	- [ ] make next and previous buttons on earth 2.0 use % for the 'border-radius'
+	- [ ] fix the issue with earth 2.0 were the css grid will not become taller then a certain amount
 	- [ ] work more on responsiveness for pages
 		- [ ] index
 		- [ ] earth 2.0
