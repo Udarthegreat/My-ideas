@@ -3,20 +3,19 @@
 .caption {
   position: absolute;
     left: 0;
-    top: 2%;
+    top: 3%;
   width: 100%;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
-.caption span.border {
+/* .caption span.border {
   background-color: rgba(49, 49, 49, 0.692);
   color: rgb(255, 255, 255);
-
-  font-size: 25px;
-  letter-spacing: 10px;
+  font-size: 5rem;
+  letter-spacing: 1rem;
   font-family: 'Nova Flat', cursive;
-}
+} */
 
 .body {
   font-family: Arial;
@@ -49,46 +48,40 @@
 /* Next & previous buttons */
 .prev,
 .next {
-  text-shadow:
-    /* Outline */
-  -1px -1px 0 #000000,
-  1px -1px 0 #000000,
-  -1px 1px 0 #000000,
-  1px 1px 0 #000000,  
-  -2px 0 0 #000000,
-  2px 0 0 #000000,
-  0 2px 0 #000000,
-  0 -2px 0 #000000;
+	text-shadow:
+	/* Outline */
+	-1px -1px 0 #000000,
+	1px -1px 0 #000000,
+	-1px 1px 0 #000000,
+	1px 1px 0 #000000,  
+	-2px 0 0 #000000,
+	2px 0 0 #000000,
+	0 2px 0 #000000,
+	0 -2px 0 #000000;
 	cursor: pointer;
-	position: absolute;
-	top: 35%;
-	width: auto;
-	padding: 16px;
-	margin-top: -50px;
+	top: 20%;
+	padding: 1%;
+	margin-top: 2%;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
-	font-size: 20px;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	-webkit-user-select: none;
-	/* left: -148px; */
+	font-size: 2rem;
 }
 
 /* Position the buttons where they are supposed to be */
 .next {
   position: absolute;
-    left: 53%;
+    left: 46.6%;
   width: 100%;
   border-radius: 20px 20px 20px 20px;
-  width: 50px;
+  width: 3.5%;
 }
 
 .prev{
   position: absolute;
-    left: 12%;
+    left: 19.8%;
   right: 0;
   border-radius: 20px 20px 20px 20px;
-  width: 50px;
+  width: 3.5%;
 }
 
 /* On hover, add a background */
@@ -100,37 +93,18 @@
 /* Number text (1/3 etc) */
 .numbertext {
   position: absolute;
-    left: 300px;
-    top: 455px;
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+    left: 36%;
+    top: 69%;
+  color: #ffffff;
+  font-size: 0.8rem;
 }
 
 /* Container for image text */
 .caption-container {
   text-align: center;
   background-color: rgb(36, 36, 36);
-  
   color: rgb(255, 255, 255);
-  margin-bottom: 2px;
   width: 74%;
-}
-
-/* .bottom_text{
-  padding-top: 12px;
-} */
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 12%;
 }
 
 .grd-container {
@@ -141,49 +115,48 @@
 	grid-template-rows: 20%;
 	grid-auto-columns: 9% 9% 9% 9% 9% 9%;
 	grid-auto-rows: 20%;
-	grid-gap: 1em 6%;
-	place-items: stretch stretch;
+	grid-gap: 1em 2%;
 	grid-auto-flow: row dense;
 }
 
 .grd-1 {
-  grid-area: 1 / 1 / 2 / 2;
-  width: 50%;
+	grid-area: 1 / 1 / 2 / 2;
+	width: 50%;
 	height: 100%;
 	place-self: stretch stretch;
-}
+	}
 
 .grd-2 {
-  grid-area: 1 / 2 / 2 / 3;
-  width: 100%;
+	grid-area: 1 / 2 / 2 / 3;
+	width: 100%;
 	height: 100%;
 	place-self: stretch stretch;
 }
 
 .grd-3 {
-  grid-area: 1 / 3 / 2 / 4;
-  width: 100%;
+	grid-area: 1 / 3 / 2 / 4;
+	width: 100%;
 	height: 100%;
 	place-self: stretch stretch;
 }
 
 .grd-4 {
-  grid-area: 1 / 4 / 2 / 5;
-  width: 100%;
+	grid-area: 1 / 4 / 2 / 5;
+	width: 100%;
 	height: 100%;
 	place-self: stretch stretch;
 }
 
 .grd-5 {
-  grid-area: 1 / 5 / 2 / 6;
-  width: 100%;
+	grid-area: 1 / 5 / 2 / 6;
+	width: 100%;
 	height: 100%;
 	place-self: stretch stretch;
 }
 
 .grd-6 {
-  grid-area: 1 / 6 / 2 / 7;
-  width: 100%;
+	grid-area: 1 / 6 / 2 / 7;
+	width: 100%;
 	height: 100%;
 	place-self: stretch stretch;
 }

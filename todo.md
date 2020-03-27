@@ -28,14 +28,14 @@
 	- [ ] fix small graphical glitches
 ### A3
 	- [ ]Hoverable Sidenav Button to pop up the navbar click link
-	- [ ] get the interactive working (for cloth sim)
 	- [ ] make standardized CSS and JS for different functions 
 	- [ ] complete earth 2.0
 	- [ ] add model effect to all images in earth 2.0
 	- [ ] separate shader from html in interactive version of earth 2.0
 	- [ ] fix up images used
-	- [ ] fix the text not wraping in about me for all sizes so that text does not get cut in smaller sizes
+	- [ ] fix the text not wrapping in about me for all sizes so that text does not get cut in smaller sizes
 	- [ ] add black bar to others page between section 1 and 2 in phone mode
+	- [ ] make next and previous buttons on earth 2.0 use % for the 'border-radius'
 	- [ ] work more on responsiveness for pages
 		- [ ] index
 		- [ ] earth 2.0
@@ -43,7 +43,7 @@
 		- [ ] about me
 		- [ ] others
 	
-## some point in the future
+### some point in the future
 	- [ ] host all fonts locally (disconnect from google fonts)
 	- [ ]	try to use as many of my own images in the page as possible
 	- [ ]	for navbar implement ability to click outside and close navbar
@@ -51,9 +51,7 @@
 	- [ ] turn the image slide show into a custom html element (web component)
 	- [ ] make as much of the page web components 
 	- [ ] fix the coming soon background color (the width)
+	- [ ] get the interactive working (for cloth sim)
 	- [ ] add a credits page
-		- [ ] fix error on img_a.onclick = function(){
-		- [ ] I need to find a way that it can take up 100% of the space taken up by 
-		its children so that I can add a little space between the bottom of the page
-		and the last link box
-    
+	- [ ] fix error on img_a.onclick = function(){
+		- [ ] I need to find a way that it can take up 100% of the space taken up by its children so that I can add a little space between the bottom of the page and the last link box
