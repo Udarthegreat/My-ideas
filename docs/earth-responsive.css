@@ -94,7 +94,19 @@
 	}
 }
 
+@media only screen and (min-width : 705px){
+	#explaintxt{
+		margin-left: 0%;
+	}
+	.sld-txt{
+		left: -13;
+	}
+}
+
 @media only screen and (max-width : 705px) {
+	#explaintxt{
+		margin-left: 0%;
+	}
 	.explain{
 		display: none;
 	}
@@ -150,7 +162,6 @@
 and (max-width : 460px) 
 /* and (orientation : landscape) */
 {
-
 	.explain{
 		display: none;
 	}
