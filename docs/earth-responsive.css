@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1280px) {
 	.contrast {-webkit-filter: contrast(140%);filter: contrast(140%);}
 	.brightness {-webkit-filter: brightness(130%);filter: brightness(130%);}
 /* 	body, html {
@@ -21,8 +21,10 @@
 		width: 50%;
 	}
 	.img_1{
-		margin-right: -30%;
-		height: 100%;
+		margin-right: 00%;
+		position: relative;
+			left: 15%;
+		height: 70%;
 		width: 60%;
 	}
 	.img_2{
@@ -99,7 +101,14 @@
 		margin-left: 0%;
 	}
 	.sld-txt{
-		left: -13;
+		left: 38%;
+	}
+	.img_1{
+		margin-right: 00%;
+		position: relative;
+			left: 5%;
+		height: 70%;
+		width: 70%;
 	}
 }
 
@@ -295,6 +304,3 @@ and (max-width : 460px)
 		right: 0px;
 	}
 }
-
-
-
