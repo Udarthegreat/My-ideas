@@ -66,10 +66,8 @@
 		margin-bottom: 15px;
 		padding-top: 25px;
 		margin-top: 0px;
-		text-align: justify;
 		color: rgb(255, 255, 255);
 		z-index: 2;
-		text-align: center;
 		line-height: 0.9;
 	}
 	.sld-txt{
@@ -103,16 +101,16 @@
 	.sld-txt{
 		left: 38%;
 	}
-	.img_1{
+	/* .img_1{
 		margin-right: 00%;
 		position: relative;
 			left: 5%;
 		height: 70%;
 		width: 70%;
-	}
+	} */
 }
 
-@media only screen and (max-width : 705px) {
+/* @media only screen and (max-width : 705px) {
 	#explaintxt{
 		margin-left: 0%;
 	}
@@ -165,10 +163,10 @@
 		top: 57%;
 		left: 1%;
 	}
-}
+} */
 
 @media only screen 
-and (max-width : 460px) 
+and (min-width : 460px) 
 /* and (orientation : landscape) */
 {
 	.explain{
@@ -232,6 +230,7 @@ and (max-width : 460px)
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 	-webkit-user-select: none;
+	-ms-user-select: none;
 	}
 
 	/* Position the "next button" to the right */
