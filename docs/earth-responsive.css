@@ -5,15 +5,29 @@
 	.bgimg-2{
 		min-height: 1100px;
 	}
-	.column {
-		float: left;
-		width: 11.2%;
-		margin-left:0.8%;
-		margin-right:0.8%;
-	}
 	.slide_show{
 		position: absolute;
 		top: 5%;
+		width: 100%;
+	}
+	#explaintxt{
+		margin-left: 216px;
+		padding-left: 0px;
+	}
+	#explainhead{
+		font-size:40px;
+		text-align: center;
+		padding: 80px;
+		/*padding*/
+		padding-bottom: 5px;
+		margin-bottom: 15px;
+		padding-top: 25px;
+		margin-top: 0px;
+		color: rgb(255, 255, 255);
+		z-index: 2;
+		line-height: 0.9;
+	}
+	#Caption{
 		width: 100%;
 	}
 	.img_1{
@@ -41,29 +55,12 @@
 	.prev{
 		left: 31%;
 	}
-	#explaintxt{
-		margin-left: 216px;
-		padding-left: 0px;
-	}
 	.numbertext {
 		position: absolute;
 			top: 68%;
 			left: 62%;
 		color: rgb(255,255,255);
 		font-size: 0.8rem;
-	}
-	#explainhead{
-		font-size:40px;
-		text-align: center;
-		padding: 80px;
-		/*padding*/
-		padding-bottom: 5px;
-		margin-bottom: 15px;
-		padding-top: 25px;
-		margin-top: 0px;
-		color: rgb(255, 255, 255);
-		z-index: 2;
-		line-height: 0.9;
 	}
 	.sld-txt{
 		left: 42%;
@@ -75,9 +72,6 @@
 		width: 35%;
 		margin: 0%;
 	}
-	#Caption{
-		width: 100%;
-	}
 	.row{
 		margin-left: 2%;
 	}
@@ -88,6 +82,12 @@
 		grid-gap: 0.5rem;
 		grid-template-columns: repeat(6, 20%);
 		grid-template-rows: repeat(1, 10%);
+	}
+	.column {
+		float: left;
+		width: 11.2%;
+		margin-left:0.8%;
+		margin-right:0.8%;
 	}
 }
 
