@@ -2,12 +2,6 @@
 @media only screen and (min-width: 1280px) {
 	.contrast {-webkit-filter: contrast(140%);filter: contrast(140%);}
 	.brightness {-webkit-filter: brightness(130%);filter: brightness(130%);}
-/* 	body, html {
-		height: 100%;
-		margin: 0;
-		font: 400 15px "Lato", sans-serif;
-    color: #777
-	} */
 	.column {
 		float: left;
 		width: 11.2%;
