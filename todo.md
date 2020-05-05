@@ -56,3 +56,4 @@
 	- [ ] add a credits page
 	- [ ] fix error on img_a.onclick = function(){
 		- [ ] I need to find a way that it can take up 100% of the space taken up by its children so that I can add a little space between the bottom of the page and the last link box
+	- [ ] make the descriptions work for the 705 size
