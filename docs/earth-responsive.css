@@ -2,6 +2,9 @@
 @media only screen and (min-width: 1280px) {
 	.contrast {-webkit-filter: contrast(140%);filter: contrast(140%);}
 	.brightness {-webkit-filter: brightness(130%);filter: brightness(130%);}
+	.bgimg-2{
+		min-height: 1100px;
+	}
 	.column {
 		float: left;
 		width: 11.2%;
@@ -17,27 +20,26 @@
 		margin-right: 00%;
 		position: relative;
 			left: 34%;
-		height: 70%;
-		width: 60%;
+		height: 75ch;
+		width: 30%;
 	}
 	.img_2{
 		margin-right: -30%;
-		height: 100%;
-		width: 60%;
+		position: relative;
+			left: 34%;
+		height: 75ch;
+		width: 30%;
 	}
 	.prev,
 	.next {
 		top: 30%;
+		width: 3%;
 	}
 	.next {
-		left: 95%;
-		top: 190px;
-		width: 7%;
+		left: 64%;
 	}
 	.prev{
-		left: 28%;
-		top: 190px;
-		width: 7%;
+		left: 31%;
 	}
 	#explaintxt{
 		margin-left: 216px;
@@ -64,13 +66,17 @@
 		line-height: 0.9;
 	}
 	.sld-txt{
-		left: 48%;
+		left: 42%;
 	}
-
 	.caption-container {
-		margin-left: 25%;
-		width:80%;
-		height:10%;
+		margin-left: 0%;
+		position: absolute;
+			left: 30%;
+		width: 35%;
+		margin: 0%;
+	}
+	#Caption{
+		width: 100%;
 	}
 	.row{
 		margin-left: 2%;
