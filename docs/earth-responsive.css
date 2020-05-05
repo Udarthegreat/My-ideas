@@ -23,7 +23,7 @@
 	.img_1{
 		margin-right: 00%;
 		position: relative;
-			left: 15%;
+			left: 34%;
 		height: 70%;
 		width: 60%;
 	}
@@ -73,9 +73,7 @@
 	.sld-txt{
 		left: 48%;
 	}
-	/* .bottom_text{
-		
-	} */
+
 	.caption-container {
 		margin-left: 25%;
 		width:80%;
@@ -268,19 +266,20 @@ and (max-width : 460px)
 	/* Container for image text */
 	.caption-container {
 		text-align: center;
-			left: 0%;
+			left: -20%;
 		background-color: #222;
 		color: white;
-		margin-left: 0%;
+		width: 100%;
+		padding: 2%;
 	}
 
 	.caption {
 		position: absolute;
 		  left: 0;
 		  top: 3%;
-		width: 100%;
 		text-align: center;
 		color: rgb(0, 0, 0);
+		width: 100%;
 	}
 
 	/* Six columns side by side */
