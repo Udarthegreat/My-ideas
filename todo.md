@@ -27,6 +27,7 @@
 	- [x] fix the index title bg height for phone problem
 	- [ ] fix small graphical glitches
 	- [ ] go over the description texts and other text with someone else to ensure they come across the right way.
+	- [ ] create list of custom HTML I need to make (.txt or .md)
 ### A3
 	- [ ]Hoverable Sidenav Button to pop up the navbar click link
 	- [ ] make standardized CSS and JS for different functions 

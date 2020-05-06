@@ -2,18 +2,18 @@
 @media only screen and (max-width: 1290px){
 	.t_text{
     position: relative;
-        top: 280px;
-        left: 460px;
+		top: 45%;
+		left: 35%;
 	margin-top: 0px;
-	height: 60.6667px;
-	width: 340.2px;
+	height: 11%;
+	width: 28%;
 	}
 	.p_2text{
 		position: relative;
 			top: 600px;
 			left: 380px;
-			width: 450.0px;
-			padding-left: 15px;
+		width: 450.0px;
+		padding-left: 15px;
 	}
 	.tabgroup_1{
 		height: 300px;
@@ -29,8 +29,21 @@
 }
 
 @media only screen 
-and (max-width : 460px) 
-{
+and (max-width : 705px) {
+	.t_text{
+			top: 45%;
+			left: 27%;
+		margin-top: 0px;
+		height: 11%;
+		width: 48%;
+	}
+	.p_1{
+		display: none;
+	}
+}
+
+@media only screen 
+and (max-width : 460px) {
 	.p_1{
 		display: none;
 	}
