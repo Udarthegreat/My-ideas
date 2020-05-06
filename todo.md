@@ -13,7 +13,7 @@
 ### A2:
 	- [ ] make website responsive on different screen sizes (what this update is all about) 
 		- [x] index
-		- [ ] earth 2.0
+		- [x] earth 2.0
 		- [ ] climate
 		- [ ] about me
 		- [ ] others
