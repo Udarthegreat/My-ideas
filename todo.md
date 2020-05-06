@@ -26,6 +26,7 @@
 	- [ ] give the climate page some substance 
 	- [x] fix the index title bg height for phone problem
 	- [ ] fix small graphical glitches
+	- [ ] go over the description texts and other text with someone else to ensure they come across the right way.
 ### A3
 	- [ ]Hoverable Sidenav Button to pop up the navbar click link
 	- [ ] make standardized CSS and JS for different functions 
