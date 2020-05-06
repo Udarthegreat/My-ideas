@@ -76,11 +76,12 @@
 		margin-left: 2%;
 	}
 	.grd-contain{
-		margin-left: -10%;
+		margin-left: 25%;
+		margin-top: 3%;
 	}
 	.grd-container {
 		grid-gap: 0.5rem;
-		grid-template-columns: repeat(6, 20%);
+		grid-template-columns: repeat(6, 5%);
 		grid-template-rows: repeat(1, 10%);
 	}
 	.column {
@@ -190,9 +191,7 @@
 }
 
 @media only screen 
-and (max-width : 460px) 
-/* and (orientation : landscape) */
-{
+and (max-width : 460px) {
 	.sld-txt{
 		left: 10%;
 		right: 0px;
