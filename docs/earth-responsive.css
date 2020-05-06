@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1280px) {
 	.contrast {-webkit-filter: contrast(140%);filter: contrast(140%);}
 	.brightness {-webkit-filter: brightness(130%);filter: brightness(130%);}
 	.bgimg-2{
@@ -31,14 +31,13 @@
 		width: 100%;
 	}
 	.img_1{
-		margin-right: 00%;
+		margin-right: 0%;
 		position: relative;
 			left: 34%;
 		height: 75ch;
 		width: 30%;
 	}
 	.img_2{
-		margin-right: -30%;
 		position: relative;
 			left: 34%;
 		height: 75ch;
@@ -76,12 +75,12 @@
 		margin-left: 2%;
 	}
 	.grd-contain{
-		margin-left: 25%;
+		margin-left: -1%;
 		margin-top: 3%;
 	}
 	.grd-container {
 		grid-gap: 0.5rem;
-		grid-template-columns: repeat(6, 5%);
+		grid-template-columns: repeat(6, 15%);
 		grid-template-rows: repeat(1, 10%);
 	}
 	.column {
@@ -91,22 +90,6 @@
 		margin-right:0.8%;
 	}
 }
-
-/* @media only screen and (min-width : 705px){
-	#explaintxt{
-		margin-left: 0%;
-	}
-	.sld-txt{
-		left: 38%;
-	}
-	.img_1{
-		margin-right: 00%;
-		position: relative;
-			left: 5%;
-		height: 70%;
-		width: 70%;
-	}
-} */
 
 @media only screen and (max-width : 705px) {
 	#explaintxt{
@@ -172,7 +155,7 @@
 	}
 	.grd-contain{
 		position: relative;
-		left: -20%;
+		left: 3%;
 		width: 100%;
 	}
 	.grd-container {

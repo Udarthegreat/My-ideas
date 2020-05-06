@@ -61,28 +61,24 @@
 	0 2px 0 #000000,
 	0 -2px 0 #000000;
 	cursor: pointer;
-	top: 20%;
+	position: absolute;
+	top: 30%;
+	width: 3%;
 	padding: 1%;
 	margin-top: 0%;
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 	font-size: 2rem;
+	border-radius: 20px 20px 20px 20px;
 }
 
 /* Position the buttons where they are supposed to be */
 .next {
-	position: absolute;
-		left: 60%;
-	width: 100%;
-	border-radius: 20px 20px 20px 20px;
-	width: 3.5%;
+	left: 64%;
 }
 
 .prev{
-	position: absolute;
-		left: 26.5%;
-	border-radius: 20px 20px 20px 20px;
-	width: 3.5%;
+	left: 31%;
 }
 
 /* On hover, add a background */
@@ -93,21 +89,30 @@
 
 /* Number text (1/3 etc) */
 .numbertext {
-  position: absolute;
-    left: 46.5%;
-    top: 75.6%;
-  color: #ffffff;
-  font-size: 0.8rem;
-}
+	position: absolute;
+		top: 68%;
+		left: 62%;
+	color: rgb(255,255,255);
+	font-size: 0.8rem;
+	}
 
 /* Container for image text */
 .caption-container {
 	text-align: center;
 	background-color: rgb(36, 36, 36);
 	color: rgb(255, 255, 255);
-	width: 100%;
+	margin-left: 0%;
+	position: absolute;
+		left: 30%;
+	width: 35%;
+	margin: 0%;
 }
-
+.column {
+	float: left;
+	width: 11.2%;
+	margin-left:0.8%;
+	margin-right:0.8%;
+}
 .grd-img{
   width: 100%;
   height: 100%;
@@ -116,14 +121,17 @@
 }
 
 .grd-contain{
-	margin-left: 23%;
+	position: relative;
+		left: 5%;
+	margin-top: 3%;
+	width: 100%;
 }
 
 .grd-container {
 	display: grid;
-	grid-template-columns: repeat(6, 9%);
-	grid-template-rows: repeat(1, 25%);
-	grid-gap: 1.5rem;
+	grid-gap: 0.5rem;
+	grid-template-columns: repeat(6, 15%);
+	grid-template-rows: repeat(1, 10%);
 }
 
 .grd-1 {
@@ -187,23 +195,25 @@
 }
 
 .img_1{
-	margin-right: 00%;
+	margin-right: 0%;
 	position: relative;
-		left: 15%;
-	height: 70%;
-	width: 60%;
+		left: 34%;
+	height: 75ch;
+	width: 30%;
 }
 
 .img_2{
-	height: 60%;
+	margin-right: 0%;
+	position: relative;
+		left: 34%;
+	height: 75ch;
 	width: 30%;
-	margin-right: 10%;
 }
 
 .sld-txt{
 	background-color: rgba(255, 255, 255, 0.555);
 	width: 200px;
 	position: relative;
-		right: -38%;
+		left: 43%;
 	margin-bottom: 5px;
 }
