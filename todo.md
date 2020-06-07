@@ -45,6 +45,7 @@
 - [ ] make next and previous buttons on earth 2.0 use % for the 'border-radius'
 - [ ] fix the issue with earth 2.0 were the css grid will not become taller then a certain amount
 - [ ] create new costume HTML, or at least the customer image slide show
+- [ ] update different backgrounds and other size related parts of page and make them more consistent
 - [ ] work more on responsiveness for pages
   - [ ] index
   - [ ] earth 2.0
@@ -59,19 +60,19 @@
 
 ### some point in the future
 
-- [ ] host all fonts locally (disconnect from google fonts) 
-- [ ] try to use as many of my own images in the page as possible 
-- [ ] for navbar implement ability to click outside and close navbar 
-- [ ] take all images from paper to e-paper 
-- [ ] turn the image slide show into a custom html element (web component) 
+- [ ] host all fonts locally (disconnect from google fonts)
+- [ ] try to use as many of my own images in the page as possible
+- [ ] for navbar implement ability to click outside and close navbar
+- [ ] take all images from paper to e-paper
+- [ ] turn the image slide show into a custom html element (web component)
 - [ ] create a photography page
 - [ ] make as much of the page web components  
-- [ ] fix the coming soon background color (the width) 
-- [ ] get the interactive working (for cloth sim) 
-- [ ] add a credits 
-- [ ] fix error on img_a.onclick = function(){ 
-- [ ] I need to find a way that it can take up 100% of the space taken up by its children so that I can add a little space between the bottom of the page and the last link box 
-- [ ] make the descriptions work for the 705 size 
+- [ ] fix the coming soon background color (the width)
+- [ ] get the interactive working (for cloth sim)
+- [ ] add a credits
+- [ ] fix error on img_a.onclick = function(){
+- [ ] I need to find a way that it can take up 100% of the space taken up by its children so that I can add a little space between the bottom of the page and the last link box
+- [ ] make the descriptions work for the 705 size
 - [ ] make the section heights in percentages or some other relative unit
-- [ ] make the black outline around text using shadow a css class (or what ever their called) so I only have to define it once 
+- [ ] make the black outline around text using shadow a css class (or what ever their called) so I only have to define it once
 - [ ] fix images that are in use (there are some trash in some of the images)
