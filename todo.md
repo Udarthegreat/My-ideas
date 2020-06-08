@@ -57,6 +57,7 @@
 
 - [ ] add model effect to all images in earth 2.0
 - [ ] have all costume html done for every page I have by this point
+- [ ] read models for images shown (all except for the background images) (based on the current model.js, also optimize model.js)
 
 ### some point in the future
 
@@ -64,6 +65,7 @@
 - [ ] try to use as many of my own images in the page as possible
 - [ ] for navbar implement ability to click outside and close navbar
 - [ ] take all images from paper to e-paper
+- [ ] possibly integrate models into the needed costume html 
 - [ ] turn the image slide show into a custom html element (web component)
 - [ ] create a photography page
 - [ ] make as much of the page web components  
