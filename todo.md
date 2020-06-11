@@ -19,8 +19,8 @@
   - [x]  index
   - [x] earth 2.0
   - [ ] climate
-  - [ ] about me
   - [ ] others
+  - [ ] about me
 - [x] update the explanation section for earth 2.0
 - [x] finish the home pagex add images to earth 2.0
 - [x] add a page for about me

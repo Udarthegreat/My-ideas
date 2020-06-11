@@ -42,6 +42,8 @@
 .tabcontent {
   display: none;
   padding: 6px 12px;
+  -webkit-animation: fadeEffect 0.5s;
+  animation: fadeEffect 0.5s;
   border: 1px solid rgba(255, 255, 255,0);
   border-top: none;
 }
@@ -52,4 +54,14 @@
 	width: 800px;
   position: relative;
     left: 25%;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
