@@ -1,4 +1,5 @@
-function biosolar(evt, cityName) {
+
+function tabs(evt, tabName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
@@ -15,6 +16,9 @@ function biosolar(evt, cityName) {
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
+  // document.getElementById(Tab_1);
+  // Tab_1.currentTarget.className += " active";
 }
+document.getElementById("defaultOpen").click();
