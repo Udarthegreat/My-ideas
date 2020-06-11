@@ -58,6 +58,9 @@
 - [ ] add model effect to all images in earth 2.0
 - [ ] have all costume html done for every page I have by this point
 - [ ] read models for images shown (all except for the background images) (based on the current model.js, also optimize model.js)
+- [ ] put a images into a images folder and separate images into sub folders per category.
+- [ ] convert the 250px value to % in climate.css
+- [ ] figure why single digit numbers have no effect only double digit numbers have a effect in css but they do when in html
 
 ### some point in the future
 
