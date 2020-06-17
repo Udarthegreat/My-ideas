@@ -15,7 +15,7 @@
 
 ### A2:
 
-- [ ] make website responsive on different screen sizes (what this update is all about) 
+- [ ] make website responsive on different screen sizes (what this update is all about)
   - [x]  index
   - [x] earth 2.0
   - [x] climate
@@ -42,6 +42,7 @@
 - [ ] add model effect to most images in earth 2.0
 - [ ] separate shader from html in interactive version of earth 2.0 ( tho this will have to be retired for some other time)
 - [ ] fix up images used
+- [ ] fix description tag for the first slide show's positioning
 - [ ] standardize sizing and amounts for different types page parts
 - [ ] add black bar to others page between section 1 and 2 in phone mode ?
 - [ ] fix the issue with earth 2.0 were the css grid will not become taller then a certain amount
