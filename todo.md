@@ -26,7 +26,7 @@
 - [x] add a page for about me
 - [ ] finish about me page
 - [x] make the climate page have the parallax effect and format properly
-- [ ] give the climate page some substance  
+- [x] give the climate page some substance  
 - [x] fix the index title bg height for phone problem
 - [ ] fix small graphical glitches
 - [ ] go over the description texts and other text with someone else to ensure they come across the right way
@@ -37,13 +37,13 @@
 - [ ] Hoverable Sidenav Button to pop up the navbar click link
 - [ ] make standardized CSS and JS for different functions
 - [ ] complete earth 2.0
+- [ ] make biosolar better 
 - [ ] take all pre's and turn them to p's because of the issues properly formatting pre's especially when it comes to responsivity.
 - [ ] add model effect to most images in earth 2.0
 - [ ] separate shader from html in interactive version of earth 2.0 ( tho this will have to be retired for some other time)
 - [ ] fix up images used
-- [ ] fix the text not wrapping in about me for all sizes so that text does not get cut in smaller sizes
-- [ ] add black bar to others page between section 1 and 2 in phone mode
-- [ ] make next and previous buttons on earth 2.0 use % for the 'border-radius'
+- [ ] standardize sizing and amounts for different types page parts
+- [ ] add black bar to others page between section 1 and 2 in phone mode ?
 - [ ] fix the issue with earth 2.0 were the css grid will not become taller then a certain amount
 - [ ] create new costume HTML, or at least the customer image slide show
 - [ ] update different backgrounds and other size related parts of page and make them more consistent
@@ -84,3 +84,4 @@
 - [ ] make the section heights in percentages or some other relative unit
 - [ ] make the black outline around text using shadow a css class (or what ever their called) so I only have to define it once
 - [ ] fix images that are in use (there are some trash in some of the images)
+- [ ] convert images to svg's at use them instead of the images for obvious reasons
