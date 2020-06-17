@@ -47,6 +47,7 @@
 - [ ] fix the issue with earth 2.0 were the css grid will not become taller then a certain amount
 - [ ] create new costume HTML, or at least the customer image slide show
 - [ ] update different backgrounds and other size related parts of page and make them more consistent
+- [ ] improve in document documentation through proper commenting especially in the css
 - [ ] work more on responsiveness for pages
   - [ ] index
   - [ ] earth 2.0
