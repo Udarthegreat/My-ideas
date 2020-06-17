@@ -18,7 +18,7 @@
 - [ ] make website responsive on different screen sizes (what this update is all about) 
   - [x]  index
   - [x] earth 2.0
-  - [ ] climate
+  - [x] climate
   - [ ] others
   - [ ] about me
 - [x] update the explanation section for earth 2.0

@@ -41,7 +41,6 @@ and (max-width : 705px) {
 		display: none;
 	}
 	.text_1{
-		position: relative;
 		top: 5vh;
 		left:45%;
 		width: 10%;
@@ -52,19 +51,38 @@ and (max-width : 705px) {
 			top: 10vh;
 	}
 	.p_2text{
-		position: relative;
-			top: 90vh;
 			left: 25%;
 		width: 50%;
 		font-size: 2.5rem;
-		padding-left: 15px;
 	}
 }
 
 @media only screen 
 and (max-width : 460px) {
-	.p_1{
-		display: none;
-	}
+	.t_text{
+		top: 46%;
+		left: 25%;
+	font-size: 2.5rem;
+	height: 9%;
+	width: 51%;
+}
+.text_1{
+	position: relative;
+	top: 1vh;
+	width: 15%;
+}
+.tabgroup_1{
+	height: 55vh;
+	width: 100%;
+		top: 10vh;
+		left: 0px;
+}
+.p_2text{
+	position: relative;
+		top: 90vh;
+		left: 12%;
+	width: 75%;
+	font-size: 2.5rem;
+}
 }
 
