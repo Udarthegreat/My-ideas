@@ -2,23 +2,17 @@
     "editor.fontSize": 17,
     "editor.formatOnSave": true,
     "cSpell.words": [
-        "Hoverable",
         "PEXELS",
-        "Sidenav",
         "biosolar",
-        "tabgroup"
+        "arial",  
+        "nanum",  
+        "barcode",
     ],
     "cSpell.ignoreWords": [
-        "arial",
-        "barcode",
+        "Hoverable",     
         "closebtn",
-        "excanvas",
-        "gamja",
-        "kosugi",
-        "maru",
-        "nanum",
         "numbertext",
-        "tammudu",
-        "thumnbail"
+         "Sidenav",   
+         "tabgroup",  
     ],
 }
