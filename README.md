@@ -10,3 +10,4 @@ My ideas sorted by page
  - earth 2.0
  - climate ideas
  - others
+ - about me 
