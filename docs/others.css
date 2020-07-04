@@ -79,7 +79,7 @@ body {
         left: 30%;
 } */
 .img-galary{
-    height: 10vh;
+    height: 95vh;
     width: 90vw;
     position: relative;
         top: 5%;
@@ -90,45 +90,51 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr); 
-    gap: 0.5% 0.5%;
-    
+    grid-gap: 0.5rem;
+
   }
   
-  .video { 
-    grid-area: 2 / 2 / 4 / 4; 
-    }
-  
-  .img-3 { 
-    grid-area: 1 / 3 / 2 / 5; 
-    }
-  
-  .img-1 { 
-    grid-area: 1 / 1 / 3 / 2;
-    }
-  
-  .img-2 {  
-      grid-area: 1 / 2 / 2 / 3; 
-    }
-  
-  .img-4 {  
-      grid-area: 2 / 4 / 3 / 5; 
-    }
-  
-  .img-5 { 
-      grid-area: 3 / 4 / 5 / 5;  
-    }
-  
-  .img-6 { 
-      grid-area: 2 / 4 / 3 / 5;
-    }
-  
-  .img-7 { 
-      grid-area: 4 / 3 / 5 / 4;
-    }
-  
-  .img-8 { 
-      grid-area: 3 / 1 / 4 / 2;
-    }
+.img-1 { grid-area: 1 / 1 / 3 / 2; 
+    width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
+}
+.img-2 { grid-area: 1 / 2 / 2 / 3; 
+    width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
+}
+.img-3 { grid-area: 1 / 3 / 2 / 5; 
+    width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
+}
+.img-4 { grid-area: 2 / 4 / 3 / 5; 
+    width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
+}
+.img-5 { grid-area: 3 / 4 / 5 / 5; 
+    width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
+}
+.img-6 { grid-area: 4 / 3 / 5 / 4; 
+    width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
+}
+.img-7 { grid-area: 4 / 1 / 5 / 3; }
+.img-8 { grid-area: 3 / 1 / 4 / 2; 
+    width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
+}
+.video { grid-area: 2 / 2 / 4 / 4; 
+    width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
+} 
 
   .grd-img{
     width: 100%;
