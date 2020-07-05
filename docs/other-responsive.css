@@ -24,12 +24,10 @@
 	/* .cloth_sim{
 		height: 50%;
 		width: 50%;
-	}
-} */
+	} */
+} 
 
-@media only screen 
-and (max-width : 460px) 
-{
+@media only screen and (max-width : 460px) {
 	.title_text{
         top: 30%;
         left: 10%;
