@@ -45,13 +45,23 @@ body {
 
 .p_1text{
     position: relative;
-        top: 100px;
-        left: 350px;
+        top: 30%;
+        left: 25%;
     color: rgb(255, 255, 255);
     font-family: 'Nova Flat', cursive;
-    width: 660.0px;
-    font-size: 25px;
-    background-color: rgba(0, 0, 0, 0.267)
+    width: 38%;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.301);
+    margin-top: 0px;
+}
+
+.p_2{
+    height: 120vh;
+    background-image: url('clouds-cloudy-conifers-247478.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* .cloth_sim{
@@ -127,14 +137,6 @@ body {
     background-color: rgb(255, 0, 149);
 }
 
-.p_2{
-    height: 120vh;
-    background-image: url('clouds-cloudy-conifers-247478.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .p_2text{
     position: relative;
