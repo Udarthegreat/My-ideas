@@ -72,9 +72,9 @@ body {
 
 .container {
     position: relative;
-    top: 10%;
+        top: 10%;
+       left: 40vh;
     width: 60%;
-    margin: 2rem auto; 
 }
 
 .gallery {
@@ -137,10 +137,9 @@ body {
     background-color: rgb(255, 0, 149);
 }
 
-
 .p_2text{
     position: relative;
-        top: 11%;
+        top: 15%;
         left: 35%;
     margin-top: 0px;
     color: rgb(0, 0, 0);
