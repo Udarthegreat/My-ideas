@@ -56,7 +56,7 @@ body {
 }
 
 .p_2{
-    height: 120vh;
+    height: 130vh;
     background-image: url('clouds-cloudy-conifers-247478.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -69,6 +69,13 @@ body {
         top: 5vh;
         left: 30%;
 } */
+
+.desc_1{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.329);
+    margin-bottom: 3%;
+}
 
 .container {
     position: relative;
