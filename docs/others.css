@@ -74,7 +74,7 @@ body {
 
 .container {
     position: relative;
-    top: 5%;
+    top: 10%;
     width: 60%;
     margin: 2rem auto; 
 }
@@ -150,7 +150,7 @@ body {
 
 .p_2text{
     position: relative;
-        top: 9%;
+        top: 11%;
         left: 35%;
     margin-top: 0px;
     color: rgb(0, 0, 0);
