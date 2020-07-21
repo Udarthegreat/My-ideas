@@ -4,16 +4,16 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--[if lt IE 9]>
-          <script>
-            document.createElement("article");
-            document.createElement("aside");
-            document.createElement("footer");
-            document.createElement("header");
-            document.createElement("main");
-            document.createElement("nav");
-            document.createElement("section");
-          </script> 
-        <![endif]-->
+    <script>
+      document.createElement("article");
+      document.createElement("aside");
+      document.createElement("footer");
+      document.createElement("header");
+      document.createElement("main");
+      document.createElement("nav");
+      document.createElement("section");
+    </script> 
+  <![endif]-->
   <title>earth 2.0 static</title>
   <script src="NAVbar.js"></script>
   <style>
@@ -26,7 +26,7 @@
   <meta name="earth 2.0 page" content="my ideas">
   <link rel="stylesheet" type="text/css" href="earth 2.0.css">
   <link rel="stylesheet" text="text/css" href="paralax.css">
-  <link rel="stylesheet" text="text/css" href="Modal.css">
+  <!-- <link rel="stylesheet" text="text/css" href="Modal.css"> -->
   <link rel="stylesheet" text="text/css" href="NAVbar.css">
   <link rel="stylesheet" text="text/css" href="gallary.css">
   <link rel="stylesheet" text="text/css" href="earth-responsive.css">
@@ -35,20 +35,24 @@
 </head>
 
 <body>
-  <!--NAVBAR-->
-  <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-      <a href="index.html">Home</a>
-      <a href="earth 2.0.html">earth 2.0</a>
-      <a href="climate.html">environment</a>
-      <a href="#">singularity</a>
-      <a href="others.html">others</a>
-      <a href="about.html">about</a>
-      <!--I will add more here later-->
+  <div>
+    <!--NAVBAR-->
+    <div class="navigation div">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="earth 2.0.html">earth 2.0</a>
+          <a href="climate.html">environment</a>
+          <a href="#">singularity</a>
+          <a href="others.html">others</a>
+          <a href="about.html">about</a>
+          <!--I will add more here latter-->
+        </div>
+      </div>
+      <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
     </div>
   </div>
-  <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
   <!--heading-->
   <div class="bgimg-1 contrast brightness">
     <div class="caption1">
@@ -183,7 +187,7 @@
   </div>
   <!--This is the section were I link scripts that need to be linked after everything else-->
   <!--for some randome reason the link to the Js file that runs the code for the Modals has to be here not in the header were the link to the NAvbar Js file-->
-  <script src="Modal.js"></script>
+  <!-- <script src="Modal.js"></script> -->
   </div>
 </body>
 
