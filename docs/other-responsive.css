@@ -35,6 +35,22 @@
 	.blk-bar-contain{
 		display: block;
 	}
+	.p_2{
+		height: 130vh;
+	}
+	.desc_1{
+		font-size: 1.3rem;
+	}
+	.container{
+		width: 90%;
+	}
+	.gallery{
+		grid-template-rows: repeat(4, 20vw);
+	}
+	.p_2text{
+		font-size: 2.0rem;
+		width: 39%;
+	}
 }
 
 @media only screen and (max-width : 460px) {
