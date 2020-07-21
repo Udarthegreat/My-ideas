@@ -24,7 +24,6 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
-  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,7 +129,7 @@ h3 {
 }
 
 #explainhead{
-	font-size:47px;
+	font-size: 47px;
 	text-align: center;
 	padding: 80px;
 	/*padding*/
