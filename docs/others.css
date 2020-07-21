@@ -55,8 +55,20 @@ body {
     margin-top: 0px;
 }
 
+.blk-bar-contain{
+    position:relative;
+}
+
+.blk-bar{
+    color: rgb(221, 221, 221); 
+    background-color: rgb(0, 0, 0); 
+    text-align: center; 
+    padding: 50px 80px; 
+    text-align: justify;
+}
+
 .p_2{
-    height: 130vh;
+    height: 150vh;
     background-image: url('clouds-cloudy-conifers-247478.jpg');
     background-attachment: fixed;
     background-position: center;
