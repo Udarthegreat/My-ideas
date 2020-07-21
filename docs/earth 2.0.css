@@ -20,7 +20,6 @@ body, html {
     height: 100%;
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
-    /*color: #777*/
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
@@ -30,7 +29,6 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .bgimg-1 {
   background-image: url("bright-clouds-cold-618833.jpg");
