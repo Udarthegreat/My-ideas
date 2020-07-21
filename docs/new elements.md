@@ -6,4 +6,5 @@
 - [ ] page title element
 - [ ] possibly, a parallax section element instead of a div
 - [ ] image galary element based on content in others page
+- [ ] tool tip/hover text element
 - [ ] ~
