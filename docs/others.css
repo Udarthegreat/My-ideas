@@ -57,6 +57,7 @@ body {
 
 .blk-bar-contain{
     position:relative;
+    display: none;
 }
 
 .blk-bar{
