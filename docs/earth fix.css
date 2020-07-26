@@ -16,7 +16,7 @@ body {
 }
 
 .parallax {
-    background-image: url('clouds-cloudy-conifers-247478.jpg');
+    background-image: url('bright-clouds-cold-618833.jpg');
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -36,7 +36,7 @@ body {
 
 .p_1{
     height:75vh;
-    background-image:url("clouds-conifer-daylight-371589.jpg");
+    background-image:url("arch-bridge-clouds-814499.jpg");
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@ body {
 
 .blk-bar-contain{
     position:relative;
-    display: none;
+
 }
 
 .blk-bar{
