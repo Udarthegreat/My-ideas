@@ -31,6 +31,8 @@
 - [ ] fix small graphical glitches
 - [ ] go over the description texts and other text with someone else to ensure they come across the right way
 - [ ] create list of custom HTML I need to make (.txt or .md)
+- [ ] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
+- [ ] convert others page title positioning from pixel units to something more responsive like %
 
 ### A3
 
