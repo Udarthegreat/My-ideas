@@ -28,14 +28,14 @@ body {
 	background-color: rgba(255, 255, 255, 0.377);
     font-family: 'Nova Flat', cursive;
     position: relative;
-        top: 351px;
-        left: 620px;
-    width: 170px;
-    font-size: 50px;
+        top: 50%;
+        left: 41%;
+    width: 16%;
+    font-size: 3rem;
 }
 
 .p_1{
-    height:60vh;
+    height:75vh;
     background-image:url("clouds-conifer-daylight-371589.jpg");
     background-attachment: scroll;
     background-position: center;
@@ -45,11 +45,11 @@ body {
 
 .p_1text{
     position: relative;
-        top: 30%;
-        left: 25%;
+        top: 10%;
+        left: 30vh;
     color: rgb(255, 255, 255);
     font-family: 'Nova Flat', cursive;
-    width: 38%;
+    width: 75%;
     font-size: 1.5rem;
     background-color: rgba(0, 0, 0, 0.301);
     margin-top: 0px;
