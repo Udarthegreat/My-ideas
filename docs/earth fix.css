@@ -32,10 +32,11 @@ body {
         left: 41%;
     width: 16%;
     font-size: 3rem;
+    text-align: center; 
 }
 
 .p_1{
-    height:93vh;
+    height:110vh;
     background-image:url("arch-bridge-clouds-814499.jpg");
     background-attachment: scroll;
     background-position: center;

@@ -1,17 +1,25 @@
 @charset "UTF-8";
+
 @media only screen and (max-width: 1290px){
 	.title_text{
     position: relative;
         top: 50%;
         left: 42%;
     width: 20%;
-    text-align: center;
+	}
+	.p_1{
+		height:115vh;
 	}
 	.p_1text{
     position: relative;
-        top: 26%;
-		left: 28%;
-	width: 45%;
+        top: 10%;
+		left: 10%;
+	width: 80%;
+	}
+	.sld-txt{
+		width: 100%;
+		font-size: 1rem;
+		background-color: rgba(255, 255, 255, 0.555);
 	}
 	.p_2text{
     position: relative;
@@ -19,6 +27,24 @@
 	font-size: 2.5rem;
 	}
 } 
+
+@media only screen and (max-width: 1139px){
+	.p_1{
+		height:140vh;
+	}
+}
+
+@media only screen and (max-width: 936px){
+	.p_1{
+		height:180vh;
+	}
+}
+
+@media only screen and (max-width: 762px){
+	.p_1{
+		height:190vh;
+	}
+}
 
 @media only screen and (max-width : 705px){
 	.p_1{
