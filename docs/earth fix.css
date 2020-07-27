@@ -78,16 +78,9 @@ body {
     background-size: cover;
 }
 
-.desc_1{
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.329);
-    margin-bottom: 3%;
-}
-
-.container {
+.sld-show {
     position: relative;
-        top: 10%;
+        top: 5%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;

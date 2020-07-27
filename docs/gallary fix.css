@@ -8,8 +8,15 @@
 	text-align: center;
 	color: rgb(0, 0, 0);
 	animation-name: zoom;
-	animation-duration: 0.6s;
+    animation-duration: 0.6s;
 }
+
+#Caption{
+    margin-top: 1.5%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
 
 /* .Caption span.border {
   background-color: rgba(49, 49, 49, 0.692);
@@ -33,7 +40,7 @@
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+.contain {
   position: relative;
 }
 
@@ -74,7 +81,7 @@
 
 /* Position the buttons where they are supposed to be */
 .next {
-	left: 64%;
+	left: 62%;
 }
 
 .prev{
@@ -98,14 +105,13 @@
 
 /* Container for image text */
 .caption-container {
-	text-align: center;
 	background-color: rgb(36, 36, 36);
-	color: rgb(255, 255, 255);
 	margin-left: 0%;
 	position: absolute;
 		left: 30%;
 	width: 35%;
-	margin: 0%;
+    margin: 0%;
+    height: 2vw;
 }
 .column {
 	float: left;
@@ -187,27 +193,29 @@
   opacity: 1;
 }
 
-.img_1{
-	margin-right: 0%;
+.img_1, .img_2 {
+    margin-right: 0%;
 	position: relative;
 		left: 34%;
-	height: 75ch;
-	width: 30%;
+}
+
+.img_1{
+	height: 75vh;
+	width: 28%;
 }
 
 .img_2{
-	margin-right: 0%;
-	position: relative;
-		left: 34%;
-	height: 75ch;
-	width: 30%;
+	height: 75vh;
+	width: 28%;
 }
 
 .sld-txt{
 	background-color: rgba(255, 255, 255, 0.555);
-	width: 200px;
+    width: 20%;
+    text-align: center;
 	position: relative;
-		left: 43%;
-	margin-bottom: 5px;
+		left: 38%;
+    margin-bottom: 1%;
+    font-size: 2rem;
 }
 
