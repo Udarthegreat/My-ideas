@@ -60,10 +60,10 @@
 
 @media only screen and (max-width : 705px){
 	.title_text{
-			top: 50%;
-			left: 42%;
+		top: 50%;
+		left: 42%;
 		width: 20%;
-		}
+	}
 	.p_1{
 		display: none;
 	}
