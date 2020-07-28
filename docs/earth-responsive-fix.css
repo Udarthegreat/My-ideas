@@ -70,18 +70,48 @@
 	.p_2{
 		height: 130vh;
 	}
+	.sld-txt{
+		width: 40%;
+		left: 27%;
+	}
+	.img_1, .img_2{
+		height: 75vh;
+		width: 55%;
+		left: 25.5%;
+	}
+	.prev, .next{
+		top: 40%;
+		width: 5%;
+	}
+	.prev{
+		left: 18%;
+	}
+	.next {
+		left: 72.3%;
+	}
 	.desc_1{
 		font-size: 1.3rem;
 	}
 	.container{
 		width: 90%;
 	}
-	.gallery{
-		grid-template-rows: repeat(4, 20vw);
+	.grd-contain{
+		left: 9%;
+		width: 95%;
+		margin-top: 5%;
+	}
+	.caption-container{
+		width: 50%;
+		height: 4vw;
+		left: 23%;
+	}
+	#Caption{
+		margin-top: 2%
 	}
 	.p_2text{
 		font-size: 2rem;
-		width: 39%;
+		width: 40%;
+		left: 28%;
 	}
 }
 
