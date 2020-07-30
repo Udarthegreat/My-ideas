@@ -1,8 +1,7 @@
 @charset "UTF-8";
 @media only screen and (max-width: 814px){
-    .gallery__img{
-        width: 25vh;
-        height: 15vw;
+    .hero__img{
+       
     }
 }
 

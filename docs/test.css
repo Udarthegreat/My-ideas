@@ -41,13 +41,12 @@ body {
   grid-template-rows: 100vh; 
 }
 
-.gallery__img {
-  width: 30vh;
-  height: 20vw;
+.hero__img {
+  width: 60%;
+  height: 30%;
+  display: block;
   margin: auto;
   margin-top: 50%;
-  object-fit: cover;
-  display: block; 
 }
 
 .gallery__item--1 {
