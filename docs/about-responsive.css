@@ -12,42 +12,12 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 	padding: 0;
 	margin: 0;
 }
-@media only screen and (max-width: 1280px){
-	.column-1{
-	width: 28%;
-	}
-
-	.hero-img{
-		width: 75%;
-		height: 40%;
-		top: 190px;
-		left: 40px;
-	}
-
-	.column-2{
-		margin-left: 27%;
-		padding-top: 20px;
-	}
-
-	.about-me{
-		
-		margin-left: 2%;
-		font-size: 1rem;
-		word-wrap: break-word;
-	}
-	.about{
-		width: 80%;
-	}
+/* @media only screen and (max-width: 1280px){
 
 }
 
 @media only screen 
 and (max-width : 460px) 
 {
-	.hero-img{
-	width: 75%;
-	height: 20%;
-	top: 30%;
-	left: 7%;
-}
-}
+
+} */
