@@ -19,6 +19,11 @@ body {
   font-size: 12px;
 }
 
+.about{
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -27,13 +32,14 @@ body {
 .gallery {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr; 
-  grid-gap: 1.5rem; 
+  grid-template-rows: 100vh; 
 }
 
 .gallery__img {
-  width: 60%;
-  height: 70%;
+  width: 30vh;
+  height: 20vw;
+  margin: auto;
+  margin-top: 50%;
   object-fit: cover;
   display: block; 
 }
