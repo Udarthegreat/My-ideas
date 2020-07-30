@@ -1,23 +1,21 @@
 @charset "UTF-8";
-@import url("../webfonts/PermanentMarker_Regular/stylesheet.css");
-@import url("../webfonts/NovaSquare/stylesheet.css");
-@import url("../webfonts/NovaFlat_Regular/stylesheet.css");
-
-
-article, aside, footer, header, main, nav, section{
-	display: block;
+@media only screen and (max-width: 1010px){
+    .hero__img{
+        width: 90%;
+    }
 }
-	
-html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
-	padding: 0;
-	margin: 0;
-}
-/* @media only screen and (max-width: 1280px){
 
+@media only screen and (max-width: 749px){
+    .hero__img{
+        width: 99%;
+        height: 25%;
+    }
 }
 
 @media only screen 
-and (max-width : 460px) 
+and (max-width : 574px) 
 {
-
-} */
+    .hero__img{
+        height: 20%;
+    }
+}
