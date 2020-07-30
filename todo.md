@@ -19,7 +19,7 @@
   - [x]  index
   - [x] earth 2.0
   - [x] climate
-  - [ ] others
+  - [x] others
   - [ ] about me
 - [x] update the explanation section for earth 2.0
 - [x] finish the home pagex add images to earth 2.0
@@ -31,7 +31,7 @@
 - [ ] fix small graphical glitches
 - [ ] go over the description texts and other text with someone else to ensure they come across the right way
 - [ ] create list of custom HTML I need to make (.txt or .md)
-- [ ] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
+- [x] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
 - [ ] convert others page title positioning from pixel units to something more responsive like %
 - [ ] add licence (CC BY 3.0 I think)
 
@@ -40,7 +40,7 @@
 - [ ] Hoverable Sidenav Button to pop up the navbar click link
 - [ ] make standardized CSS and JS for different functions
 - [ ] complete earth 2.0
-- [ ] make biosolar better 
+- [ ] make biosolar better
 - [ ] take all pre's and turn them to p's because of the issues properly formatting pre's especially when it comes to responsivity.
 - [ ] add model effect to most images in earth 2.0
 - [ ] separate shader from html in interactive version of earth 2.0 ( tho this will have to be retired for some other time)
