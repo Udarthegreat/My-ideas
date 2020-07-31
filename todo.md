@@ -20,7 +20,7 @@
   - [x] earth 2.0
   - [x] climate
   - [x] others
-  - [ ] about me
+  - [x] about me
 - [x] update the explanation section for earth 2.0
 - [x] finish the home pagex add images to earth 2.0
 - [x] add a page for about me
@@ -32,7 +32,7 @@
 - [ ] go over the description texts and other text with someone else to ensure they come across the right way
 - [ ] create list of custom HTML I need to make (.txt or .md)
 - [x] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
-- [ ] convert others page title positioning from pixel units to something more responsive like %
+- [x] convert others page title positioning from pixel units to something more responsive like %
 - [ ] add licence (CC BY 3.0 I think)
 
 ### A3
