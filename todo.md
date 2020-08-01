@@ -61,7 +61,7 @@
 
 ### A4
 
-- [ ] add model effect to all images in earth 2.0
+- [ ] add model effect to all image galleries in earth 2.0
 - [ ] have all costume html done for every page I have by this point
 - [ ] read models for images shown (all except for the background images) (based on the current model.js, also optimize model.js)
 - [ ] put a images into a images folder and separate images into sub folders per category.

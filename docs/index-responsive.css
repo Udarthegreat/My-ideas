@@ -2,17 +2,14 @@
 @media only screen and (max-width: 1290px){
     .title_text{
         position: relative;
-        top: 36%;
-        display: flex;
-        justify-content: center;
+        top: 45%;
         margin-top: 0px;
-        height: 60.6667px;
-        width: 610.2px;
+        width: 53%;
     }
     .p_1{
-        height: 450px;
-        padding-left: 50px;
-        padding-top: 50px;
+        height:65vh;
+        padding-left: 0px;
+        padding-top: 0px;
     }
     .p_1text{
         font-size: 18px;
