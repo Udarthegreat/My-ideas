@@ -22,26 +22,32 @@ body {
     display: grid;
     height: 100%;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 50%);
     gap: 5em 22em;
     grid-template-areas: "L-1 . L-3" ". L-2 .";
 }
 
 .L-1 { 
     grid-area: L-1;
-    background-color: rgba(0, 0, 0, 0.473);
 }
 
 .L-2 {
+    grid-area: L-2;
+}
+
+.L{
     display: grid;
     background-color: rgba(0, 0, 0, 0.473);
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 1fr 2fr repeat(2, 1fr 0.5fr) 0.5fr;
     gap: 1px 1px;
-    grid-area: L-2;
 }
 
-.image { grid-area: 2 / 2 / 3 / 3; }
+.image { 
+    grid-area: 2 / 2 / 3 / 3;
+background-image: url(../link img's/astronomy-discovery-earth-2422.jpg);
+
+}
 
 .link { grid-area: 5 / 2 / 6 / 3; }
 
@@ -51,7 +57,6 @@ body {
 
 .L-3 { 
     grid-area: L-3;
-    background-color: rgba(0, 0, 0, 0.473);
 }
 
 .link-grp{
@@ -65,6 +70,7 @@ body {
     height: 90%;
     width: 80%;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .lnk-contain{
