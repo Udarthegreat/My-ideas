@@ -82,11 +82,12 @@
     .L{
         grid-template-rows: 1fr 1.5fr repeat(2, 0.4fr 0.3fr) 0.5fr;
     }
-    .lnk-img{
+    /* .lnk-img{
         height: 100%;
         width: 100%;
         border-radius: 50%;
-    }
+        object-fit: cover;
+    } */
     .L-1 { grid-area: 1 / 1 / 2 / 2; }
     .L-2 { grid-area: 2 / 1 / 3 / 2; }
     .L-3 { grid-area: 3 / 1 / 4 / 2; } 
