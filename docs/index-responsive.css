@@ -67,7 +67,7 @@
     }
     .contain{
         position: relative;
-            top: -8%;
+            top: -3%;
         width: 50%;
         height: 99vh;
     }
@@ -91,5 +91,9 @@
     .L-1 { grid-area: 1 / 1 / 2 / 2; }
     .L-2 { grid-area: 2 / 1 / 3 / 2; }
     .L-3 { grid-area: 3 / 1 / 4 / 2; } 
-
+    .endtext{
+        top: 86%;
+        left: 0px;
+        width: 100%;
+    }
 }
