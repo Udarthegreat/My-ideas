@@ -45,10 +45,22 @@ body {
 
 .image { 
     grid-area: 2 / 2 / 3 / 3;
-    background-image: url('abandoned-forest-hd-wallpaper-34950.jpg');
     border-radius: 50%;
     background-size: cover; 
     background-position: center; 
+    height: 100%;
+}
+.image-1 { 
+    background-image: url('/docs/link imgs/astronomy-discovery-earth-2422.jpg');
+    background-image: ;
+    height: 100%;
+}
+.image-2 { 
+    background-image: url('/docs/link imgs/blooming-blur-close-up-459059.jpg');
+    height: 100%;
+}
+.image-3 { 
+    background-image: url('/docs/link imgs/blur-close-up-cloth-459486.jpg');
     height: 100%;
 }
 
