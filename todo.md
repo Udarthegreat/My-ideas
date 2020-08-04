@@ -15,7 +15,7 @@
 
 ### A2:
 
-- [ ] make website responsive on different screen sizes (what this update is all about)
+- [x] make website responsive on different screen sizes (what this update is all about)
   - [x]  index
   - [x] earth 2.0
   - [x] climate
@@ -24,11 +24,11 @@
 - [x] update the explanation section for earth 2.0
 - [x] finish the home pagex add images to earth 2.0
 - [x] add a page for about me
-- [ ] finish about me page
+- [x] finish about me page
 - [x] make the climate page have the parallax effect and format properly
 - [x] give the climate page some substance  
 - [x] fix the index title bg height for phone problem
-- [ ] fix small graphical glitches
+- [x] fix small graphical glitches
 - [ ] go over the description texts and other text with someone else to ensure they come across the right way
 - [ ] create list of custom HTML I need to make (.txt or .md)
 - [x] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
