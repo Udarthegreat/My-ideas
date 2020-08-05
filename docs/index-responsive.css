@@ -7,11 +7,12 @@
         width: 53%;
     }
     .p_1{
-        height:65vh;
+        height:40vh;
         padding-left: 0px;
         padding-top: 0px;
     }
     .p_1text{
+        top: 10%;
         font-size: 1.2rem;
     }
     .grid-container{
@@ -31,6 +32,13 @@
         font-weight: bold;
         width: 100%;
         padding: 3%;
+    }
+    .p_1{
+        height:40vh;
+    }
+    .p_1text{
+        top: 20%;
+        font-size: 1rem;
     }
     .parallax_2{
         height: 115vh;
