@@ -65,24 +65,24 @@ and (max-width : 460px) {
 	font-size: 2.5rem;
 	height: 9%;
 	width: 51%;
-}
-.text_1{
-	position: relative;
-	top: 1vh;
-	width: 15%;
-}
-.tabgroup_1{
-	height: 55vh;
-	width: 100%;
-		top: 10vh;
-		left: 0px;
-}
-.p_2text{
-	position: relative;
-		top: 90vh;
-		left: 12%;
-	width: 75%;
-	font-size: 2.5rem;
-}
+	}
+	.text_1{
+		position: relative;
+		top: 1vh;
+		width: 15%;
+	}
+	.tabgroup_1{
+		height: 55vh;
+		width: 100%;
+			top: 10vh;
+			left: 0px;
+	}
+	.p_2text{
+		position: relative;
+			top: 90vh;
+			left: 12%;
+		width: 75%;
+		font-size: 2.5rem;
+	}
 }
 
