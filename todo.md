@@ -29,11 +29,13 @@
 - [x] give the climate page some substance  
 - [x] fix the index title bg height for phone problem
 - [x] fix small graphical glitches
-- [ ] go over the description texts and other text with someone else to ensure they come across the right way
-- [ ] create list of custom HTML I need to make (.txt or .md)
+- [x] go over the description texts and other text with someone else to ensure they come across the right way
+- [x] create list of custom HTML I need to make (.txt or .md)
 - [x] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
 - [x] convert others page title positioning from pixel units to something more responsive like %
+- [ ] fix up images used
 - [ ] add licence (CC BY 3.0 I think)
+- [ ] 
 
 ### A3
 
@@ -44,7 +46,6 @@
 - [ ] take all pre's and turn them to p's because of the issues properly formatting pre's especially when it comes to responsivity.
 - [ ] add model effect to most images in earth 2.0
 - [ ] separate shader from html in interactive version of earth 2.0 ( tho this will have to be retired for some other time)
-- [ ] fix up images used
 - [ ] fix description tag for the first slide show's positioning
 - [ ] standardize sizing and amounts for different types page parts
 - [ ] add black bar to others page between section 1 and 2 in phone mode ?
