@@ -33,9 +33,7 @@
 - [x] create list of custom HTML I need to make (.txt or .md)
 - [x] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
 - [x] convert others page title positioning from pixel units to something more responsive like %
-- [ ] fix up images used
-- [ ] add licence (CC BY 3.0 I think)
-- [ ] 
+- [x] fix up images used
 
 ### A3
 
@@ -59,6 +57,8 @@
   - [ ] climate
   - [ ] about me
   - [ ] others
+- [ ] add licence (CC BY 3.0 I think)
+- [ ] 
 
 ### A4
 
@@ -69,6 +69,7 @@
 - [ ] convert the 250px value to % in climate.css
 - [ ] figure why single digit numbers have no effect only double digit numbers have a effect in css but they do when in html
 - [ ] take the script tag from inside of climatetabs_1 and move it to climate.js, can't right now because when I do that line won't perform its function
+- [ ] 
 
 ### some point in the future
 
