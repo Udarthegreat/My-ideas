@@ -34,6 +34,7 @@
 - [x] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
 - [x] convert others page title positioning from pixel units to something more responsive like %
 - [x] fix up images used
+- [x] take the script tag from inside of climatetabs_1 and move it to climate.js, can't right now because when I do that line won't perform its function
 
 ### A3
 
@@ -69,7 +70,6 @@
 - [ ] put a images into a images folder and separate images into sub folders per category.
 - [ ] convert the 250px value to % in climate.css
 - [ ] figure why single digit numbers have no effect only double digit numbers have a effect in css but they do when in html
-- [ ] take the script tag from inside of climatetabs_1 and move it to climate.js, can't right now because when I do that line won't perform its function
 - [ ] 
 
 ### some point in the future
