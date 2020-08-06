@@ -51,15 +51,15 @@ body {
     height: 100%;
 }
 .image-1 { 
-    background-image: url('/docs/link imgs/astronomy-discovery-earth-2422.jpg');
+    background-image: url('../docs/link imgs/astronomy-discovery-earth-2422.jpg');
     height: 100%;
 }
 .image-2 { 
-    background-image: url('/docs/link imgs/blooming-blur-close-up-459059.jpg');
+    background-image: url('../docs/link imgs/blooming-blur-close-up-459059.jpg');
     height: 100%;
 }
 .image-3 { 
-    background-image: url('/docs/link imgs/blur-close-up-cloth-459486.jpg');
+    background-image: url('../docs/link imgs/blur-close-up-cloth-459486.jpg');
     height: 100%;
 }
 
