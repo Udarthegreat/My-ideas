@@ -3,9 +3,16 @@
     "editor.formatOnSave": true,
     "cSpell.words": [
         "PEXELS",
+        "biosolar",
+        "arial",  
+        "nanum",  
+        "barcode",
     ],
     "cSpell.ignoreWords": [
-        "arial",
+        "Hoverable",     
         "closebtn",
+        "numbertext",
+         "Sidenav",   
+         "tabgroup",  
     ],
 }

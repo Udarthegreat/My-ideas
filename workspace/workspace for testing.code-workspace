@@ -1,8 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "C:\\Users\\george habinyak\\Documents\\GitHub\\My-ideas"
+			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"excanvas",
+			"svg's"
+		]
+	}
 }

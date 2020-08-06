@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@media only screen and (max-width: 1290px){
+	.t_text{
+    position: relative;
+		top: 45%;
+		left: 37%;
+	margin-top: 0px;
+	height: 11%;
+	width: 23%;
+	}
+	.text_1{
+		position: relative;
+			left:45%;
+		width: 5.5%;
+	}
+	.tabgroup_1{
+		height: 50vh;
+		width: 55%;
+		position: relative;
+			left: 23%;
+	}
+	.p_2text{
+		position: relative;
+			top: 90vh;
+			left: 33%;
+		width: 33%;
+		padding-left: 15px;
+	}
+}
+
+@media only screen 
+and (max-width : 705px) {
+	.t_text{
+			top: 45%;
+			left: 27%;
+		margin-top: 0px;
+		height: 11%;
+		width: 44%;
+	}
+	.p_1{
+		display: none;
+	}
+	.text_1{
+		top: 5vh;
+		left:45%;
+		width: 10%;
+	}
+	.tabgroup_1{
+		height: 55vh;
+		width: 60%;
+			top: 10vh;
+	}
+	.p_2text{
+			left: 25%;
+		width: 50%;
+		font-size: 2.5rem;
+	}
+}
+
+@media only screen 
+and (max-width : 460px) {
+	.t_text{
+		top: 46%;
+		left: 25%;
+	font-size: 2.5rem;
+	height: 9%;
+	width: 51%;
+	}
+	.text_1{
+		position: relative;
+		top: 1vh;
+		width: 15%;
+	}
+	.tabgroup_1{
+		height: 55vh;
+		width: 100%;
+			top: 10vh;
+			left: 0px;
+	}
+	.p_2text{
+		position: relative;
+			top: 90vh;
+			left: 12%;
+		width: 75%;
+		font-size: 2.5rem;
+	}
+}
+

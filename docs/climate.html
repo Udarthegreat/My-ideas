@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <script src="climate.js"></script>
-   <script src="NAVbar.js"></script>
+   <meta charset=UTF-8>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!--[if lt IE 9]>
       <script>
          document.createElement("article");
@@ -16,60 +15,76 @@
          document.createElement("section");
       </script>
    <![endif]-->
-   <meta charset=UTF-8>
-   <meta name="earth 2.0 page" content="my ideas">
+   <title>climate page</title>
+   <meta name="climate ideas" content="my climate ideas">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <title>climate ideas</title>
-   <link rel="stylesheet" type="text/css" media="screen" href="climate.css" />
-   <link rel="stylesheet" text="text/css" href="Modal.css">
-   <link rel="stylesheet" text="text/css" href="tooltip_1.css">
-   <link rel="stylesheet" text="text/css" href="tooltip_2.css">
+   <script src="NAVbar.js"></script>
+   <style>
+      @import url('https://fonts.googleapis.com/css?family=Nova+Square');
+      @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+      @import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+      @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+      @import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+      @import url('https://fonts.googleapis.com/css?family=Kosugi+Maru');
+      @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+      @import url('https://fonts.googleapis.com/css?family=Mukta');
+      @import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
+      @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
+      @import url('https://fonts.googleapis.com/css?family=Nunito');
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+      @import url('https://fonts.googleapis.com/css?family=Patua+One');
+      @import url('https://fonts.googleapis.com/css?family=Poor+Story');
+      @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+      @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+      @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+      @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+      @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+   </style>
+   <link rel="stylesheet" text="text/css" href="index.css">
+   <link rel="stylesheet" text="text/css" href="paralax.css">
+   <link rel="stylesheet" text="text/css" href="climatetabs.css">
+   <link rel="stylesheet" text="text/css" href="climate.css">
    <link rel="stylesheet" text="text/css" href="NAVbar.css">
-   <link rel="stylesheet" text="text/css" href="">
+   <link rel="stylesheet" text="text/css" href="climate-responsive.css">
 </head>
 
-<body class="basevalues">
-   <!--NAVBAR-->
-   <div>
-      <div id="myNav" class="overlay">
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-         <div class="overlay-content">
-            <a href="index.html">Home</a>
-            <a href="earth 2.0.html">earth 2.0</a>
-            <a href="climate.html">climate</a>
-            <a href="#">singularity</a>
-            <a href="others.html">others</a>
-            <!--I will add more here latter-->
+<body>
+   <div class="main_body">
+      <div class="navigation div">
+         <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+               <a href="index.html">Home</a>
+               <a href="earth 2.0.html">earth 2.0</a>
+               <a href="climate.html">environment</a>
+               <a href="#">singularity</a>
+               <a href="others.html">others</a>
+               <a href="about.html">about</a>
+            </div>
+         </div>
+         <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
+      </div>
+      <div class="parallax parallax_1">
+         <h1 class="t_text">environment</h1>
+      </div>
+      <div class="p_1">
+         <pre class="p_1text">This is a page where I will put some of my ideas for dealing with
+environmental issues that we face as a world, including global 
+warming, etc. Just to re-emphasize, these are just ideas and nothing more.</pre>
+      </div>
+      <div>
+         <div class="p_2 parallax parallax_2">
+            <p class="p_2text">more coming soon</p>
+            <div>
+               <h1 class="text_1">idea 1</h1>
+               <iframe src="climatetabs_1.html" class="tabgroup_1"></iframe>
+            </div>
          </div>
       </div>
-      <span class="nav_activate" style="" onclick="openNav()">&#9776; navigation</span>
-   </div>
-   <div>
-      <div class="title_page">
+      <div>
+         <!--This is the section were I link scripts that need to be linked after everything else-->
+         <!-- <script src="Modal.js"></script> -->
       </div>
-      <pre>
-
-
-
-
-
-      </pre>
-   </div>
-   <div class="section_1">
-      <h1 class="text_1">idea 1</h1>
-      <iframe src="climatetabs_1.html" class="tabgroup_1"></iframe>
-   </div>
-   <div class="section_2">
-   </div>
-   <div>
-      <h1>more coming soon</h1>
-      <p>I will format this like all the others latter</p>
-   </div>
-   <div>
-      <!--This is the section were I link scripts that need to be linked after everything else-->
-      <!--for some readone reason the link to the Js file that runs the code for the Modals has to be here not in the header were the link to the NAvbar Js file-->
-      <script src="Modal.js"></script>
-   </div>
 </body>
 
 </html>
