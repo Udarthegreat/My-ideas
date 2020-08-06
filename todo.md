@@ -38,6 +38,7 @@
 ### A3
 
 - [ ] Hoverable Sidenav Button to pop up the navbar click link
+- [ ] convert the gallery from earth 2.0 from normal display block using position: absolute; to css grid
 - [ ] make standardized CSS and JS for different functions
 - [ ] complete earth 2.0
 - [ ] make biosolar better
