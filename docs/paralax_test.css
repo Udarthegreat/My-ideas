@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax_1{
+    background-image: url('abandoned-forest-hd-wallpaper-34950.jpg');
+    height: 100vh;
+}
+
+.parallax_2{
+    background-image: url('bright-clouds-cold-618833.jpg');
+    height: 135vh;
+}
+
+.title_text{
+	background-color: rgba(255, 255, 255, 0.555);
+    font-family: 'Nova Flat', cursive;
+	text-align: center;
+    position: relative;
+        top: 46%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43%;
+    font-size: 3.3rem;
+}
+.p_1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height:40vh;
+    background-image:url("clouds-conifer-daylight-371589.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p_1text{
+    position: relative;
+        top: 5%;
+    color: rgb(255, 255, 255);
+    font-family: 'Nova Flat', cursive;
+    width: 90%;
+    font-size: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.267);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.p_2{
+    /* color: black; */
+}
+
+.p_2text{
+    position: relative;
+        top: 900px;
+        left: 500px;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    font-family: 'Nova Flat', cursive;
+    font-size: 50px;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.267)
+}

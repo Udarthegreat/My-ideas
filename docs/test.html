@@ -7,33 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+    <link rel="stylesheet" text="text/css" href="NAVbar.css">
+    <link rel="stylesheet" text="text/css" href="paralax_test.css">
     <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="test-responsive.css">
+    <script src="NAVbar.js"></script>
+    <meta charset=UTF-8>
 
-    <title>CSS Grids Gallery</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="gallery">
-            <div class="gallery__item gallery__item--1">
-                <img src="atom.jpg" class="hero__img" alt="hero image">
+    <div class="main_body">
+        <div class="navigation div">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="earth 2.0.html">earth 2.0</a>
+                    <a href="climate.html">environment</a>
+                    <a href="#">singularity</a>
+                    <a href="others.html">others</a>
+                    <a href="about.html">about</a>
+                </div>
             </div>
-            <div class="gallery__item gallery__item--2">
-                <p class="about">for as long as I've known my self I have wondered how things worked and tried to
-                    make things my self or at least design ideas because I never had the resources
-                    to make anything to complex. for me learning is the ultimate goal so
-                    what is on this site may vary incredibly because on here I put my ideas etc.
-                    that is what a portfolio is for after all. I love physics especially the more
-                    theoretical ends like general relativity and above all want homo sapiens to not
-                    go extinct. That is why I even started on earth 2.0 to think up a way that hypotheticals
-                    we could go on even when, in the distant future the sun runs out of fuel and
-                    we have to leave our home planet. </p>
-            </div>
-
+            <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
         </div>
-    </div>
+        <div class="parallax parallax_1 ">
+            <h1 class="title_text">testing</h1>
+        </div>
+        <div class="parallax parallax_2">
+            <p class="p_1text">lorem ipsum</p>
+        </div>
+
     </div>
 </body>
 
