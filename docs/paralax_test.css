@@ -21,18 +21,28 @@
     height: 40vh;
 }
 
-/* page title text style */
-.title_text{
-    position: relative;
-        top: 50%;
-    background-color: rgba(255, 255, 255, 0.37);
-    margin-left: auto;
-    margin-right: auto;
+/* page title text styling */
+.title_area {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 5fr 1fr 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+
+}
+/* same as above /\*/
+.title_text { 
+    grid-area: 2 / 2 / 3 / 3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Nova Flat', cursive;
-    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 3.3rem;
-}
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.37);
+} 
 
 /* page description text style */
 .p_1text{
