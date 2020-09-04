@@ -42,7 +42,7 @@
     height: 100vh;
 
 }
-/* same as above /\*/
+/* same as above /\ */
 .title_text { 
     grid-area: 2 / 2 / 3 / 3; 
     display: flex;
@@ -55,6 +55,7 @@
     background-color: rgba(255, 255, 255, 0.37);
 } 
 
+/* page description text style */
 .description_area {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -63,7 +64,7 @@
     grid-row-gap: 0px;
 }
 
-/* page description text style */
+/* same as above /\ */
 .description_text { 
     grid-area: 2 / 2 / 3 / 3; 
     color: rgb(255, 255, 255);
