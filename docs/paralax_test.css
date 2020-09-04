@@ -21,6 +21,18 @@
     height: 40vh;
 }
 
+/* third background class */
+.parallax_3{
+    background-image: url('bright-clouds-cold-618833.jpg');
+    height: 90vh;
+}
+
+/* fourth background class */
+.parallax_3{
+    background-image: url('clouds-cloudy-conifers-247478.jpg');
+    height: 90vh;
+}
+
 /* page title text styling */
 .title_area {
     display: grid;
