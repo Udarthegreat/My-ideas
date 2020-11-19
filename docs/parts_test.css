@@ -72,7 +72,9 @@
 }
 
 .prev,
-.next {
+.next,
+.prev_,
+.next_ {
 	text-shadow:
 	/* Outline */
 	-1px -1px 0 #000000,
@@ -95,7 +97,9 @@
 .prev_ { grid-area: 1 / 1 / 2 / 2; }
 
 .prev:hover,
-.next:hover {
+.next:hover,
+.prev_:hover,
+.next_:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -123,21 +127,47 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
-    gap: 0px 0px;
+    grid-gap: 0.5rem;
     grid-area: 4 / 2 / 5 / 3;
 }
 
+.grd-1 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    width: 100%;
+	height: 100%;
+}
 
+.grd-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
 
-.grd-1 { grid-area: 1 / 1 / 2 / 2; }
+.cursor {
+    cursor: pointer;
+}
 
-.grd-2 { grid-area: 1 / 2 / 2 / 3; }
+.demo {
+    opacity: 0.6;
+}
+
+.grd-2 { grid-area: 1 / 2 / 2 / 3;
+	width: 100%;
+	height: 100%;
+	place-self: stretch stretch;
+}
 
 .grd-3 { grid-area: 1 / 3 / 2 / 4; }
 
 .grd-4 { grid-area: 1 / 4 / 2 / 5; }
 
 .grd-5 { grid-area: 1 / 5 / 2 / 6; }
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
 
 .top {
     display: grid;
