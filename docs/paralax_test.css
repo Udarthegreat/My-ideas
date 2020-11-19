@@ -27,7 +27,7 @@
 }
 
 /* fourth background class */
-.parallax_3{
+.parallax_4{
     background-image: url('clouds-cloudy-conifers-247478.jpg');
     height: 90vh;
 }
@@ -82,3 +82,5 @@
     0 2px 0 #000000,
     0 -2px 0 #000000;
 } 
+
+

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* black bar main */
+.blk_bar {
+    display: grid;
+   
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: black;
+    height: 20vh;
+}
+
+/* black bar outside */
+.blk_bar_center { grid-area: 2 / 2 / 3 / 3; color: white; font-size: 2rem;} 
