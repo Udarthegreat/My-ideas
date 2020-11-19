@@ -52,18 +52,20 @@
                 <div class="image">
                     <div class="mySlides img_1"></div>
                     <div class="mySlides img_2"></div>
-                    <!-- these two are for the phone size so they will get formatted when I do the responsive css -->
-                    <div class="next_" onclick="plusSlides(1)">&#10095;</div>
-                    <div class="prev_" onclick="plusSlides(-1)">&#10094;</div>
                 </div>
-                <div class="left">
-                    <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+                <div class="img_area">
+                    <!-- these two are for the phone size so they will get formatted when I do the responsive css -->
+                    <div class="prev_" onclick="plusSlides(1)">&#10095;</div>
+                    <div class="next_" onclick="plusSlides(-1)">&#10094;</div>
+                </div>
+                <div class="caption-container">
+                    <div class="about" id="Caption">~</div>
                 </div>
                 <div class="right">
                     <div class="next" onclick="plusSlides(1)">&#10095;</div>
                 </div>
-                <div class="caption-container">
-                    <div class="about" id="Caption">~</div>
+                <div class="left">
+                    <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
                 </div>
                 <div class="tabs">
                     <div class="grd-1">
@@ -74,11 +76,11 @@
                         <img class="demo cursor grd-img" src="to be drawn.jpg" onclick="currentSlide(2)"
                             alt="schematics coming soon">
                     </div>
-                    <div class="grd-3"></div>
-                    <div class="grd-4"></div>
-                    <div class="grd-5"></div>
+                    <div class="grd-3">
+                        <img class="demo cursor grd-img" src="to be drawn.jpg" onclick="currentSlide(3)"
+                            alt="schematics coming soon">
+                    </div>
                 </div>
-
             </div>
             <script src="slides.js"></script>
         </div>
