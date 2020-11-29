@@ -21,7 +21,7 @@
 .sld-show {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 0.2fr 4fr 0.2fr 1fr;
+    grid-template-rows: 0.5fr 3fr 0.5fr 1fr;
     gap: 0px 0px;
     height: 90vh;
 }
@@ -29,7 +29,7 @@
 .caption-container {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 3fr 1fr 3fr;
+    grid-template-rows: 2fr 1fr 2fr;
     gap: 0px 0px;
     grid-area: 3 / 2 / 4 / 3;
     text-align: center;
@@ -38,7 +38,6 @@
 }
 
 #Caption{
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +54,7 @@
 .top {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 3fr 1fr 3fr;
+    grid-template-rows: 2fr 1.5fr 2fr;
     gap: 0px 0px;
     grid-area: 1 / 2 / 2 / 3;
 }
@@ -104,7 +103,6 @@
     grid-area: 1 / 2 / 2 / 3;
 	width: 100%;
 	height: 100%;
-	place-self: stretch stretch;
 }
 
 
@@ -126,7 +124,11 @@
 	height: 100%;
 }
 
-.grd-5 { grid-area: 1 / 10 / 2 / 11; }
+.grd-5 { 
+    grid-area: 1 / 10 / 2 / 11; 
+    width: 100%;
+	height: 100%;
+}
 
 .img_area {
     display: grid;
