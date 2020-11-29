@@ -89,14 +89,15 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    gap: 0px 0px;
+    gap: 1em 1em;
     grid-area: 4 / 2 / 5 / 3;
 }
 
 .grd-1 { 
     grid-area: 1 / 1 / 2 / 2;
-    width: 100%;
+	width: 100%;
 	height: 100%;
+	place-self: stretch stretch;
 }
 
 .grd-img{
@@ -130,11 +131,17 @@
     height: 75ch;
     /* width: 30%; */
     background-image: url("idea page_1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 .img_2{
     height: 75ch;
     /* width: 30%; */
     background-image: url("to be drawn.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 .prev_ { grid-area: 2 / 1 / 3 / 2; }
@@ -170,9 +177,14 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
 .active,
 .demo:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 .cursor {
