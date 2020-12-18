@@ -10,25 +10,25 @@
 
 /* title section background */
 .parallax_1{
-    background-image: url('abandoned-forest-hd-wallpaper-34950.jpg');
+    background-image: url('./backgrounds/abandoned-forest-hd-wallpaper_base.jpg');
     height: 100vh;
 }
 
 /* description section background */
 .parallax_2{
-    background-image: url('clouds-conifer-daylight-371589.jpg');
+    background-image: url('./backgrounds/clouds-conifer-daylight_base.jpg');
     background-attachment: scroll;
 }
 
 /* third background class */
 .parallax_3{
-    background-image: url('bright-clouds-cold-618833.jpg');
+    background-image: url('./backgrounds/bright-clouds-cold_base.jpg');
     height: 90vh;
 }
 
 /* fourth background class */
 .parallax_4{
-    background-image: url('clouds-cloudy-conifers-247478.jpg');
+    background-image: url('./backgrounds/clouds-cloudy-conifers_base.jpg');
     height: 150vh;
 }
 
