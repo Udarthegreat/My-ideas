@@ -50,7 +50,9 @@
     display: none;
 }
 
-.about { grid-area: 2 / 2 / 3 / 3; }
+.about { grid-area: 2 / 2 / 3 / 3; 
+background-color: rgb(25, 0, 250);
+}
 .top {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -65,7 +67,7 @@
     align-items: center;
     color: black;
     font-size: 2rem;
-    background-color: rgba(255, 255, 255, 0.555);
+    background-color: rgb(255, 230, 0);
 }
 .right {
     display: grid;
@@ -102,32 +104,37 @@
 .grd-1 { 
     grid-area: 1 / 2 / 2 / 3;
 	width: 100%;
-	height: 100%;
+    height: 100%;
+    background-color: aqua;
 }
 
 
 .grd-2 { 
     grid-area: 1 / 4 / 2 / 5; 
     width: 100%;
-	height: 100%;
+    height: 100%;
+    background-color: aqua;
 }
 
 .grd-3 { 
     grid-area: 1 / 6 / 2 / 7;
     width: 100%;
-	height: 100%;
+    height: 100%;
+    background-color: aqua;
 }
 
 .grd-4 { 
     grid-area: 1 / 8 / 2 / 9;
     width: 100%;
-	height: 100%;
+    height: 100%;
+    background-color: aqua;
 }
 
 .grd-5 { 
     grid-area: 1 / 10 / 2 / 11; 
     width: 100%;
-	height: 100%;
+    height: 100%;
+    background-color: aqua;
 }
 
 .img_area {
@@ -141,7 +148,8 @@
 .img_1{
     height: 75ch;
     /* width: 30%; */
-    background-image: url("idea page_1.jpg");
+    /* background-image: url("idea page_1.jpg"); */
+    background-color: rgb(255, 0, 255);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; 
@@ -149,7 +157,8 @@
 .img_2{
     height: 75ch;
     /* width: 30%; */
-    background-image: url("to be drawn.jpg");
+    /* background-image: url("to be drawn.jpg"); */
+    background-color: rgb(255, 0, 21);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; 
