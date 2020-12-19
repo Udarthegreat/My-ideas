@@ -18,7 +18,7 @@
 .blk_bar_center { grid-area: 2 / 2 / 3 / 3; color: white; font-size: 2rem;} 
 
 /* slide show */
-.sld-show {
+.sld_show {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 0.5fr 3fr 0.5fr 1fr;
@@ -94,14 +94,14 @@ background-color: rgb(25, 0, 250);
     grid-area: 4 / 1 / 5 / 4;
 }
 
-.grd-img{
+.grd_img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block; 
 }
 
-.grd-1 { 
+.grd_1 { 
     grid-area: 1 / 2 / 2 / 3;
 	width: 100%;
     height: 100%;
@@ -109,28 +109,28 @@ background-color: rgb(25, 0, 250);
 }
 
 
-.grd-2 { 
+.grd_2 { 
     grid-area: 1 / 4 / 2 / 5; 
     width: 100%;
     height: 100%;
     background-color: aqua;
 }
 
-.grd-3 { 
+.grd_3 { 
     grid-area: 1 / 6 / 2 / 7;
     width: 100%;
     height: 100%;
     background-color: aqua;
 }
 
-.grd-4 { 
+.grd_4 { 
     grid-area: 1 / 8 / 2 / 9;
     width: 100%;
     height: 100%;
     background-color: aqua;
 }
 
-.grd-5 { 
+.grd_5 { 
     grid-area: 1 / 10 / 2 / 11; 
     width: 100%;
     height: 100%;
