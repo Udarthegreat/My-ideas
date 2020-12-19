@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* black bar */
 /* black bar main */
 .blk_bar {
     display: grid;
@@ -13,11 +14,11 @@
     background-color: black;
     height: 20vh;
 }
-
 /* black bar outside */
 .blk_bar_center { grid-area: 2 / 2 / 3 / 3; color: white; font-size: 2rem;} 
 
 /* slide show */
+/* base css grid class */
 .sld_show {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -25,7 +26,70 @@
     gap: 0px 0px;
     height: 90vh;
 }
+
+/* the description of what will be found in the image gallery*/
+/* the base css grid for this section */
+.top {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 2fr 1.5fr 2fr;
+    gap: 0px 0px;
+    grid-area: 1 / 2 / 2 / 3;
+}
+/* styling for the text and the area it takes up,
+uses css flex to center its self*/
+.what { 
+    grid-area: 2 / 2 / 3 / 3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2rem;
+    background-color: rgb(255, 230, 0);
+}
+
+/* images that go in the slides */
+.mySlides {
+    display: none;
+}
 .image { grid-area: 2 / 2 / 3 / 3; }
+.img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img_1{
+    height: 75ch;
+    /* width: 30%; */
+    /* background-image: url("idea page_1.jpg"); */
+    background-color: rgb(255, 0, 255);
+   
+}
+.img_2{
+    height: 75ch;
+    /* width: 30%; */
+    /* background-image: url("to be drawn.jpg"); */
+    background-color: rgb(255, 0, 21);
+ 
+}
+
+/* styling for the next and previous image buttons on the inside of the image area
+which are for the phone screen size (for the responsive design of this page) */
+.img_area {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    gap: 0px 0px;
+    grid-area: 2 / 2 / 3 / 3;
+}
+/* previous image */
+.prev_ { grid-area: 2 / 1 / 3 / 2; }
+/* next image */
+.next_ { grid-area: 2 / 3 / 3 / 4; }
+
+/* the description of what the currently selected slide shows*/
+/* the base css grid for this section */
 .caption-container {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -36,7 +100,8 @@
 	background-color: rgb(36, 36, 36);
     color: rgb(255, 255, 255);
 }
-
+/* styling for the text and the area it takes up,
+uses css flex to center its self*/
 #Caption{
     display: flex;
     justify-content: center;
@@ -45,30 +110,12 @@
 	animation-name: zoom;
 	animation-duration: 0.6s;
 }
-
-.mySlides {
-    display: none;
-}
-
 .about { grid-area: 2 / 2 / 3 / 3; 
 background-color: rgb(25, 0, 250);
 }
-.top {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 2fr 1.5fr 2fr;
-    gap: 0px 0px;
-    grid-area: 1 / 2 / 2 / 3;
-}
-.what { 
-    grid-area: 2 / 2 / 3 / 3; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-size: 2rem;
-    background-color: rgb(255, 230, 0);
-}
+
+/* the styling for the button on the right side of the screen */
+/* the base css grid for this section */
 .right {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -76,7 +123,10 @@ background-color: rgb(25, 0, 250);
     gap: 0px 0px;
     grid-area: 2 / 3 / 3 / 4;
 }
+/* next image */
 .next { grid-area: 2 / 1 / 3 / 2; }
+/* the styling for the button on the left side of the screen */
+/* the base css grid for this section */
 .left {
     display: grid;
     grid-template-columns: 6fr 1fr;
@@ -84,8 +134,10 @@ background-color: rgb(25, 0, 250);
     gap: 0px 0px;
     grid-area: 2 / 1 / 3 / 2;
 }
+/* previous image */
 .prev { grid-area: 2 / 2 / 3 / 3; }
-
+/* the tabs at the bottom of the slide show that allow you to go between multiple images */
+/* the base css grid for this section */
 .tabs {
     display: grid;
     grid-template-columns: repeat(5, 1fr 5fr) 1fr;
@@ -100,36 +152,35 @@ background-color: rgb(25, 0, 250);
     object-fit: cover;
     display: block; 
 }
-
+/* grid area 1 */
 .grd_1 { 
     grid-area: 1 / 2 / 2 / 3;
 	width: 100%;
     height: 100%;
     background-color: aqua;
 }
-
-
+/* grid area 2 */
 .grd_2 { 
     grid-area: 1 / 4 / 2 / 5; 
     width: 100%;
     height: 100%;
     background-color: aqua;
 }
-
+/* grid area 3 */
 .grd_3 { 
     grid-area: 1 / 6 / 2 / 7;
     width: 100%;
     height: 100%;
     background-color: aqua;
 }
-
+/* grid area 4 */
 .grd_4 { 
     grid-area: 1 / 8 / 2 / 9;
     width: 100%;
     height: 100%;
     background-color: aqua;
 }
-
+/* grid area 5 */
 .grd_5 { 
     grid-area: 1 / 10 / 2 / 11; 
     width: 100%;
@@ -137,36 +188,7 @@ background-color: rgb(25, 0, 250);
     background-color: aqua;
 }
 
-.img_area {
-    display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
-    gap: 0px 0px;
-    grid-area: 2 / 2 / 3 / 3;
-}
-
-.img_1{
-    height: 75ch;
-    /* width: 30%; */
-    /* background-image: url("idea page_1.jpg"); */
-    background-color: rgb(255, 0, 255);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
-}
-.img_2{
-    height: 75ch;
-    /* width: 30%; */
-    /* background-image: url("to be drawn.jpg"); */
-    background-color: rgb(255, 0, 21);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
-}
-
-.prev_ { grid-area: 2 / 1 / 3 / 2; }
-.next_ { grid-area: 2 / 3 / 3 / 4; }
-
+/* general styling for the next and previous image buttons in the image gallery */
 .prev,
 .next,
 .prev_,
@@ -197,7 +219,7 @@ background-color: rgb(25, 0, 250);
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Add a transparency effect for thumnbail images */
+/* Add a transparency effect for thumbnail images */
 .demo {
     opacity: 0.6;
 }
