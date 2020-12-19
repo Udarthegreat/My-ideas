@@ -22,7 +22,7 @@
 .sld_show {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 0.5fr 5fr 0.5fr 2fr;
+    grid-template-rows: 0.5fr 5fr 0.3fr 2fr;
     gap: 0px 0px;
     height: 90vh;
 }
@@ -45,7 +45,7 @@ uses css flex to center its self*/
     align-items: center;
     color: black;
     font-size: 2rem;
-    background-color: rgb(255, 230, 0);
+    background-color: rgba(255, 255, 255, 0.493);
 }
 
 /* images that go in the slides */
@@ -62,14 +62,12 @@ uses css flex to center its self*/
 .img_1{
     height: 100%;
     background-image: url("idea page_1.jpg");
-    background-color: rgb(255, 0, 255);
-   
+    /* background-color: rgb(255, 0, 255); */
 }
 .img_2{
     height: 100%;
     background-image: url("to be drawn.jpg");
-    background-color: rgb(255, 0, 21);
- 
+    /* background-color: rgb(255, 0, 21); */
 }
 
 /* styling for the next and previous image buttons on the inside of the image area
@@ -109,7 +107,7 @@ uses css flex to center its self*/
 	animation-duration: 0.6s;
 }
 .about { grid-area: 2 / 2 / 3 / 3; 
-background-color: rgb(25, 0, 250);
+    /* background-color: rgb(25, 0, 250); */
 }
 
 /* the styling for the button on the right side of the screen */
@@ -155,65 +153,50 @@ background-color: rgb(25, 0, 250);
     grid-area: 1 / 2 / 2 / 3;
 	width: 100%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .grd_img_1{
-    background-image: url('./idea page_1.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
+    background-image: url('./idea page_1.jpg'); 
 }
 /* grid area 2 */
 .grd_2 { 
     grid-area: 1 / 4 / 2 / 5; 
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .grd_img_2{
-    background-image: url('./to be drawn.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
+    background-image: url('./to be drawn.jpg'); 
 }
 /* grid area 3 */
 .grd_3 { 
     grid-area: 1 / 6 / 2 / 7;
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .grd_img_2{
-    background-image: url('./to be drawn.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
+    background-image: url('./to be drawn.jpg'); 
 }
 /* grid area 4 */
 .grd_4 { 
     grid-area: 1 / 8 / 2 / 9;
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .grd_img_2{
-    background-image: url('./to be drawn.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
+    background-image: url('./to be drawn.jpg'); 
 }
 /* grid area 5 */
 .grd_5 { 
     grid-area: 1 / 10 / 2 / 11; 
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .grd_img_2{
-    background-image: url('./to be drawn.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
+    background-image: url('./to be drawn.jpg'); 
 }
 
 /* general styling for the next and previous image buttons in the image gallery */
