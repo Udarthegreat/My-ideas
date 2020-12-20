@@ -40,7 +40,13 @@
 
 - [ ] Hoverable Sidenav Button to pop up the navbar click link
 - [x] convert the gallery from earth 2.0 from normal display block using position: absolute; to css grid
-- [x] make standardized CSS and JS for different functions
+- [ ] make standardized CSS and JS for different functions
+  - [x] title area
+  - [x] description area
+  - [x] parallax areas
+  - [x] image gallery
+  - [x] image slide show
+  - [ ] tabs
 - [ ] complete earth 2.0
 - [ ] make biosolar better
 - [ ] take all pre's and turn them to p's because of the issues properly formatting pre's especially when it comes to responsivity.
