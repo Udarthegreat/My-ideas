@@ -11,7 +11,6 @@
 /* title section background */
 .parallax_1{
     background-image: url('./backgrounds/abandoned-forest-hd-wallpaper_base.jpg');
-    height: 100vh;
 }
 
 /* description section background */
@@ -23,13 +22,11 @@
 /* third background class */
 .parallax_3{
     background-image: url('./backgrounds/bright-clouds-cold_base.jpg');
-    height: 90vh;
 }
 
 /* fourth background class */
 .parallax_4{
     background-image: url('./backgrounds/clouds-cloudy-conifers_base.jpg');
-    height: 100vh;
 }
 
 /* page title text styling */
@@ -40,7 +37,6 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     height: 100vh;
-
 }
 /* same as above /\ */
 .title_text { 

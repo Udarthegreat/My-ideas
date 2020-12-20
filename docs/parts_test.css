@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+/* basic area element */
+.area{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+}
+.inside { grid-area: 1 / 1 / 2 / 2; }
 /* black bar */
 /* black bar main */
 .blk_bar {
