@@ -10,23 +10,23 @@
 
 /* title section background */
 .parallax_1{
-    background-image: url('./backgrounds/abandoned-forest-hd-wallpaper_base.jpg');
+    background-image: url('../backgrounds/abandoned-forest-hd-wallpaper_base.jpg');
 }
 
 /* description section background */
 .parallax_2{
-    background-image: url('./backgrounds/clouds-conifer-daylight_base.jpg');
+    background-image: url('../backgrounds/clouds-conifer-daylight_base.jpg');
     background-attachment: scroll;
 }
 
 /* third background class */
 .parallax_3{
-    background-image: url('./backgrounds/bright-clouds-cold_base.jpg');
+    background-image: url('../backgrounds/bright-clouds-cold_base.jpg');
 }
 
 /* fourth background class */
 .parallax_4{
-    background-image: url('./backgrounds/clouds-cloudy-conifers_base.jpg');
+    background-image: url('../backgrounds/clouds-cloudy-conifers_base.jpg');
 }
 
 /* page title text styling */
