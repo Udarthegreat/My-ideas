@@ -36,7 +36,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     background-color: black;
-    height: 20vh;
+    height: 16vh;
 }
 /* black bar outside */
 .blk_bar_center { grid-area: 2 / 2 / 3 / 3; color: white; font-size: 2rem;} 
@@ -104,9 +104,15 @@ which are for the phone screen size (for the responsive design of this page) */
     grid-area: 2 / 2 / 3 / 3;
 }
 /* previous image */
-.prev_ { grid-area: 2 / 1 / 3 / 2; }
+.prev_ { 
+    grid-area: 2 / 1 / 3 / 2;
+    visibility:hidden
+}
 /* next image */
-.next_ { grid-area: 2 / 3 / 3 / 4; }
+.next_ { 
+    grid-area: 2 / 3 / 3 / 4;
+    visibility:hidden
+}
 
 /* the description of what the currently selected slide shows*/
 /* the base css grid for this section */

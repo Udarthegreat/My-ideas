@@ -46,7 +46,7 @@
     align-items: center;
     font-family: 'Nova Flat', cursive;
     text-align: center;
-    font-size: 3.3rem;
+    font-size: 6.9rem;
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.37);
 } 
@@ -63,9 +63,7 @@
 /* same as above /\ */
 .description_text { 
     grid-area: 2 / 2 / 3 / 3; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
     color: rgb(255, 255, 255);
     font-family: 'Nova Flat', cursive;
     font-size: 2rem;
