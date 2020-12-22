@@ -85,12 +85,12 @@ uses css flex to center its self*/
 
 .img_1{
     height: 100%;
-    background-image: url("idea page_1.jpg");
+    background-image: url("../idea page_1.jpg");
     /* background-color: rgb(255, 0, 255); */
 }
 .img_2{
     height: 100%;
-    background-image: url("to be drawn.jpg");
+    background-image: url("../to be drawn.jpg");
     /* background-color: rgb(255, 0, 21); */
 }
 
@@ -186,7 +186,7 @@ uses css flex to center its self*/
     /* background-color: aqua; */
 }
 .grd_img_1{
-    background-image: url('./idea page_1.jpg'); 
+    background-image: url('../idea page_1.jpg'); 
 }
 /* grid area 2 */
 .grd_2 { 
@@ -196,7 +196,7 @@ uses css flex to center its self*/
     /* background-color: aqua; */
 }
 .grd_img_2{
-    background-image: url('./to be drawn.jpg'); 
+    background-image: url('../to be drawn.jpg'); 
 }
 /* grid area 3 */
 .grd_3 { 
@@ -206,7 +206,7 @@ uses css flex to center its self*/
     /* background-color: aqua; */
 }
 .grd_img_2{
-    background-image: url('./to be drawn.jpg'); 
+    background-image: url('../to be drawn.jpg'); 
 }
 /* grid area 4 */
 .grd_4 { 
@@ -216,7 +216,7 @@ uses css flex to center its self*/
     /* background-color: aqua; */
 }
 .grd_img_2{
-    background-image: url('./to be drawn.jpg'); 
+    background-image: url('../to be drawn.jpg'); 
 }
 /* grid area 5 */
 .grd_5 { 
@@ -226,7 +226,7 @@ uses css flex to center its self*/
     /* background-color: aqua; */
 }
 .grd_img_2{
-    background-image: url('./to be drawn.jpg'); 
+    background-image: url('../to be drawn.jpg'); 
 }
 
 /* general styling for the next and previous image buttons in the image gallery */
