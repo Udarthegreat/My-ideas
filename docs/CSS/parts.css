@@ -24,6 +24,9 @@
     justify-content: center;
     align-items: center;
 }
+.soon{
+    height: 40vh;
+}
 /* black bar */
 /* black bar main */
 .blk_bar {
