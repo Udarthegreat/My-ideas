@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* creates parallax effect */
 .parallax {
     background-attachment: fixed;
     background-position: center;
@@ -7,65 +8,74 @@
     background-size: cover;
 }
 
+/* title section background */
 .parallax_1{
-    background-image: url('abandoned-forest-hd-wallpaper-34950.jpg');
+    background-image: url('../backgrounds/abandoned-forest-hd-wallpaper_optimized.jpg');
+}
+
+/* description section background */
+.parallax_2{
+    background-image: url('../backgrounds/clouds-conifer-daylight_optimized.jpg');
+    background-attachment: scroll;
+}
+
+/* third background class */
+.parallax_3{
+    background-image: url('../backgrounds/bright-clouds-cold_optimized.jpg');
+}
+
+/* fourth background class */
+.parallax_4{
+    background-image: url('../backgrounds/clouds-cloudy-conifers_optimized.jpg');
+}
+
+/* page title text styling */
+.title_area {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 5fr 1fr 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     height: 100vh;
 }
-
-.parallax_2{
-    background-image: url('bright-clouds-cold-618833.jpg');
-    height: 135vh;
-}
-
-.title_text{
-	background-color: rgba(255, 255, 255, 0.555);
+/* same as above /\ */
+.title_text { 
+    grid-area: 2 / 2 / 3 / 3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Nova Flat', cursive;
-	text-align: center;
-    position: relative;
-        top: 46%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 43%;
-    font-size: 3.3rem;
-}
-.p_1{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height:40vh;
-    background-image:url("clouds-conifer-daylight-371589.jpg");
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    text-align: center;
+    font-size: 6.9rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.37);
+} 
+
+/* page description text style */
+.description_area {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
 
-.p_1text{
-    position: relative;
-        top: 5%;
+/* same as above /\ */
+.description_text { 
+    grid-area: 2 / 2 / 3 / 3; 
+   
     color: rgb(255, 255, 255);
     font-family: 'Nova Flat', cursive;
-    width: 90%;
-    font-size: 1.3rem;
-    background-color: rgba(0, 0, 0, 0.267);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-}
-
-.p_2{
-    /* color: black; */
-}
-
-.p_2text{
-    position: relative;
-        top: 900px;
-        left: 500px;
-    margin-top: 0px;
-    color: rgb(0, 0, 0);
-    font-family: 'Nova Flat', cursive;
-    font-size: 50px;
-    width: 30%;
-    background-color: rgba(255, 255, 255, 0.267)
-}
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.349);
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+} 

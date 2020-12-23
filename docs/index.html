@@ -18,17 +18,12 @@
     <title>Home page</title>
     <script src="NAVbar.js"></script>
     <meta charset=UTF-8>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Nova+Square');
-        @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
-        @import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
-        @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
     </style>
-    </style>
-    <link rel="stylesheet" text="text/css" href="index.css">
-    <link rel="stylesheet" text="text/css" href="NAVbar.css">
-    <link rel="stylesheet" text="text/css" href="paralax.css">
-    <link rel="stylesheet" text="text/css" href="index-responsive.css">
+    <link rel="stylesheet" text="text/css" href="./CSS/index.css">
+    <link rel="stylesheet" text="text/css" href="./CSS/NAVbar.css">
+    <link rel="stylesheet" text="text/css" href="./CSS/paralax.css">
+    <link rel="stylesheet" text="text/css" href="./CSS/parts.css">
+    <link rel="stylesheet" text="text/css" href="./CSS/index-responsive.css">
 </head>
 
 <body>
@@ -36,68 +31,61 @@
         <div class="navigation div">
             <div id="myNav" class="overlay">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
+                <div class="overlay_content">
                     <a href="index.html">Home</a>
                     <a href="earth 2.0.html">earth 2.0</a>
                     <a href="climate.html">environment</a>
                     <a href="#">singularity</a>
                     <a href="others.html">others</a>
                     <a href="about.html">about</a>
-                    <!--I will add more here latter-->
                 </div>
             </div>
             <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
         </div>
-        <div class="parallax parallax_1 ">
-            <h1 class="title_text">welcome to my portfolio</h1>
+        <div class="parallax parallax_1 area">
+            <div class="title_area">
+                <div class="title_text "> welcome to my portfolio </div>
+            </div>
         </div>
-        <div class="p_1">
-            <pre class="p_1text">This is my portfolio, this is were you can find my ideas and a few small projects, 
-that I have made. They are small scale and only take up a small portion of the page. 
-They are just experiments along with a perfect chance to practice my programming 
-skills, because practice makes perfect. I would like to clarify that all ideas that 
-I put on these pages are experimental and are ideas and just that. I spend allot
-of time learning and I used what I know, to create these ideas, which, as I learn 
-more on any one subject, I will update with my new knowledge. I, in no way am saying 
-any one idea in here will work in reality they are just ideas,and that is all.</pre>
+        <div class="area parallax parallax_2">
+            <div class="description_area">
+                <div class="description_text">
+                    <p class="center_contents">This is my portfolio, this is were you can find my ideas and a few small
+                        projects,
+                        that I have made. They are small scale and only take up a small portion of the page.
+                        They are just experiments along with a perfect chance to practice my programming
+                        skills, because practice makes perfect. I would like to clarify that all ideas that
+                        I put on these pages are experimental and are ideas and just that. I spend allot
+                        of time learning and I used what I know, to create these ideas, which, as I learn
+                        more on any one subject, I will update with my new knowledge. I, in no way am saying
+                        any one idea in here will work in reality they are just ideas,and that is all. </p>
+                </div>
+            </div>
         </div>
         <div>
-            <div class="p_2 parallax parallax_2">
-                <p class="endtext">more coming soon</p>
-                <div class="contain">
-                    <div class="grid-container">
-                        <div class="L-1 L">
-                            <div class="image image-1">
-                                <!-- <img src="link imgs/astronomy-discovery-earth-2422.jpg" alt="picture of earth"
-                                    class="lnk-img image"> -->
+            <div class="parallax parallax_4 center">
+                <div class="centered">
+                    <div class="links_area">
+                        <div class="L1">
+                            <div class="BG"></div>
+                            <div class="image_area image_1 "></div>
+                            <div class="go_to_area">
+                                <div onclick="location.href='earth 2.0.html'" class="single_line_text">earth 2.0</div>
                             </div>
-                            <div class="link-a"></div>
-                            <div onclick="location.href='earth 2.0.html'" class="link">
-                                earth 2.0
-                            </div>
-                            <div class="background"></div>
                         </div>
-                        <div class="L-2 L">
-                            <div class="image image-2">
-                                <!-- <img src="link img's/blooming-blur-close-up-459059.jpg" alt="picture of earth"
-                                    class="lnk-img image"> -->
+                        <div class="L2">
+                            <div class="BG"></div>
+                            <div class="image_area image_2"></div>
+                            <div class="go_to_area">
+                                <div onclick="location.href='climate.html'" class="single_line_text">climate</div>
                             </div>
-                            <div class="link-a"></div>
-                            <div onclick="location.href='climate.html'" class="link">
-                                environment
-                            </div>
-                            <div class="background"></div>
                         </div>
-                        <div class="L-3 L">
-                            <div class="image image-3">
-                                <!-- <img src="link img's/blur-close-up-cloth-459486.jpg" alt="picture of earth"
-                                    class="lnk-img image"> -->
+                        <div class="L3">
+                            <div class="BG"></div>
+                            <div class="image_area image_3"></div>
+                            <div class="go_to_area">
+                                <div onclick="location.href='others.html'" class="single_line_text">others</div>
                             </div>
-                            <div class="link-a"></div>
-                            <div onclick="location.href='others.html'" class="link">
-                                others
-                            </div>
-                            <div class="background"></div>
                         </div>
                     </div>
                 </div>
