@@ -50,10 +50,8 @@
 
 .tabgroup_1{
 	background-color: rgba(255,255,255,0.5);
-	height: 600px;
-	width: 800px;
-  position: relative;
-    left: 25%;
+	height: 70vh;
+	width: 80vw;
 }
 
 @-webkit-keyframes fadeEffect {
