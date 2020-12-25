@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset=UTF-8>
+  <title>about me</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <!--[if lt IE 9]>
         <script>
             document.createElement("article");
@@ -17,25 +17,19 @@
         </script>
     <![endif]-->
   <!--[if IE]><script src = "excanvas.js"></script><![endif]-->
-  <title>others</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="about me" content="in this page I give a description of myself and what im about">
+  <link rel="stylesheet" text="text/css" href="./CSS/NAVbar.css">
+  <link rel="stylesheet" text="text/css" href="./CSS/about.css">
   <script src="NAVbar.js"></script>
-  <style>
-    @import url('https://fonts.googleapis.com/css?family=Nova+Square');
-    @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
-    @import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
-    @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
-  </style>
-  <link rel="stylesheet" text="text/css" href="about.css">
-  <link rel="stylesheet" text="text/css" href="about-responsive.css">
-  <link rel="stylesheet" text="text/css" href="NAVbar.css">
 </head>
 
 <body>
-  <div>
+  <div class="main_body">
     <div class="navigation div">
       <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
+        <div class="overlay_content">
           <a href="index.html">Home</a>
           <a href="earth 2.0.html">earth 2.0</a>
           <a href="climate.html">environment</a>
@@ -46,21 +40,27 @@
       </div>
       <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
     </div>
-    <div class="container">
-      <div class="gallery">
-        <div class="gallery__item gallery__item--1">
-          <img src="atom.jpg" class="hero__img" alt="hero image">
+    <div class="grid-container B">
+      <div class="image_area">
+        <div class="center" style="height: 100vh;">
+          <div class="centered">
+            <div class="img img_1 "></div>
+          </div>
         </div>
-        <div class="gallery__item gallery__item--2">
-          <p class="about">For as long as I've known my self I have wondered how things worked and tried to
-            make things my self or at least design ideas because I never had the resources
-            to make anything to complex. For me learning is the ultimate goal so
-            what is on this site may vary incredibly because on here I put my ideas etc.
-            That is what a portfolio is for after all. I love physics especially the more
-            theoretical ends like general relativity and above all want homo sapiens to not
-            go extinct. That is why I even started on earth 2.0 to think up a way that hypothetically
-            we could go on even when, in the distant future the sun runs out of fuel and
-            we have to leave our home planet. </p>
+      </div>
+      <div class="about">
+        <div class="center" style="height: 100vh;">
+          <div class="centered center_contents">
+            <p class="about">For as long as I've known my self I have wondered how things worked and tried to
+              make things my self or at least design ideas because I never had the resources
+              to make anything to complex. For me learning is the ultimate goal so
+              what is on this site may vary incredibly because on here I put my ideas etc.
+              That is what a portfolio is for after all. I love physics especially the more
+              theoretical ends like general relativity and above all want homo sapiens to not
+              go extinct. That is why I even started on earth 2.0 to think up a way that hypothetically
+              we could go on even when, in the distant future the sun runs out of fuel and
+              we have to leave our home planet. </p>
+          </div>
         </div>
       </div>
     </div>

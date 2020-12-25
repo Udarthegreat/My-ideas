@@ -1,7 +1,0 @@
-<div class="txt-container">
-<div class="section1">
-<h1><big><strong>About me</strong></big></h1>
-
-<p>I have spent most of my life thinking, thinking about an assortment of ideas, ranging from small and insignificant to big and absurd. I am currently working on a few projects, there is earth 2.0 which is just hypotheticles, ideas nothing concrete but I would like to think that there is something in those ideas. I do photography for a hobbies and those images will be put on this web site soon, that is the next page I will be working on soon. any and all content on this page that I show off (not including the background images because most of those I get from pexels) is free for use no royalties for use how ever you please, all I require is attribution but I&#39;m OK with it being in the metadata of image file outputted or a credits.txt or JSON for bigger projects, somewhere were people can see that it originated from me, this web page is here after all to help me get places in life but I know that I cannot advertise or get all this out to the right people so others can do that for me.</p>
-</div>
-</div>

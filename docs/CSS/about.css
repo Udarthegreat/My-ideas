@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url("../webfonts/PermanentMarker_Regular/stylesheet.css");
+@import url("../webfonts/NovaSquare/stylesheet.css");
+@import url("../webfonts/NovaFlat_Regular/stylesheet.css");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px 0px;
+}
+
+.about { grid-area: 1 / 2 / 4 / 3; background-color: blue; font-size: 1.5em;}
+
+.image_area { grid-area: 1 / 1 / 4 / 2; background-color: black; }
+
+/* basic area element */
+.area{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+}
+.inside { grid-area: 1 / 1 / 2 / 2; }
+
+/* center contents inside */
+.center{
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 10fr 1fr;
+  gap: 0px 0px;
+}
+/* the area inside the css grid that is in the center */
+.centered { grid-area: 2 / 2 / 3 / 3; }
+/* uses flexbox to center the contents of the element it is placed on */
+.center_contents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image { grid-area: 2 / 2 / 3 / 3; }
+.img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.img_1{
+    height: 100%;
+    background-image: url("../atom.jpg");
+    /* background-color: rgb(255, 0, 255); */
+}

@@ -5,35 +5,188 @@
     <title>test</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lt IE 9]>
+        <script>
+            document.createElement("article");
+            document.createElement("aside");
+            document.createElement("footer");
+            document.createElement("header");
+            document.createElement("main");
+            document.createElement("nav");
+            document.createElement("section");
+        </script>
+    <![endif]-->
+    <!--[if IE]><script src = "excanvas.js"></script><![endif]-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
-    <link rel="stylesheet" href="test.css">
-    <link rel="stylesheet" href="test-responsive.css">
-
-    <title>CSS Grids Gallery</title>
+    <meta name="test page" content="this page contains parts of the page im testing">
+    <link rel="stylesheet" text="text/css" href="./CSS/NAVbar_test.css">
+    <link rel="stylesheet" text="text/css" href="./CSS/paralax_test.css">
+    <link rel="stylesheet" text="text/css" href="./CSS/test.css">
+    <link rel="stylesheet" text="text/css" href="./CSS/parts_test.css">
+    <link rel="stylesheet" text="text/css" href="./CSS/test-responsive.css">
+    <script src="NAVbar.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="gallery">
-            <div class="gallery__item gallery__item--1">
-                <img src="atom.jpg" class="hero__img" alt="hero image">
+    <div class="main_body">
+        <div class="navigation div">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay_content">
+                    <a href="index.html">Home</a>
+                    <a href="earth 2.0.html">earth 2.0</a>
+                    <a href="climate.html">environment</a>
+                    <a href="#">singularity</a>
+                    <a href="others.html">others</a>
+                    <a href="about.html">about</a>
+                </div>
             </div>
-            <div class="gallery__item gallery__item--2">
-                <p class="about">for as long as I've known my self I have wondered how things worked and tried to
-                    make things my self or at least design ideas because I never had the resources
-                    to make anything to complex. for me learning is the ultimate goal so
-                    what is on this site may vary incredibly because on here I put my ideas etc.
-                    that is what a portfolio is for after all. I love physics especially the more
-                    theoretical ends like general relativity and above all want homo sapiens to not
-                    go extinct. That is why I even started on earth 2.0 to think up a way that hypotheticals
-                    we could go on even when, in the distant future the sun runs out of fuel and
-                    we have to leave our home planet. </p>
-            </div>
-
+            <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
         </div>
-    </div>
+        <div class="parallax parallax_1 area">
+            <div class="title_area">
+                <div class="title_text "> Testing</div>
+            </div>
+        </div>
+        <div class="area parallax parallax_2">
+            <div class="description_area">
+                <div class="description_text">
+                    <p class="center_contents">lorem ipsum </p>
+                </div>
+            </div>
+        </div>
+        <div class="parallax parallax_3 area">
+            <div class="center">
+                <div class="centered">
+                    <div class="gallery">
+                        <div class="gallery__item gallery__item--1">
+                            <img src="./img-gallery/flex pistone-use.png" alt="Gallery image 1" class="gallery__img">
+                        </div>
+                        <div class="gallery__item gallery__item--2">
+                            <img src="./img-gallery/tesla valve segmented_3.png" alt="Gallery image 2"
+                                class="gallery__img">
+                        </div>
+                        <div class="gallery__item gallery__item--3">
+                            <img src="./img-gallery/tesla valve segmented_1use.png" alt="Gallery image 3"
+                                class="gallery__img">
+                        </div>
+                        <div class="gallery__item gallery__item--4">
+                            <img src="./img-gallery/tesla valve segmented_2.png" alt="Gallery image 4"
+                                class="gallery__img">
+                        </div>
+                        <div class="gallery__item gallery__item--5">
+                            <img src="./img-gallery/clip_1use.png" alt="Gallery image 5" class="gallery__img">
+                        </div>
+                        <div class="gallery__item gallery__item--6">
+                            <img src="./img-gallery/clip_2use.png" alt="Gallery image 6" class="gallery__img">
+                        </div>
+                        <div class="gallery__item gallery__item--7">
+                            <img src="./img-gallery/1 in 2 out parts-use.png" alt="Gallery image 7"
+                                class="gallery__img">
+                        </div>
+                        <div class="gallery__item gallery__item--8">
+                            <img src="./img-gallery/flex pistone-2.png" alt="Gallery image 9" class="gallery__img">
+                        </div>
+                        <div class="gallery__item gallery__item--9">
+                            <video alt="Gallery video" class="gallery__img" autoplay loop>
+                                <source src="./img-gallery/vid-use_0000001-1428.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blk_bar">
+            <div class="blk_bar_center"> lorem ipsum </div>
+        </div>
+        <div class="parallax parallax_4 center">
+            <div class="centered">
+                <div class="sld_show">
+                    <div class="top">
+                        <div class="what">housing sketches</div>
+                    </div>
+                    <div class="image">
+                        <div class="mySlides img img_1 "></div>
+                        <div class="mySlides img img_2 "></div>
+                    </div>
+                    <div class="img_area">
+                        <div class="prev_" onclick="plusSlides(1)">&#10095;</div>
+                        <div class="next_" onclick="plusSlides(-1)">&#10094;</div>
+                    </div>
+                    <div class="caption-container">
+                        <div class="about" id="Caption">~</div>
+                    </div>
+                    <div class="right">
+                        <div class="next" onclick="plusSlides(1)">&#10095;</div>
+                    </div>
+                    <div class="left">
+                        <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+                    </div>
+                    <div class="tabs">
+                        <div class="grd_1">
+                            <div class="demo cursor img grd_img grd_img_1" onclick="currentSlide(1)"
+                                title="house design #1">
+                            </div>
+                        </div>
+                        <div class="grd_2">
+                            <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+                                title="schematics coming soon"></div>
+                        </div>
+                        <div class="grd_3">
+                            <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+                                title="schematics coming soon"></div>
+                        </div>
+                        <div class="grd_4">
+                            <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+                                title="schematics coming soon"></div>
+                        </div>
+                        <div class="grd_5">
+                            <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+                                title="schematics coming soon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="slides.js"></script>
+        </div>
+        <div class="blk_bar">
+            <div class="blk_bar_center"> lorem ipsum </div>
+        </div>
+        <div class="parallax parallax_4 center">
+            <div class="centered">
+                <div class="links_area">
+                    <div class="L1">
+                        <div class="BG"></div>
+                        <div class="image_area image_1 "></div>
+                        <div class="go_to_area">
+                            <div onclick="location.href='earth 2.0.html'" class="single_line_text">earth 2.0</div>
+                        </div>
+                    </div>
+                    <div class="L2">
+                        <div class="BG"></div>
+                        <div class="image_area image_2"></div>
+                        <div class="go_to_area">
+                            <div onclick="location.href='climate.html'" class="single_line_text">climate</div>
+                        </div>
+                    </div>
+                    <div class="L3">
+                        <div class="BG"></div>
+                        <div class="image_area image_3"></div>
+                        <div class="go_to_area">
+                            <div onclick="location.href='others.html'" class="single_line_text">others</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blk_bar">
+            <div class="blk_bar_center"> lorem ipsum </div>
+        </div>
+        <div class="center parallax_4 parallax">
+            <div class="centered soon center_contents">
+                <p style="font-size: 9em;">more comming soon</p>
+            </div>
+        </div>
     </div>
 </body>
 

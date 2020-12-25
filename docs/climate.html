@@ -2,50 +2,30 @@
 <html lang="en">
 
 <head>
-   <meta charset=UTF-8>
+   <title>climate</title>
+   <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!--[if lt IE 9]>
-      <script>
-         document.createElement("article");
-         document.createElement("aside");
-         document.createElement("footer");
-         document.createElement("header");
-         document.createElement("main");
-         document.createElement("nav");
-         document.createElement("section");
-      </script>
-   <![endif]-->
-   <title>climate page</title>
+          <script>
+              document.createElement("article");
+              document.createElement("aside");
+              document.createElement("footer");
+              document.createElement("header");
+              document.createElement("main");
+              document.createElement("nav");
+              document.createElement("section");
+          </script>
+      <![endif]-->
+   <!--[if IE]><script src = "excanvas.js"></script><![endif]-->
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <meta name="climate ideas" content="my climate ideas">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" text="text/css" href="./CSS/NAVbar.css">
+   <link rel="stylesheet" text="text/css" href="./CSS/paralax.css">
+   <link rel="stylesheet" text="text/css" href="./CSS/climate.css">
+   <link rel="stylesheet" text="text/css" href="./CSS/climatetabs.css">
+   <link rel="stylesheet" text="text/css" href="./CSS/parts.css">
+   <link rel="stylesheet" text="text/css" href="./CSS/climate-responsive.css">
    <script src="NAVbar.js"></script>
-   <style>
-      @import url('https://fonts.googleapis.com/css?family=Nova+Square');
-      @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
-      @import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
-      @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
-      @import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
-      @import url('https://fonts.googleapis.com/css?family=Kosugi+Maru');
-      @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
-      @import url('https://fonts.googleapis.com/css?family=Mukta');
-      @import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script');
-      @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
-      @import url('https://fonts.googleapis.com/css?family=Nunito');
-      @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-      @import url('https://fonts.googleapis.com/css?family=Patua+One');
-      @import url('https://fonts.googleapis.com/css?family=Poor+Story');
-      @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-      @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-      @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-      @import url('https://fonts.googleapis.com/css?family=Ubuntu');
-      @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
-   </style>
-   <link rel="stylesheet" text="text/css" href="index.css">
-   <link rel="stylesheet" text="text/css" href="paralax.css">
-   <link rel="stylesheet" text="text/css" href="climatetabs.css">
-   <link rel="stylesheet" text="text/css" href="climate.css">
-   <link rel="stylesheet" text="text/css" href="NAVbar.css">
-   <link rel="stylesheet" text="text/css" href="climate-responsive.css">
 </head>
 
 <body>
@@ -53,7 +33,7 @@
       <div class="navigation div">
          <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
+            <div class="overlay_content">
                <a href="index.html">Home</a>
                <a href="earth 2.0.html">earth 2.0</a>
                <a href="climate.html">environment</a>
@@ -64,27 +44,43 @@
          </div>
          <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
       </div>
-      <div class="parallax parallax_1">
-         <h1 class="t_text">environment</h1>
+      <div class="parallax parallax_1 area">
+         <div class="title_area">
+            <div class="title_text "> climate </div>
+         </div>
       </div>
-      <div class="p_1">
-         <pre class="p_1text">This is a page where I will put some of my ideas for dealing with
-environmental issues that we face as a world, including global 
-warming, etc. Just to re-emphasize, these are just ideas and nothing more.</pre>
+      <div class="area parallax parallax_2">
+         <div class="description_area">
+            <div class="description_text">
+               <p class="center_contents">This is a page where I will put some of my ideas for dealing with
+                  environmental issues that we face as a world, including global
+                  warming, etc. Just to re-emphasize, these are just ideas and nothing more. </p>
+            </div>
+         </div>
       </div>
-      <div>
-         <div class="p_2 parallax parallax_2">
-            <p class="p_2text">more coming soon</p>
-            <div>
-               <h1 class="text_1">idea 1</h1>
+      <div class="blk_bar">
+         <div class="blk_bar_center"> bio-solar </div>
+      </div>
+      <div class="parallax parallax_3 area">
+         <div class="center">
+            <div class="centered center_contents">
                <iframe src="climatetabs_1.html" class="tabgroup_1"></iframe>
             </div>
          </div>
       </div>
-      <div>
-         <!--This is the section were I link scripts that need to be linked after everything else-->
-         <!-- <script src="Modal.js"></script> -->
+      <div class="blk_bar">
+         <div class="blk_bar_center"></div>
       </div>
+      <div class="center parallax_4 parallax">
+         <div class="centered soon center_contents">
+            <p style="font-size: 9em;">more comming soon</p>
+         </div>
+      </div>
+   </div>
+   <div>
+      <!--This is the section were I link scripts that need to be linked after everything else-->
+      <!-- <script src="Modal.js"></script> -->
+   </div>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 # TODO
 
-### A1
+### 1
 
 - [x] make the others page and get it were it needs to be
 - [x] fix small graphical glitches
@@ -13,9 +13,9 @@
 - [x] add a section for small projects (name it something like "others)
 - [x] make sure that all pages have the new others page linked in the nav bar
 
-### A2:
+### 2:
 
-- [x] make website responsive on different screen sizes (what this update is all about)
+- [x] make website responsive on different screen sizes
   - [x]  index
   - [x] earth 2.0
   - [x] climate
@@ -34,22 +34,29 @@
 - [x] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
 - [x] convert others page title positioning from pixel units to something more responsive like %
 - [x] fix up images used
+- [x] take the script tag from inside of climatetabs_1 and move it to climate.js, can't right now because when I do that line won't perform its function
 
-### A3
+### 3
 
 - [ ] Hoverable Sidenav Button to pop up the navbar click link
+- [x] convert the gallery from earth 2.0 from normal display block using position: absolute; to css grid
 - [ ] make standardized CSS and JS for different functions
+  - [x] title area
+  - [x] description area
+  - [x] parallax areas
+  - [x] image gallery
+  - [x] image slide show
+  - [ ] tabs
 - [ ] complete earth 2.0
 - [ ] make biosolar better
-- [ ] take all pre's and turn them to p's because of the issues properly formatting pre's especially when it comes to responsivity.
+- [x] take all pre's and turn them to p's because of the issues properly formatting pre's especially when it comes to responsivity.
 - [ ] add model effect to most images in earth 2.0
 - [ ] separate shader from html in interactive version of earth 2.0 ( tho this will have to be retired for some other time)
-- [ ] fix description tag for the first slide show's positioning
-- [ ] standardize sizing and amounts for different types page parts
-- [ ] add black bar to others page between section 1 and 2 in phone mode ?
-- [ ] fix the issue with earth 2.0 were the css grid will not become taller then a certain amount
+- [x] fix description tag for the first slide show's positioning
+- [x] standardize sizing and amounts for different types page parts
+- [x] fix the issue with earth 2.0 were the css grid will not become taller then a certain amount
 - [ ] create new costume HTML, or at least the customer image slide show
-- [ ] update different backgrounds and other size related parts of page and make them more consistent
+- [x] update different backgrounds and other size related parts of page and make them more consistent
 - [ ] improve in document documentation through proper commenting especially in the css
 - [ ] work more on responsiveness for pages
   - [ ] index
@@ -58,9 +65,10 @@
   - [ ] about me
   - [ ] others
 - [ ] add licence (CC BY 3.0 I think)
+- [ ] add a markdown file for every page that is readily downloadable
 - [ ] 
 
-### A4
+### 4
 
 - [ ] add model effect to all image galleries in earth 2.0
 - [ ] have all costume html done for every page I have by this point
@@ -68,7 +76,6 @@
 - [ ] put a images into a images folder and separate images into sub folders per category.
 - [ ] convert the 250px value to % in climate.css
 - [ ] figure why single digit numbers have no effect only double digit numbers have a effect in css but they do when in html
-- [ ] take the script tag from inside of climatetabs_1 and move it to climate.js, can't right now because when I do that line won't perform its function
 - [ ] 
 
 ### some point in the future

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* creates parallax effect */
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* title section background */
+.parallax_1{
+    background-image: url('../backgrounds/abandoned-forest-hd-wallpaper_optimized.jpg');
+}
+
+/* description section background */
+.parallax_2{
+    background-image: url('../backgrounds/clouds-conifer-daylight_optimized.jpg');
+    background-attachment: scroll;
+}
+
+/* third background class */
+.parallax_3{
+    background-image: url('../backgrounds/bright-clouds-cold_optimized.jpg');
+}
+
+/* fourth background class */
+.parallax_4{
+    background-image: url('../backgrounds/clouds-cloudy-conifers_optimized.jpg');
+}
+
+/* page title text styling */
+.title_area {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 5fr 1fr 5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+/* same as above /\ */
+.title_text { 
+    grid-area: 2 / 2 / 3 / 3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nova Flat', cursive;
+    text-align: center;
+    font-size: 6.9rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.37);
+} 
+
+/* page description text style */
+.description_area {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+/* same as above /\ */
+.description_text { 
+    grid-area: 2 / 2 / 3 / 3; 
+   
+    color: rgb(255, 255, 255);
+    font-family: 'Nova Flat', cursive;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.349);
+    text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+} 

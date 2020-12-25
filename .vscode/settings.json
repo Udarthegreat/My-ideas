@@ -1,18 +1,19 @@
 {
     "editor.fontSize": 17,
     "editor.formatOnSave": true,
+    "editor.tabSize": 4,
     "cSpell.words": [
         "PEXELS",
-        "biosolar",
-        "arial",  
-        "nanum",  
+        "arial",
+        "nanum",
         "barcode",
     ],
     "cSpell.ignoreWords": [
-        "Hoverable",     
+        "Hoverable",
         "closebtn",
         "numbertext",
-         "Sidenav",   
-         "tabgroup",  
+        "Sidenav",
+        "tabgroup",
+        "biosolar",
     ],
 }
