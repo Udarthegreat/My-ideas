@@ -1,6 +1,6 @@
 # TODO
 
-### A1
+### 1
 
 - [x] make the others page and get it were it needs to be
 - [x] fix small graphical glitches
@@ -13,7 +13,7 @@
 - [x] add a section for small projects (name it something like "others)
 - [x] make sure that all pages have the new others page linked in the nav bar
 
-### A2:
+### 2:
 
 - [x] make website responsive on different screen sizes
   - [x]  index
@@ -36,7 +36,7 @@
 - [x] fix up images used
 - [x] take the script tag from inside of climatetabs_1 and move it to climate.js, can't right now because when I do that line won't perform its function
 
-### A3
+### 3
 
 - [ ] Hoverable Sidenav Button to pop up the navbar click link
 - [x] convert the gallery from earth 2.0 from normal display block using position: absolute; to css grid
@@ -49,7 +49,7 @@
   - [ ] tabs
 - [ ] complete earth 2.0
 - [ ] make biosolar better
-- [ ] take all pre's and turn them to p's because of the issues properly formatting pre's especially when it comes to responsivity.
+- [x] take all pre's and turn them to p's because of the issues properly formatting pre's especially when it comes to responsivity.
 - [ ] add model effect to most images in earth 2.0
 - [ ] separate shader from html in interactive version of earth 2.0 ( tho this will have to be retired for some other time)
 - [x] fix description tag for the first slide show's positioning
@@ -69,7 +69,7 @@
 - [ ] add a markdown file for every page that is readily downloadable
 - [ ] 
 
-### A4
+### 4
 
 - [ ] add model effect to all image galleries in earth 2.0
 - [ ] have all costume html done for every page I have by this point
