@@ -53,11 +53,10 @@
 - [ ] add model effect to most images in earth 2.0
 - [ ] separate shader from html in interactive version of earth 2.0 ( tho this will have to be retired for some other time)
 - [x] fix description tag for the first slide show's positioning
-- [ ] standardize sizing and amounts for different types page parts
-- [ ] add black bar to others page between section 1 and 2 in phone mode ?
+- [x] standardize sizing and amounts for different types page parts
 - [x] fix the issue with earth 2.0 were the css grid will not become taller then a certain amount
 - [ ] create new costume HTML, or at least the customer image slide show
-- [ ] update different backgrounds and other size related parts of page and make them more consistent
+- [x] update different backgrounds and other size related parts of page and make them more consistent
 - [ ] improve in document documentation through proper commenting especially in the css
 - [ ] work more on responsiveness for pages
   - [ ] index
