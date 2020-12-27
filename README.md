@@ -16,4 +16,5 @@ This is simple enough at this point were it does not merritt its own file.
    - exception for the previous rule is when it is a file then use -
  - indents should be 4 spaces (so tabs should be bound to 4 spaces)
  - have a empty line at the end of every file 
+ - no external libraries like react, angular, bootstrap and vue, especialy react
  - 
