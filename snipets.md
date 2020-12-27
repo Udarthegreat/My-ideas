@@ -2,6 +2,7 @@
 in this file I am putting snippets for all the bit I hav created for the site
 ## area
 this creates an area for content to go in for responsive design
+
  **CSS**
 ```CSS
     /* basic area element */
@@ -15,6 +16,7 @@ this creates an area for content to go in for responsive design
  ```
 ## center
 like the basic area but it centers the contents and adds some padding on the sides
+
 **CSS**
 ```CSS
 /* center contents inside */
