@@ -512,5 +512,20 @@ place the following code in a div with the [paralax](#paralax-classes) classes p
 ```
 there is some more css for the responsive design but that will come latter
 
-##
+## comming soon
+this is a simple one, it creates a section with text within telling viewers that there is more coming soon
 
+**HTML**
+```HTML
+<div class="center parallax_4 parallax">
+    <div class="centered soon center_contents">
+        <p style="font-size: 9em;">more comming soon</p>
+    </div>
+</div>
+```
+**CSS**
+```CSS
+.soon{
+    height: 40vh;
+}
+```
