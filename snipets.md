@@ -583,12 +583,294 @@ this creates a Gallery with multiple images that can be clicked through showing 
 place the following code in a div with the [parallax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
 
 ```HTML
-
+<div class="centered">
+    <div class="sld_show">
+        <div class="top">
+            <div class="what">housing sketches</div>
+        </div>
+        <div class="image">
+            <div class="mySlides img img_1 "></div>
+            <div class="mySlides img img_2 "></div>
+        </div>
+        <div class="img_area">
+            <div class="prev_" onclick="plusSlides(1)">&#10095;</div>
+            <div class="next_" onclick="plusSlides(-1)">&#10094;</div>
+        </div>
+        <div class="caption-container">
+            <div class="about" id="Caption">~</div>
+        </div>
+        <div class="right">
+            <div class="next" onclick="plusSlides(1)">&#10095;</div>
+        </div>
+        <div class="left">
+            <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+        </div>
+        <div class="tabs">
+            <div class="grd_1">
+                <div class="demo cursor img grd_img grd_img_1" onclick="currentSlide(1)"
+                    title="house design #1">
+                </div>
+            </div>
+            <div class="grd_2">
+                <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+                    title="schematics coming soon"></div>
+            </div>
+            <div class="grd_3">
+                <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+                    title="schematics coming soon"></div>
+            </div>
+            <div class="grd_4">
+                <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+                    title="schematics coming soon"></div>
+            </div>
+            <div class="grd_5">
+                <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+                    title="schematics coming soon"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="slides.js"></script>
 ```
 
 **CSS**
 
 ```CSS
+/* slide show image gallery */
+/* base css grid class */
+.sld_show {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.5fr 5fr 0.3fr 2fr;
+    gap: 0px 0px;
+    height: 90vh;
+}
 
+/* the description of what will be found in the image gallery*/
+/* the base css grid for this section */
+.top {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 2fr 1.5fr 2fr;
+    gap: 0px 0px;
+    grid-area: 1 / 2 / 2 / 3;
+}
+/* styling for the text and the area it takes up,
+uses css flex to center its self*/
+.what { 
+    grid-area: 2 / 2 / 3 / 3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.493);
+}
+
+/* images that go in the slides */
+.mySlides {
+    display: none;
+}
+.image { grid-area: 2 / 2 / 3 / 3; }
+.img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.img_1{
+    height: 100%;
+    background-image: url("../idea page_1.jpg");
+    /* background-color: rgb(255, 0, 255); */
+}
+.img_2{
+    height: 100%;
+    background-image: url("../to be drawn.jpg");
+    /* background-color: rgb(255, 0, 21); */
+}
+
+/* styling for the next and previous image buttons on the inside of the image area
+which are for the phone screen size (for the responsive design of this page) */
+.img_area {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    gap: 0px 0px;
+    grid-area: 2 / 2 / 3 / 3;
+}
+/* previous image */
+.prev_ { 
+    grid-area: 2 / 1 / 3 / 2;
+    visibility:hidden
+}
+/* next image */
+.next_ { 
+    grid-area: 2 / 3 / 3 / 4;
+    visibility:hidden
+}
+
+/* the description of what the currently selected slide shows*/
+/* the base css grid for this section */
+.caption-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr;
+    gap: 0px 0px;
+    grid-area: 3 / 2 / 4 / 3;
+    text-align: center;
+	background-color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
+}
+/* styling for the text and the area it takes up,
+uses css flex to center its self*/
+#Caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	color: rgb(255, 255, 255);
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+.about { grid-area: 2 / 2 / 3 / 3; 
+    /* background-color: rgb(25, 0, 250); */
+}
+
+/* the styling for the button on the right side of the screen */
+/* the base css grid for this section */
+.right {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 0px 0px;
+    grid-area: 2 / 3 / 3 / 4;
+}
+/* next image */
+.next { grid-area: 2 / 1 / 3 / 2; }
+/* the styling for the button on the left side of the screen */
+/* the base css grid for this section */
+.left {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 0px 0px;
+    grid-area: 2 / 1 / 3 / 2;
+}
+/* previous image */
+.prev { grid-area: 2 / 2 / 3 / 3; }
+/* the tabs at the bottom of the slide show that allow you to go between multiple images */
+/* the base css grid for this section */
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr 5fr) 1fr;
+    grid-template-rows: 1fr;
+    gap: 0em 0em;
+    grid-area: 4 / 1 / 5 / 4;
+}
+
+.grd_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+/* grid area 1 */
+.grd_1 { 
+    grid-area: 1 / 2 / 2 / 3;
+	width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.grd_img_1{
+    background-image: url('../idea page_1.jpg'); 
+}
+/* grid area 2 */
+.grd_2 { 
+    grid-area: 1 / 4 / 2 / 5; 
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.grd_img_2{
+    background-image: url('../to be drawn.jpg'); 
+}
+/* grid area 3 */
+.grd_3 { 
+    grid-area: 1 / 6 / 2 / 7;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.grd_img_2{
+    background-image: url('../to be drawn.jpg'); 
+}
+/* grid area 4 */
+.grd_4 { 
+    grid-area: 1 / 8 / 2 / 9;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.grd_img_2{
+    background-image: url('../to be drawn.jpg'); 
+}
+/* grid area 5 */
+.grd_5 { 
+    grid-area: 1 / 10 / 2 / 11; 
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.grd_img_2{
+    background-image: url('../to be drawn.jpg'); 
+}
+
+/* general styling for the next and previous image buttons in the image gallery */
+.prev,
+.next,
+.prev_,
+.next_ {
+	text-shadow:
+	/* Outline */
+	-1px -1px 0 #000000,
+	1px -1px 0 #000000,
+	-1px 1px 0 #000000,
+	1px 1px 0 #000000,  
+	-2px 0 0 #000000,
+	2px 0 0 #000000,
+	0 2px 0 #000000,
+	0 -2px 0 #000000;
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev:hover,
+.next:hover,
+.prev_:hover,
+.next_:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Add a transparency effect for thumbnail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.demo {
+    opacity: 0.6;
+}
 ```
 

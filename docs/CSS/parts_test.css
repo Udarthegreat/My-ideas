@@ -44,7 +44,7 @@
 /* black bar outside */
 .blk_bar_center { grid-area: 2 / 2 / 3 / 3; color: white; font-size: 2rem;} 
 
-/* slide show */
+/* slide show image gallery */
 /* base css grid class */
 .sld_show {
     display: grid;
