@@ -316,6 +316,7 @@ this creates a pop out nav overlay with animations ane everything
 creates a image gallery with __images around the edges and a videos in the center using css grids
 
 **HTML**
+
 place the following code in a div with the [parallax](#parallax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
 
 ```HTML
@@ -430,6 +431,7 @@ place the following code in a div with the [parallax](#parallax-classes) classes
 this creates a link section using css grid with multiple boxes containing a image and a link box
 
 **HTML**
+
 place the following code in a div with the [parallax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
 
 ```HTML
@@ -577,6 +579,7 @@ this is a simple one, it creates a section with text within telling viewers that
 this creates a Gallery with multiple images that can be clicked through showing off all the images
 
 **HTML**
+
 place the following code in a div with the [parallax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
 
 ```HTML
