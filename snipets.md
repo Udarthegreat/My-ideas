@@ -90,7 +90,7 @@ this creates a bacl bar on the screen that can accept text in the center
 /* black bar outside */
 .blk_bar_center { grid-area: 2 / 2 / 3 / 3; color: white; font-size: 2rem;} 
  ```
- ## title are
+ ## title area
  creates a title area that takes up 100% of screen width though that can be customized
 
 **HTML**
@@ -282,4 +282,114 @@ this creates a popout nav overlay with animations ane everything
     0 -2px 0 #000000;
 }
 ```
-## 
+## image gallary
+creates a image gallery with __images around the edges and a videos in the center using css grids
+
+**HTML**
+place the following code in a div with the [paralax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
+
+```HTML
+<div class="center">
+    <div class="centered">
+        <div class="gallery">
+            <div class="gallery__item gallery__item--1">
+                <img src="./img-gallery/flex pistone-use.png" alt="Gallery image 1" class="gallery__img">
+            </div>
+            <div class="gallery__item gallery__item--2">
+                <img src="./img-gallery/tesla valve segmented_3.png" alt="Gallery image 2"
+                    class="gallery__img">
+            </div>
+            <div class="gallery__item gallery__item--3">
+                <img src="./img-gallery/tesla valve segmented_1use.png" alt="Gallery image 3"
+                    class="gallery__img">
+            </div>
+            <div class="gallery__item gallery__item--4">
+                <img src="./img-gallery/tesla valve segmented_2.png" alt="Gallery image 4"
+                    class="gallery__img">
+            </div>
+            <div class="gallery__item gallery__item--5">
+                <img src="./img-gallery/clip_1use.png" alt="Gallery image 5" class="gallery__img">
+            </div>
+            <div class="gallery__item gallery__item--6">
+                <img src="./img-gallery/clip_2use.png" alt="Gallery image 6" class="gallery__img">
+            </div>
+            <div class="gallery__item gallery__item--7">
+                <img src="./img-gallery/1 in 2 out parts-use.png" alt="Gallery image 7"
+                    class="gallery__img">
+            </div>
+            <div class="gallery__item gallery__item--8">
+                <img src="./img-gallery/flex pistone-2.png" alt="Gallery image 9" class="gallery__img">
+            </div>
+            <div class="gallery__item gallery__item--9">
+                <video alt="Gallery video" class="gallery__img" autoplay loop>
+                    <source src="./img-gallery/vid-use_0000001-1428.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+```
+**CSS**
+```CSS
+/* the image gallery styling */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 10vw); 
+    grid-gap: 1.0rem; 
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+.gallery__item--1 {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: rgb(0, 204, 255);
+}
+
+.gallery__item--2 {
+    grid-area: 1 / 2 / 2 / 3; 
+    background-color: rgb(212, 0, 255);
+}
+
+.gallery__item--3 {
+    grid-area: 1 / 3 / 2 / 5; 
+    background-color: rgb(255, 0, 0);
+}
+
+
+.gallery__item--4 {
+    grid-area: 2 / 4 / 3 / 5; 
+    background-color: rgb(0, 255, 0);
+}
+
+.gallery__item--5 {
+    grid-area: 3 / 4 / 5 / 5; 
+    background-color: rgb(0, 0, 255);
+}
+
+.gallery__item--6 {
+    grid-area: 4 / 3 / 5 / 4; 
+    background-color: rgb(140, 0, 255);
+}
+
+.gallery__item--7{
+    grid-area: 4 / 1 / 5 / 3; 
+    background-color: rgb(255, 123, 0);
+}
+
+.gallery__item--8{
+    grid-area: 3 / 1 / 4 / 2; 
+    background-color: rgb(238, 255, 0);
+}
+
+.gallery__item--9{
+    grid-area: 2 / 2 / 4 / 4; 
+    background-color: rgb(255, 0, 149);
+}
+``
+
