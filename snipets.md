@@ -16,6 +16,7 @@ this creates an area for content to go in for responsive design
  ```
 ## center
 like the basic area but it centers the contents and adds some padding on the sides
+
 **CSS**
 ```CSS
 /* center contents inside */
@@ -168,6 +169,117 @@ this creates a bacl bar on the screen that can accept text in the center
     0 2px 0 #000000,
     0 -2px 0 #000000;
 } 
-
 ```
+## NAV popout
+this creates a popout nav overlay with animations ane everything
 
+**HTML**
+```HTML
+<div class="navigation div">
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay_content">
+            <a href="index.html">Home</a>
+            <a href="earth 2.0.html">earth 2.0</a>
+            <a href="climate.html">environment</a>
+            <a href="#">singularity</a>
+            <a href="others.html">others</a>
+            <a href="about.html">about</a>
+        </div>
+    </div>
+    <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
+</div>
+```
+**CSS**
+```CSS
+@charset "UTF-8";
+
+.overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.6);
+	overflow-x: hidden;
+	transition: 0.5s;
+	text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.overlay_content {
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+
+.overlay a {
+	padding: 10px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+
+@media screen and (max-height: 500px) {
+	.overlay a {font-size: 20px}
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+.nav_activate{
+	font-size:30px;
+	cursor:pointer;
+	color:white;
+	position:fixed;
+	z-index: 50;
+	text-shadow:
+    /* Outline */
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+}
+```
+## 
