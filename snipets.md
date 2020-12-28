@@ -393,4 +393,124 @@ place the following code in a div with the [paralax](#paralax-classes) classes p
 }
 ```
 ## link section
+this creates a link section using css grid with multiple boxes containing a image and a link box
+
+**HTML**
+place the following code in a div with the [paralax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
+```HTML
+<div class="centered">
+    <div class="links_area">
+        <div class="L1">
+            <div class="BG"></div>
+            <div class="image_area image_1 "></div>
+            <div class="go_to_area">
+                <div onclick="location.href='earth 2.0.html'" class="single_line_text">earth 2.0</div>
+            </div>
+        </div>
+        <div class="L2">
+            <div class="BG"></div>
+            <div class="image_area image_2"></div>
+            <div class="go_to_area">
+                <div onclick="location.href='climate.html'" class="single_line_text">climate</div>
+            </div>
+        </div>
+        <div class="L3">
+            <div class="BG"></div>
+            <div class="image_area image_3"></div>
+            <div class="go_to_area">
+                <div onclick="location.href='others.html'" class="single_line_text">others</div>
+            </div>
+        </div>
+    </div>
+</div>
+```
+**CSS**
+```CSS
+/* link section */
+.links_area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1% 1%;
+    height: 90vh;
+}
+  
+.L1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 3fr repeat(2, 2fr 1fr);
+    gap: 0px 0px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+  
+.image_area { grid-area: 2 / 2 / 4 / 4; background-color: rgba(255, 0, 0, 0.514);}
+  
+.go_to_area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 5fr 1fr;
+    gap: 0px 0px;
+    grid-area: 5 / 1 / 6 / 5;
+    background-color: rgba(128, 128, 128, 0.514);
+}
+
+.BG { grid-area: 1 / 1 / 7 / 5; background-color: rgba(0, 0, 0, 0.61);}
+
+.single_line_text { 
+    grid-area: 2 / 2 / 3 / 3; 
+    background-color: rgb(0, 0, 255);
+    outline-color: rgb(0, 0, 0);
+    outline-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 2.6rem;
+}
+
+.L2 { grid-area: 2 / 2 / 3 / 3; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 3fr repeat(2, 2fr 1fr);
+    gap: 0px 0px;
+    grid-area: 2 / 2 / 3 / 3;
+}
+  
+.L3 { grid-area: 1 / 3 / 2 / 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 3fr repeat(2, 2fr 1fr);
+    gap: 0px 0px;
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.image_1 { 
+    background-image: url('');
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 55%;
+}
+.image_2 { 
+    background-image: url('');
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.image_3 { 
+    background-image: url('');
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+```
+there is some more css for the responsive design but that will come latter
+
+##
 
