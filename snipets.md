@@ -1,9 +1,13 @@
 # intro
+
 in this file I am putting snippets for all the bit I hav created for the site
+
 ## area
+
 this creates an area for content to go in for responsive design
 
  **CSS**
+
 ```CSS
     /* basic area element */
 .area{
@@ -14,10 +18,13 @@ this creates an area for content to go in for responsive design
 }
 .inside { grid-area: 1 / 1 / 2 / 2; }
  ```
+
 ## center
+
 like the basic area but it centers the contents and adds some padding on the sides
 
 **CSS**
+
 ```CSS
 /* center contents inside */
 .center{
@@ -29,10 +36,13 @@ like the basic area but it centers the contents and adds some padding on the sid
 /* the area inside the css grid that is in the center */
 .centered { grid-area: 2 / 2 / 3 / 3; }
  ```
-## center contets
+
+## center contents
+
 this uses css flex box to center the contents to its container, best used to center text inside a div(or other type of container) but can be used with something like images or anything else
 
 **CSS**
+
 ```CSS
 /* uses flexbox to center the contents of the element it is placed on */
 .center_contents{
@@ -41,10 +51,13 @@ this uses css flex box to center the contents to its container, best used to cen
     align-items: center;
 }
  ```
-## paralax classes
-the following css classes create hte parallax effect in the background 
+
+## parallax classes
+
+the following css classes create hte parallax effect in the background
 
 **CSS**
+
 ```CSS
 /* creates parallax effect */
 .parallax {
@@ -54,6 +67,7 @@ the following css classes create hte parallax effect in the background
     background-size: cover;
 }
  ```
+
 ```CSS
 /* I use this for title though it could be used for anything */
 /* place you image in the URL */
@@ -67,8 +81,10 @@ the following css classes create hte parallax effect in the background
     background-attachment: scroll;
 }
  ```
+
 ## black bar
-this creates a bacl bar on the screen that can accept text in the center
+
+this creates a black bar on the screen that can accept text in the center
 
 **CSS**
 
@@ -90,7 +106,9 @@ this creates a bacl bar on the screen that can accept text in the center
 /* black bar outside */
 .blk_bar_center { grid-area: 2 / 2 / 3 / 3; color: white; font-size: 2rem;} 
  ```
- ## title area
+
+## title area
+
  creates a title area that takes up 100% of screen width though that can be customized
 
 **HTML**
@@ -104,6 +122,7 @@ this creates a bacl bar on the screen that can accept text in the center
 ```
 
 **CSS**
+
 ```CSS
 /* page title text styling */
 .title_area {
@@ -127,10 +146,12 @@ this creates a bacl bar on the screen that can accept text in the center
 } 
  ```
 
- ## description area
+## description area
+
  creates a space were you can type in some text, I use it for page descriptions, and it is placed in the center of the area and the area takes up all the space it needs for the text while applying padding using css grid
 
 **HTML**
+
 ```HTML
 <div class="area parallax parallax_2">
     <div class="description_area">
@@ -140,7 +161,9 @@ this creates a bacl bar on the screen that can accept text in the center
     </div>
 </div>
 ```
+
 **CSS**
+
 ```CSS
 /* page description text style */
 .description_area {
@@ -170,10 +193,13 @@ this creates a bacl bar on the screen that can accept text in the center
     0 -2px 0 #000000;
 } 
 ```
-## NAV popout
-this creates a popout nav overlay with animations ane everything
+
+## NAV pop out
+
+this creates a pop out nav overlay with animations ane everything
 
 **HTML**
+
 ```HTML
 <div class="navigation div">
     <div id="myNav" class="overlay">
@@ -190,7 +216,9 @@ this creates a popout nav overlay with animations ane everything
     <span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
 </div>
 ```
+
 **CSS**
+
 ```CSS
 @charset "UTF-8";
 
@@ -282,11 +310,13 @@ this creates a popout nav overlay with animations ane everything
     0 -2px 0 #000000;
 }
 ```
-## image gallary
+
+## image gallery
+
 creates a image gallery with __images around the edges and a videos in the center using css grids
 
 **HTML**
-place the following code in a div with the [paralax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
+place the following code in a div with the [parallax](#parallax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
 
 ```HTML
 <div class="center">
@@ -329,7 +359,9 @@ place the following code in a div with the [paralax](#paralax-classes) classes p
     </div>
 </div>
 ```
+
 **CSS**
+
 ```CSS
 /* the image gallery styling */
 .gallery {
@@ -392,11 +424,14 @@ place the following code in a div with the [paralax](#paralax-classes) classes p
     background-color: rgb(255, 0, 149);
 }
 ```
+
 ## link section
+
 this creates a link section using css grid with multiple boxes containing a image and a link box
 
 **HTML**
-place the following code in a div with the [paralax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
+place the following code in a div with the [parallax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
+
 ```HTML
 <div class="centered">
     <div class="links_area">
@@ -424,7 +459,9 @@ place the following code in a div with the [paralax](#paralax-classes) classes p
     </div>
 </div>
 ```
+
 **CSS**
+
 ```CSS
 /* link section */
 .links_area {
@@ -510,12 +547,15 @@ place the following code in a div with the [paralax](#paralax-classes) classes p
     border-radius: 50%;
 }
 ```
+
 there is some more css for the responsive design but that will come latter
 
 ## comming soon
+
 this is a simple one, it creates a section with text within telling viewers that there is more coming soon
 
 **HTML**
+
 ```HTML
 <div class="center parallax_4 parallax">
     <div class="centered soon center_contents">
@@ -523,11 +563,29 @@ this is a simple one, it creates a section with text within telling viewers that
     </div>
 </div>
 ```
+
 **CSS**
+
 ```CSS
 .soon{
     height: 40vh;
 }
 ```
-## slide show
+
+## interactive image gallery
+
+this creates a Gallery with multiple images that can be clicked through showing off all the images
+
+**HTML**
+place the following code in a div with the [parallax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
+
+```HTML
+
+```
+
+**CSS**
+
+```CSS
+
+```
 
