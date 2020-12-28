@@ -391,5 +391,6 @@ place the following code in a div with the [paralax](#paralax-classes) classes p
     grid-area: 2 / 2 / 4 / 4; 
     background-color: rgb(255, 0, 149);
 }
-``
+```
+## link section
 
