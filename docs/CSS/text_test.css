@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* temp */
+.center{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    gap: 0px 0px;
+}
+/* the area inside the css grid that is in the center */
+.centered { grid-area: 2 / 2 / 3 / 3; }
+/* temp */
+/* create the background for text */
+/* light mode */
+.txt_section_light{
+    background-color: rgb(255, 255, 255);
+}
+/* dark mode */
+.txt_section_dark{
+    background-color: rgb(0, 0, 0);
+}
+/* these create the font settings for text sections */
+/* light mode */
+.txt_light{
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+/* dark mode */
+.txt_dark{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+/* only works on block level not something like span */
+.indent{
+    text-indent: 2em;
+}
+/* bolds I wish that these numbers had a bigger effect on the text */
+b{
+    font-weight: 900;
+}
+/* normal text */
+p{
+    font-weight: 100;
+}
+/* italicize (I wish I could use numbers) */
+i{
+    font-style: italic;
+}

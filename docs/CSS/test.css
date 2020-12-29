@@ -10,17 +10,13 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
   padding: 0;
   margin: 0;
 }
-html {
-  box-sizing: border-box;
-  font-size: 62.5%; 
-}
 body {
   background-color: rgb(128, 128, 128);
   /* Used if the image is unavailable */
   font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
+  font-size: 23px;
   font-weight: 400;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 *,
 *::after,
