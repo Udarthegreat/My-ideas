@@ -54,7 +54,6 @@ em {
 }
 mark {
     background-color: yellow;
-    color: black;
 }
 small{
     font-size: smaller;
@@ -84,5 +83,25 @@ sup {
 }
 .italics{
     font-style: italic;
+}
+/* yellow */
+.highlight_y{
+    background-color: rgb(255, 255, 0);
+}
+/* blue */
+.highlight_b{
+    background-color:rgb(0, 191, 255);
+}
+/* green */
+.highlight_g{
+    background-color:rgb(157, 255, 10);
+}
+/* purple */
+.highlight_p{
+    background-color:rgb(245, 29, 198);
+}
+/* red */
+.highlight_r{
+    background-color:rgb(255, 0, 0);
 }
 /* normalize css */
