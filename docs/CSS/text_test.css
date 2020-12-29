@@ -46,3 +46,43 @@ p{
 i{
     font-style: italic;
 }
+strong{
+    font-weight: 900;
+}
+em {
+    font-style: italic;
+}
+mark {
+    background-color: yellow;
+    color: black;
+}
+small{
+    font-size: smaller;
+}
+del {
+    text-decoration: line-through;
+}
+ins {
+    text-decoration: underline;
+}
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+.cancel_em{
+    font-style: normal;
+}
+.strong_cancel{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 900; 
+}
+.italics{
+    font-style: italic;
+}
+/* normalize css */
