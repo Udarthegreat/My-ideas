@@ -873,4 +873,3 @@ uses css flex to center its self*/
     opacity: 0.6;
 }
 ```
-[test](./docs/test.html)
