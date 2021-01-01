@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+form{
+    /* background-color: rgb(153, 153, 153); */
+}
+
+input {
+  /* background-color: rgba(58, 58, 58, 0.473); */
+
+}
+input[type=text],input[type=password],input[type=number],input[type="email"],input[type="tel"]{
+    background-color: rgba(58, 58, 58, 0.473);
+}
