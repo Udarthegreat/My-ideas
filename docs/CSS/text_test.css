@@ -84,6 +84,9 @@ sup {
 .italics{
     font-style: italic;
 }
+a{
+    text-decoration: underline;
+}
 /* yellow */
 .highlight_y{
     background-color: rgb(255, 255, 0);
