@@ -13,15 +13,18 @@ input {
 input[type=text],input[type=password],input[type=number],input[type="email"],input[type="tel"],input[type="month"]{
     background-color: rgba(58, 58, 58, 0.473);
     border-style: none;
+    cursor: text;
 }
 
 input[type=search]{
   background-color: rgba(235, 235, 235, 0.521);
   border-style: none;
+  cursor: text;
 }
 input[type=button]{
   background-color: rgb(0, 0, 255);
   border-style: none;
+  cursor: pointer;
 }
 
 fieldset:nth-of-type(3n+1) {
@@ -48,5 +51,5 @@ legend{
   text-align: center;
   /* border-left: 6px solid rgb(0, 0, 0);
   border-right: 6px solid rgb(0, 0, 0); */
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(255, 255, 255);
 }
