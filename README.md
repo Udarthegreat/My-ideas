@@ -17,4 +17,5 @@ This is simple enough at this point were it does not merritt its own file.
  - indents should be 4 spaces (so tabs should be bound to 4 spaces)
  - have a empty line at the end of every file 
  - no external libraries like react, angular, bootstrap and vue, especialy react
+ - for colors use rgb(a) not hex or other methods
  - 
