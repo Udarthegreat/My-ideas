@@ -26,6 +26,11 @@ input[type=button]{
   border-style: none;
   cursor: pointer;
 }
+input[type=range]{
+  /* background-color: rgb(0, 0, 255); */
+  border-style: none;
+  cursor: pointer;
+}
 
 fieldset:nth-of-type(3n+1) {
   background-color: rgba(0, 0, 0, 0.356);
@@ -47,6 +52,8 @@ fieldset:nth-of-type(3n+3) {
 }
 
 legend{
+  padding-left: 0.7%;
+  padding-right: 0.7%;
   font-size: 1.5em;
   text-align: center;
   /* border-left: 6px solid rgb(0, 0, 0);
@@ -73,4 +80,11 @@ input{
 
 button{
   background-color: rgb(0, 0, 255);
+}
+
+input[type=submit]{
+  background-color: rgb(0, 128, 0);
+}
+input[type=reset]{
+  background-color: rgb(0, 255, 255);
 }
