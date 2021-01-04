@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-/* temp */
-.center{
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
-    grid-template-rows: 1fr 10fr 1fr;
-    gap: 0px 0px;
-}
-/* the area inside the css grid that is in the center */
-.centered { grid-area: 2 / 2 / 3 / 3; }
-/* temp */
 /* create the background for text */
 /* light mode */
 .txt_section_light{
