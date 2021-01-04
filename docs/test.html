@@ -105,60 +105,83 @@
             <div class="centered">
                 <form autocomplete="on" name="test">
                     <!-- pattern 	Specifies a regular expression to check the input value against -->
-                    <fieldset>
-                        <legend>input tag</legend>
-                        <label for="fname">First name:</label><br>
-                        <input type="text" id="fname" name="fname" value="test" class="no_border"> <br>
-                        <label for="pwd">Password:</label><br>
-                        <input type="password" id="pwd" name="pwd" class="no_border"> <br>
-                        <label for="male">Male</label><br>
-                        <input type="radio" id="male" name="gender" value="male"> <br>
-                        <label for="female">Female</label><br>
-                        <input type="radio" id="female" name="gender" value="female"> <br>
-                        <input type="checkbox" id="test_chk" name="test" value="test_1"> <br>
-                        <input type="button" onclick="alert('Hello World!')" value="Click Me!"> <br>
-                        <input type="color" id="favcolor" name="favcolor" class="no_border"> <br>
-                        <!-- use max and min attribs to tell the maximum and minimum values that can be entered -->
-                        <input type="date" id="birthday" name="birthday" class="no_border"> <br>
-                        <!-- <input type="datetime-local" id="birthdaytime" name="birthdaytime"> <br> -->
-                        <input type="email" id="email" name="email" class="no_border"> <br>
-                        <input type="file" id="myfile" name="myfile"> <br>
-                        <input type="month" id="bdaymonth" name="bdaymonth" class="no_border"> <br>
-                        <!-- use max and min attribs to tell the maximum and minimum values that can be entered -->
-                        <input type="number" id="quantity" name="quantity" class="no_border"> <br>
-                        <input type="range" id="vol" name="vol" min="0" max="50"> <br>
-                        <input type="search" id="gsearch" name="gsearch" class="no_border"> <br>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-                            class="no_border"> <br>
-                    </fieldset>
-                    <fieldset>
-                        <legend>others p1</legend>
-                        <label for="cars">Choose one:</label> <br>
-                        <select id="cars" name="cars" class="no_border">
-                            <!-- <option value="default" selected> select one</option> -->
-                            <option value="test_1">test 1</option>
-                            <option value="test_2">test 2</option>
-                            <option value="test_3">test 3</option>
-                            <option value="test_4">test 4</option>
-                        </select> <br>
-                        <!-- I can use style inside the test area tag or in a seperate style tag to set the width and height of the element (instead of the rows cols) -->
-                        <textarea name="message" rows="10" cols="30" required
-                            class="no_border">Lorem ipsum dolor sit amet</textarea> <br>
-                    </fieldset>
-                    <fieldset>
-                        <legend>others p2</legend>
-                        <button type="button" onclick="alert('Hello World!')">Click Me!</button> <br>
-                        <input list="browsers" class="no_border">
-                        <datalist id="browsers">
-                            <option value="Internet Explorer">
-                            <option value="Firefox">
-                            <option value="Chrome">
-                            <option value="Opera">
-                            <option value="Safari">
-                        </datalist> <br>
-                    </fieldset>
-                    <input type="submit" value="Submit"> <br>
-                    <input type="reset">
+                    <div class="center">
+                        <div class="centered">
+                            <fieldset>
+                                <div class="center_contents">
+                                    <legend class="up">input tag</legend>
+                                </div>
+                                <label for="fname">First name:</label><br>
+                                <input type="text" id="fname" name="fname" value="test" class="no_border"> <br>
+                                <label for="pwd">Password:</label><br>
+                                <input type="password" id="pwd" name="pwd" class="no_border"> <br>
+                                <label for="male">Male</label><br>
+                                <input type="radio" id="male" name="gender" value="male"> <br>
+                                <label for="female">Female</label><br>
+                                <input type="radio" id="female" name="gender" value="female"> <br>
+                                <input type="checkbox" id="test_chk" name="test" value="test_1"> <br>
+                                <input type="button" onclick="alert('Hello World!')" value="Click Me!"> <br>
+                                <input type="color" id="favcolor" name="favcolor" class="no_border"> <br>
+                                <!-- use max and min attribs to tell the maximum and minimum values that can be entered -->
+                                <input type="date" id="birthday" name="birthday" class="no_border"> <br>
+                                <!-- <input type="datetime-local" id="birthdaytime" name="birthdaytime"> <br> -->
+                                <input type="email" id="email" name="email" class="no_border"> <br>
+                                <input type="file" id="myfile" name="myfile"> <br>
+                                <input type="month" id="bdaymonth" name="bdaymonth" class="no_border"> <br>
+                                <!-- use max and min attribs to tell the maximum and minimum values that can be entered -->
+                                <input type="number" id="quantity" name="quantity" class="no_border"> <br>
+                                <input type="range" id="vol" name="vol" min="0" max="50"> <br>
+                                <input type="search" id="gsearch" name="gsearch" class="no_border"> <br>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                                    class="no_border"> <br>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="centered">
+                            <fieldset>
+                                <legend>others p1</legend>
+                                <label for="cars">Choose one:</label> <br>
+                                <select id="cars" name="cars" class="no_border">
+                                    <!-- <option value="default" selected> select one</option> -->
+                                    <option value="test_1">test 1</option>
+                                    <option value="test_2">test 2</option>
+                                    <option value="test_3">test 3</option>
+                                    <option value="test_4">test 4</option>
+                                </select> <br>
+                                <!-- I can use style inside the test area tag or in a seperate style tag to set the width and height of the element (instead of the rows cols) -->
+                                <textarea name="message" rows="10" cols="30" required
+                                    class="no_border">Lorem ipsum dolor sit amet</textarea> <br>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="centered">
+                            <fieldset>
+                                <legend>others p2</legend>
+                                <button type="button" onclick="alert('Hello World!')">Click Me!</button> <br>
+                                <input list="browsers" class="no_border">
+                                <datalist id="browsers">
+                                    <option value="Internet Explorer">
+                                    <option value="Firefox">
+                                    <option value="Chrome">
+                                    <option value="Opera">
+                                    <option value="Safari">
+                                </datalist> <br>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <div class="centered">
+                            <div class="center_contents">
+                                <input type="submit" value="Submit">
+                            </div>
+                            <div class="center_contents">
+                                <input type="reset">
+                            </div>
+                        </div>
+                    </div>
+
                 </form>
             </div>
         </div>
