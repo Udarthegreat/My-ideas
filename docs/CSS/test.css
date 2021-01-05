@@ -35,7 +35,7 @@ body {
 }
 /* the area inside the css grid that is in the center */
 .centered { grid-area: 2 / 2 / 3 / 3; }
-/* uses flexbox to center the contents of the element it is placed on */
+/* uses flexbox to center the contents of the tag it is placed on */
 .center_contents{
   display: flex;
   justify-content: center;

@@ -32,48 +32,61 @@ b{
 p{
     font-weight: 100;
 }
-/* italicize (I wish I could use numbers) */
+/* standard css for the italicize tag (I wish I could use numbers) */
 i{
     font-style: italic;
 }
+/* standard css for the strong tag */
 strong{
     font-weight: 900;
 }
+/* standard css for the emphasize tag (I wish I could use numbers) */
 em {
     font-style: italic;
 }
+/* standard css for the mark tag */
 mark {
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
 }
+/* standard css for the small tag */
 small{
     font-size: smaller;
 }
+/* standard css for the delete tag */
 del {
     text-decoration: line-through;
 }
+/* standard css for the insert tag */
 ins {
     text-decoration: underline;
 }
+/* standard css for the subscript tag (I wish I could use numbers) */
 sub {
     vertical-align: sub;
     font-size: smaller;
 }
+/* standard css for the superscript tag (I wish I could use numbers) */
 sup {
     vertical-align: super;
     font-size: smaller;
 }
+/* css for canceling out the visual part of the em tag, this does not remove screen reader functionality from what I can tel */
 .cancel_em{
     font-style: normal;
 }
+/* css for canceling out the visual part of the strong tag, this does not remove screen reader functionality from what I can tel */
 .strong_cancel{
     font-weight: 100;
 }
+/* use css to bold elements (it is not recommended to use this, use b instead inside the html, like that you get better semantics) */
 .bold{
     font-weight: 900; 
 }
+/* use css to italicize elements (it is not recommended to use this, use i instead inside the html, like that you get better semantics) */
 .italics{
     font-style: italic;
 }
+/* standard css for the hyperlinks */
 a{
     text-decoration: underline;
 }
@@ -125,6 +138,7 @@ a{
 .color_r{
     color: rgb(255, 0, 0);
 }
+/* generic image styling */
 img{
     height: 50%;
     max-height: 600px;
