@@ -1,17 +1,28 @@
 @charset "UTF-8";
 
+/* ensures that there is no border on the element this class is placed on */
 .no_border{
   border-style: none;
 }
+/* shifts the element placed on to the right using margins */
+.shift_right{
+  margin-left: 1%;
+}
+/* adds a bit of space below element it is placed on */
+.space_below{
+  margin-bottom: 1%;
+}
+/* general formatting for form element */
 form{
     /* background-color: rgb(153, 153, 153); */
 }
+/* formatting for the label element */
 label{
   font-size: 0.8em;
 }
+/* general formatting for input element */
 input {
   /* background-color: rgba(58, 58, 58, 0.473); */
-
 }
 input[type=text],input[type=password],input[type=number],input[type="email"],input[type="tel"],input[type="month"]{
     background-color: rgba(58, 58, 58, 0.473);
