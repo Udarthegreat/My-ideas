@@ -24,7 +24,7 @@
 .indent{
     text-indent: 2em;
 }
-/* bolds I wish that these numbers had a bigger effect on the text */
+/* standard styling for bold tag, I wish that these numbers had a bigger effect on the text */
 b{
     font-weight: 900;
 }
