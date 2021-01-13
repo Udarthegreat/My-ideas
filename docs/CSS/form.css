@@ -120,3 +120,6 @@ input[type=reset]{
   border-style: solid;
   cursor: pointer;
 }
+datalist {
+  display: none;
+}

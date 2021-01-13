@@ -209,8 +209,8 @@ hr {
 ul {
     display: block;
     list-style-type: disc;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
@@ -218,8 +218,8 @@ ul {
 ol {
     display: block;
     list-style-type: decimal;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
@@ -229,8 +229,8 @@ li {
 }
 dl {
     display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
     margin-left: 0;
     margin-right: 0;
 }
@@ -240,5 +240,23 @@ dt {
 dd {
     display: block;
     margin-left: 40px;
+}
+blockquote {
+    display: block;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+q {
+    display: inline;
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
 }
 /* normalize css */
