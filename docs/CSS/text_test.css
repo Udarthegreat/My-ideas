@@ -259,4 +259,50 @@ q:before {
 q:after {
     content: close-quote;
 }
+samp {
+    font-family: monospace;
+    color: crimson;
+    background-color: #f1f1f1;
+    font-size: 1.1em;
+}
+code {
+    font-family: monospace;
+    color: crimson;
+    background-color: #f1f1f1;
+    font-size: 1.1em;
+}
+kbd {
+    font-family: monospace;
+    border-radius: 2px;
+    padding: 2px;
+    border: 1px solid black;
+    font-size: 1.1em;
+}
+var {
+    font-style: italic;
+    color: crimson;
+    background-color: #f1f1f1;
+    font-size: 1.1em;
+}
+pre {
+    display: block;
+    font-family: serif;
+    white-space: pre;
+    margin: 1em 0;
+}
+section {
+    display: block;
+}
+section:nth-of-type(1n+1) {
+    background-color: rgba(190, 190, 190, 0.356);
+}
+section:nth-of-type(2n+2) {
+    background-color: rgba(219, 219, 219, 0.356);
+}
+section:nth-of-type(3n+3) {
+    background-color: rgba(230, 230, 230, 0.356);
+}
+summary {
+    display: block;
+}
 /* normalize css */
