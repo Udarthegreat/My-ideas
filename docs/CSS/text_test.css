@@ -331,4 +331,8 @@ tr {
     vertical-align: inherit;
     border-color: inherit;
 }
+caption {
+    display: table-caption;
+    text-align: center;
+}
 /* normalize css */
