@@ -305,4 +305,30 @@ section:nth-of-type(3n+3) {
 summary {
     display: block;
 }
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    width: 20%;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
 /* normalize css */
