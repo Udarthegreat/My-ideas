@@ -334,5 +334,6 @@ tr {
 caption {
     display: table-caption;
     text-align: center;
+    caption-side: bottom;
 }
 /* normalize css */
