@@ -9,6 +9,8 @@
 }
 
 /* title section background */
+/* place your image in the URL */
+/* it could be parallax_# were # is any number, as long as you have a image for it */
 .parallax_1{
     background-image: url('../backgrounds/abandoned-forest-hd-wallpaper_optimized.jpg');
 }
