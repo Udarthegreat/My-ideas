@@ -1,4 +1,4 @@
-# TODO
+﻿# TODO
 
 ### 1
 
@@ -66,7 +66,7 @@
   - [ ] others
 - [ ] add licence (CC BY 3.0 I think)
 - [ ] add a markdown file for every page that is readily downloadable
-- [ ] 
+- [ ] ~
 
 ### 4
 
@@ -76,7 +76,7 @@
 - [ ] put a images into a images folder and separate images into sub folders per category.
 - [ ] convert the 250px value to % in climate.css
 - [ ] figure why single digit numbers have no effect only double digit numbers have a effect in css but they do when in html
-- [ ] 
+- [ ] ~
 
 ### some point in the future
 
@@ -98,3 +98,4 @@
 - [ ] make the black outline around text using shadow a css class (or what ever their called) so I only have to define it once
 - [ ] fix images that are in use (there are some trash in some of the images)
 - [ ] convert images to svg's at use them instead of the images for obvious reasons
+- [ ] ~
