@@ -341,7 +341,7 @@ after that create a div like the one below, this one creates the video in the ce
 </div>
 ```
 **CSS**
-
+the `gallery` class creates the css grid that is the backbone for the image gallery defining the areas that images and videos take up
 ```CSS
 /* the image gallery styling */
 .gallery {
@@ -350,56 +350,60 @@ after that create a div like the one below, this one creates the video in the ce
     grid-template-rows: repeat(4, 10vw); 
     grid-gap: 1.0rem; 
 }
-
-.gallery__img {
+```
+the `gallery_img` class ensures that the images in the `div`s take up the space their given
+```CSS
+.gallery_img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block; 
 }
-
-.gallery__item--1 {
+```
+the css classes for the items in the gallery they are `gallery_item-`1-9 were 9 is the class for the video and all the others are the images, they all also have background colors just in case images fail to load. they all also define the areas they take up in the css grid
+```CSS
+.gallery_item-1 {
     grid-area: 1 / 1 / 3 / 2;
     background-color: rgb(0, 204, 255);
 }
 
-.gallery__item--2 {
+.gallery_item-2 {
     grid-area: 1 / 2 / 2 / 3; 
     background-color: rgb(212, 0, 255);
 }
 
-.gallery__item--3 {
+.gallery_item-3 {
     grid-area: 1 / 3 / 2 / 5; 
     background-color: rgb(255, 0, 0);
 }
 
 
-.gallery__item--4 {
+.gallery_item-4 {
     grid-area: 2 / 4 / 3 / 5; 
     background-color: rgb(0, 255, 0);
 }
 
-.gallery__item--5 {
+.gallery_item-5 {
     grid-area: 3 / 4 / 5 / 5; 
     background-color: rgb(0, 0, 255);
 }
 
-.gallery__item--6 {
+.gallery_item-6 {
     grid-area: 4 / 3 / 5 / 4; 
     background-color: rgb(140, 0, 255);
 }
 
-.gallery__item--7{
+.gallery_item-7{
     grid-area: 4 / 1 / 5 / 3; 
     background-color: rgb(255, 123, 0);
 }
 
-.gallery__item--8{
+.gallery_item-8{
     grid-area: 3 / 1 / 4 / 2; 
     background-color: rgb(238, 255, 0);
 }
 
-.gallery__item--9{
+.gallery_item-9{
     grid-area: 2 / 2 / 4 / 4; 
     background-color: rgb(255, 0, 149);
 }
@@ -407,42 +411,29 @@ after that create a div like the one below, this one creates the video in the ce
 
 ## link section
 
-this creates a link section using css grid with multiple boxes containing a image and a link box
+this creates a link section using css grid with multiple boxes containing a image and a link box to click on to take you to the link
 
 **HTML**
 
 place the following code in a div with the [parallax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
 
+create a `div` as follows which is the container for the link section and creates the css grid used to lay everything out, also I would recommend putting all of this in a div that uses the `centered` class to center and add padding as seen [above](#paralax-classes)
 ```HTML
-<div class="centered">
-    <div class="links_area">
-        <div class="L1">
-            <div class="BG"></div>
-            <div class="image_area image_1 "></div>
-            <div class="go_to_area">
-                <div onclick="location.href='earth 2.0.html'" class="single_line_text">earth 2.0</div>
-            </div>
-        </div>
-        <div class="L2">
-            <div class="BG"></div>
-            <div class="image_area image_2"></div>
-            <div class="go_to_area">
-                <div onclick="location.href='climate.html'" class="single_line_text">climate</div>
-            </div>
-        </div>
-        <div class="L3">
-            <div class="BG"></div>
-            <div class="image_area image_3"></div>
-            <div class="go_to_area">
-                <div onclick="location.href='others.html'" class="single_line_text">others</div>
-            </div>
-        </div>
+<div class="links_area">
+```
+then you place in the following html in the `links_area` `div` 3 times, this creates the link section, note here, for the `L1` use it only for the 1st link section use `L2` and `L3` for the other two because they define were in the css grid they are and a sub css grid for the link section its self. 
+```HTML
+<div class="L1">
+    <div class="BG"></div>
+    <div class="image_area image_1 "></div>
+    <div class="go_to_area">
+        <div onclick="location.href='earth 2.0.html'" class="single_line_text">~</div>
     </div>
 </div>
 ```
 
 **CSS**
-
+the `links_area` class creates the CSS grid that lays out the base that the link sections go into
 ```CSS
 /* link section */
 .links_area {
@@ -452,7 +443,9 @@ place the following code in a div with the [parallax](#paralax-classes) classes 
     gap: 1% 1%;
     height: 90vh;
 }
-  
+```
+next we have `L1`, `L2` and `L3` which place them selves in the grid that `links_area` creates and define their own css grids for the actual link sections
+```CSS 
 .L1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -460,33 +453,6 @@ place the following code in a div with the [parallax](#paralax-classes) classes 
     gap: 0px 0px;
     grid-area: 1 / 1 / 2 / 2;
 }
-  
-.image_area { grid-area: 2 / 2 / 4 / 4; background-color: rgba(255, 0, 0, 0.514);}
-  
-.go_to_area {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 5fr 1fr;
-    gap: 0px 0px;
-    grid-area: 5 / 1 / 6 / 5;
-    background-color: rgba(128, 128, 128, 0.514);
-}
-
-.BG { grid-area: 1 / 1 / 7 / 5; background-color: rgba(0, 0, 0, 0.61);}
-
-.single_line_text { 
-    grid-area: 2 / 2 / 3 / 3; 
-    background-color: rgb(0, 0, 255);
-    outline-color: rgb(0, 0, 0);
-    outline-width: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    cursor: pointer;
-    font-size: 2.6rem;
-}
-
 .L2 { grid-area: 2 / 2 / 3 / 3; 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -502,7 +468,43 @@ place the following code in a div with the [parallax](#paralax-classes) classes 
     gap: 0px 0px;
     grid-area: 1 / 3 / 2 / 4;
 }
-
+```
+`image_area` defines the area that the image representing the page you are going to takes up in the css grid
+```CSS
+.image_area { grid-area: 2 / 2 / 4 / 4; background-color: rgba(255, 0, 0, 0.514);}
+```
+`go_to_area` defines 
+```CSS
+.go_to_area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 5fr 1fr;
+    gap: 0px 0px;
+    grid-area: 5 / 1 / 6 / 5;
+    background-color: rgba(128, 128, 128, 0.514);
+}
+```
+`BG` defines the background area for the link card adding the partialy trasnparent background color
+```CSSS
+.BG { grid-area: 1 / 1 / 7 / 5; background-color: rgba(0, 0, 0, 0.61);}
+```
+`single_line_text` places the link text in the right place in the CSS grid and uses CSS flex box to center the contents along with other styling for the link like setting the cursor to pointer etc. 
+```CSS
+.single_line_text { 
+    grid-area: 2 / 2 / 3 / 3; 
+    background-color: rgb(0, 0, 255);
+    outline-color: rgb(0, 0, 0);
+    outline-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 2.6rem;
+}
+```
+`image_1`,`image_2` and `image_3` set the images to use as representations for the link boxes so there a single one for every individual link box
+```CSS
 .image_1 { 
     background-image: url('');
     background-attachment: scroll;
