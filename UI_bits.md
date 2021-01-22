@@ -69,20 +69,6 @@ The following css classes create the parallax effect in the background, though i
 }
  ```
 
-```CSS
-/* I use this for title though it could be used for anything */
-/* place your image in the URL */
-/* it could be parallax_# were # is any number, as long as you have a image for it */
-.parallax_1{
-    background-image: url('');
-}
-/* description section background */
-.parallax_2{
-    background-image: url('');
-    background-attachment: scroll;
-}
- ```
-
 ## black bar
 
 this creates a black bar on the screen that can accept text in the center, use the `blk_bar_center` variable for the area were you place your text
@@ -149,7 +135,7 @@ this creates a black bar on the screen that can accept text in the center, use t
 
 ## description area
 
- creates a space were you can type in some text, I use it for page descriptions, and it is placed in the center of the area and the area takes up all the space it needs for the text while applying padding using css grid
+ creates a space were you can type in some text, I use it for page descriptions, and it is placed in the center of the area and the area takes up all the space it needs for the text while applying padding using css grid, the `parallax_2` class would be were you put your background image etc. 
 
 **HTML**
 
@@ -197,9 +183,11 @@ this creates a black bar on the screen that can accept text in the center, use t
 
 ## NAV pop out
 
-this creates a pop out nav overlay with animations ane everything
+this creates a pop out nav overlay with animations 
 
 **HTML**
+
+below is the html necessary for this 
 
 ```HTML
 <div class="navigation div">
@@ -220,9 +208,10 @@ this creates a pop out nav overlay with animations ane everything
 
 **CSS**
 
-```CSS
-@charset "UTF-8";
+I will go through the css in order of how its used in the above html
 
+the first class created is the `overlay` class that creates a partially transparent back background for the navigation, that when the animations are applied comes out from the side, it is the container for all the links and button that is used to close the nav overlay.
+```CSS
 .overlay {
 	height: 100%;
 	width: 0;
@@ -245,7 +234,35 @@ this creates a pop out nav overlay with animations ane everything
     0 2px 0 #000000,
     0 -2px 0 #000000;
 }
-
+```
+if there is a `a` html tag inside the `overlay` class the following is applied
+```CSS
+.overlay a {
+	padding: 10px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+```
+if there is a `closebtn` css class inside the `overlay` class the following is applied
+```CSS
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
+}
+```
+if you hover over the `a` html tag inside the `overlay` class or the `a` tag is in the focus state the following is applied
+```CSS
+.overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+}
+```
+next we create the `overlay_content` class that contains the links not the close button it is positions the links in the overlay properly adding some margins while also centering text etc. 
+```CSS
 .overlay_content {
 	position: relative;
 	top: 25%;
@@ -263,36 +280,9 @@ this creates a pop out nav overlay with animations ane everything
     0 2px 0 #000000,
     0 -2px 0 #000000;
 }
-
-.overlay a {
-	padding: 10px;
-	text-decoration: none;
-	font-size: 36px;
-	color: #818181;
-	display: block;
-	transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-	color: #f1f1f1;
-}
-
-.overlay .closebtn {
-	position: absolute;
-	top: 20px;
-	right: 45px;
-	font-size: 60px;
-}
-
-@media screen and (max-height: 500px) {
-	.overlay a {font-size: 20px}
-	.overlay .closebtn {
-		font-size: 40px;
-		top: 15px;
-		right: 35px;
-	}
-}
-
+```
+next we have the `nav_activate` class that styles the button that activates the nav code provided above, it just has a partially transparent color for the background etc.
+```CSS
 .nav_activate{
 	font-size:30px;
 	cursor:pointer;
@@ -311,57 +301,45 @@ this creates a pop out nav overlay with animations ane everything
     0 -2px 0 #000000;
 }
 ```
+there is also some simple media queries that are used for better responsivity
+```CSS
+@media screen and (max-height: 500px) {
+	.overlay a {font-size: 20px}
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+```
 
 ## image gallery
 
-creates a image gallery with __images around the edges and a videos in the center using css grids
+creates a image gallery with 8 images around the edges and a video in the center using css grids
 
 **HTML**
 
-place the following code in a div with the [parallax](#parallax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
+place the following code in a div with the [parallax](#parallax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered. css below the html
+I would recommend having the following html inside 2 `div`s, one for the `center` and `centered` classes so that the image gallery is properly centered and has some padding around the edges so it looks better. 
 
+first create a div with the `gallery` class which creates the css grid and is a container for the other elements in the gallery, obviously you need a closing div though that is obvious so I only show the start div
 ```HTML
-<div class="center">
-    <div class="centered">
-        <div class="gallery">
-            <div class="gallery__item gallery__item--1">
-                <img src="" alt="Gallery image 1" class="gallery__img">
-            </div>
-            <div class="gallery__item gallery__item--2">
-                <img src="" alt="Gallery image 2"
-                    class="gallery__img">
-            </div>
-            <div class="gallery__item gallery__item--3">
-                <img src="" alt="Gallery image 3"
-                    class="gallery__img">
-            </div>
-            <div class="gallery__item gallery__item--4">
-                <img src="" alt="Gallery image 4"
-                    class="gallery__img">
-            </div>
-            <div class="gallery__item gallery__item--5">
-                <img src="" alt="Gallery image 5" class="gallery__img">
-            </div>
-            <div class="gallery__item gallery__item--6">
-                <img src="" alt="Gallery image 6" class="gallery__img">
-            </div>
-            <div class="gallery__item gallery__item--7">
-                <img src="" alt="Gallery image 7"
-                    class="gallery__img">
-            </div>
-            <div class="gallery__item gallery__item--8">
-                <img src="" alt="Gallery image 9" class="gallery__img">
-            </div>
-            <div class="gallery__item gallery__item--9">
-                <video alt="Gallery video" class="gallery__img" autoplay loop>
-                    <source src="" type="video/mp4">
-                </video>
-            </div>
-        </div>
-    </div>
+<div class="gallery">
+```
+next create 8 of the following `div`s inside the `div` with the `gallery` class, these are the images along the outside of the video in the center
+```HTML
+<div class="gallery__item gallery__item--1">
+    <img src="" alt="Gallery image 1" class="gallery__img">
 </div>
 ```
-
+after that create a div like the one below, this one creates the video in the center
+```HTML
+<div class="gallery__item gallery__item--9">
+    <video alt="Gallery video" class="gallery__img" autoplay loop>
+        <source src="" type="video/mp4">
+    </video>
+</div>
+```
 **CSS**
 
 ```CSS
