@@ -1,27 +1,28 @@
-# intro
+﻿# intro
 
-in this file I am putting snippets for all the bit I hav created for the site
+in this file I am putting snippets for all the bits I have created for the site
 
 ## area
 
-this creates an area for content to go in for responsive design
+This creates an area for content to go in for responsive design, it uses css grid to create a 1x1 grid (so a single cell), it has no effect on the how the site is rendered, it just makes things more clear, though it helps with responsivity because css grids are really good at resizing content and fitting to the given area. the css class `inside` creates a class for the element on the inside of the grid though because it is 1X1 it is automatically placed in the right one so it usually is not needed though I created it just in case it ever is needed. 
 
  **CSS**
 
 ```CSS
-    /* basic area element */
+/* basic area element */
 .area{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
 }
+/* the class for the elemnt inside the area */
 .inside { grid-area: 1 / 1 / 2 / 2; }
  ```
 
 ## center
 
-like the basic area but it centers the contents and adds some padding on the sides
+like the basic area but it centers the contents and adds some padding on the sides. it creates a 3X3 grid placing the content in the center cell making the center cell larger then the other cells so that there is enough space for the elements inside it, in this the `centered` class is required because otherwise the contents would not know were in the css grid to place them selves
 
 **CSS**
 
@@ -39,7 +40,7 @@ like the basic area but it centers the contents and adds some padding on the sid
 
 ## center contents
 
-this uses css flex box to center the contents to its container, best used to center text inside a div(or other type of container) but can be used with something like images or anything else
+this uses css flex box to center the contents to its container, best used to center text inside a div (or other type of container) but can be used with something like images or anything else really
 
 **CSS**
 
@@ -54,7 +55,7 @@ this uses css flex box to center the contents to its container, best used to cen
 
 ## parallax classes
 
-the following css classes create hte parallax effect in the background
+The following css classes create the parallax effect in the background, though it does not provide a background image, for that create a separate class per background image you want
 
 **CSS**
 
@@ -70,21 +71,21 @@ the following css classes create hte parallax effect in the background
 
 ```CSS
 /* I use this for title though it could be used for anything */
-/* place you image in the URL */
+/* place your image in the URL */
 /* it could be parallax_# were # is any number, as long as you have a image for it */
 .parallax_1{
     background-image: url('');
 }
 /* description section background */
 .parallax_2{
-    background-image: url('../backgrounds/clouds-conifer-daylight_optimized.jpg');
+    background-image: url('');
     background-attachment: scroll;
 }
  ```
 
 ## black bar
 
-this creates a black bar on the screen that can accept text in the center
+this creates a black bar on the screen that can accept text in the center, use the `blk_bar_center` variable for the area were you place your text
 
 **CSS**
 
@@ -103,13 +104,13 @@ this creates a black bar on the screen that can accept text in the center
     background-color: black;
     height: 16vh;
 }
-/* black bar outside */
+/* were you put your text */
 .blk_bar_center { grid-area: 2 / 2 / 3 / 3; color: white; font-size: 2rem;} 
  ```
 
 ## title area
 
- creates a title area that takes up 100% of screen width though that can be customized
+ creates a title area that takes up 100% of screen height though that can be customized
 
 **HTML**
 
