@@ -561,57 +561,92 @@ this creates a Gallery with multiple images that can be clicked through showing 
 
 **HTML**
 
-place the following code in a div with the [parallax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
+place the following code in a div with the [parallax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered as follows
 
 ```HTML
-<div class="centered">
-    <div class="sld_show">
-        <div class="top">
-            <div class="what">housing sketches</div>
-        </div>
-        <div class="image">
-            <div class="mySlides img img_1 "></div>
-            <div class="mySlides img img_2 "></div>
-        </div>
-        <div class="img_area">
-            <div class="prev_" onclick="plusSlides(1)">&#10095;</div>
-            <div class="next_" onclick="plusSlides(-1)">&#10094;</div>
-        </div>
-        <div class="caption-container">
-            <div class="about" id="Caption">~</div>
-        </div>
-        <div class="right">
-            <div class="next" onclick="plusSlides(1)">&#10095;</div>
-        </div>
-        <div class="left">
-            <div class="prev" onclick="plusSlides(-1)">&#10094;</div>
-        </div>
-        <div class="tabs">
-            <div class="grd_1">
-                <div class="demo cursor img grd_img grd_img_1" onclick="currentSlide(1)"
-                    title="house design #1">
-                </div>
-            </div>
-            <div class="grd_2">
-                <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
-                    title="schematics coming soon"></div>
-            </div>
-            <div class="grd_3">
-                <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
-                    title="schematics coming soon"></div>
-            </div>
-            <div class="grd_4">
-                <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
-                    title="schematics coming soon"></div>
-            </div>
-            <div class="grd_5">
-                <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
-                    title="schematics coming soon"></div>
-            </div>
-        </div>
+<div class="center">
+	<div class="centered">
     </div>
+    <script src="slides.js"></script>
 </div>
-<script src="slides.js"></script>
+```
+next create a div with the `sld_show` class on it which denotes the slide show and creates the css grid that lays out the slide show its self
+```HTML
+<div class="sld_show">
+```
+next create 7 `div`'s  with the following classes: `top`, `image`, `img_area`, `caption-container`, `right`, `left`, and `tabs` as follows
+```Html
+<div class="top"></div>
+<div class="image"></div>
+<div class="img_area"></div>
+<div class="caption-container"></div>
+<div class="right"></div>
+<div class="left"></div>
+<div class="tabs"></div>
+```
+`top` class creates the title area with the description tag for the what can be found in the slides below it 
+`image` class creates the image/slide and contains all the slides within it
+the `img_area` class creates the next and previous buttons that are used only at phone screen sizes and thus are by default turned of and only turned on by media queries
+`caption-container` is below `image` and contains the caption describing the current contents of the slide
+`right` and `left` are the classes that create the next and previous buttons that are used on non-phone screen sizes and thus is turned off using media queries at phone sizes while `caption-container` is turned on
+`tabs` creates the clickable links for all the slides (this will be rewritten soon to use flexbox because currently to add or remove items from it you have to re-create the CSS grid so I want to be able to automatically populate the area with them without having to specify the grid)
+`top` contains the following HTML:
+```HTML
+ <div class="what">~</div>
+```
+`image` contains the following HTML:
+```HTML
+<div class="mySlides img img_1 "></div>
+<div class="mySlides img img_2 "></div>
+```
+`img_area` contains the following HTML:
+```HTML
+<div class="prev_" onclick="plusSlides(1)">&#10095;</div>
+<div class="next_" onclick="plusSlides(-1)">&#10094;</div>
+```
+`caption-container` contains the following HTML:
+```HTML
+<div class="about" id="Caption">~</div>
+```
+`right` contains the following HTML:
+```HTML
+<div class="next" onclick="plusSlides(1)">&#10095;</div>
+```
+`left` contains the following HTML:
+```HTML
+<div class="prev" onclick="plusSlides(-1)">&#10094;</div>
+```
+`tabs` contains 5 `div`'s:
+```HTML
+<div class="grd_1">
+   <div class="demo cursor img grd_img grd_img_1" onclick="currentSlide(1)"
+       title="~">
+   </div>
+</div>
+```
+```HTML
+<div class="grd_2">
+   <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+       title="~"></div>
+</div>
+```
+```HTML
+<div class="grd_3">
+   <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+       title="~"></div>
+</div>
+```
+```HTML
+<div class="grd_4">
+   <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+       title="~"></div>
+</div>
+```
+```HTML
+<div class="grd_5">
+   <div class="demo cursor img grd_img grd_img_2" onclick="currentSlide(2)"
+       title="~"></div>
+</div>
 ```
 
 **CSS**
@@ -852,5 +887,36 @@ uses css flex to center its self*/
 
 .demo {
     opacity: 0.6;
+}
+```
+**JS**
+there is minimal js required for this it is below
+
+```js
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("Caption");
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+    captionText.innerHTML = dots[slideIndex - 1].title;
 }
 ```
