@@ -4,7 +4,7 @@ in this file I am putting snippets for all the bits I have created for the site
 
 ## area
 
-This creates an area for content to go in for responsive design, it uses css grid to create a 1x1 grid (so a single cell), it has no effect on the how the site is rendered, it just makes things more clear, though it helps with responsivity because css grids are really good at resizing content and fitting to the given area. the css class `inside` creates a class for the element on the inside of the grid though because it is 1X1 it is automatically placed in the right one so it usually is not needed though I created it just in case it ever is needed. 
+This creates an area for content to go in for responsive design, it uses CSS grid to create a 1x1 grid (so a single cell), it has no effect on the how the site is rendered, it just makes things more clear, though it helps with responsivity because CSS grids are really good at resizing content and fitting to the given area. the CSS class `inside` creates a class for the element on the inside of the grid though because it is 1X1 it is automatically placed in the right one so it usually is not needed though I created it just in case it ever is needed. 
 
  **CSS**
 
@@ -22,7 +22,7 @@ This creates an area for content to go in for responsive design, it uses css gri
 
 ## center
 
-like the basic area but it centers the contents and adds some padding on the sides. it creates a 3X3 grid placing the content in the center cell making the center cell larger then the other cells so that there is enough space for the elements inside it, in this the `centered` class is required because otherwise the contents would not know were in the css grid to place them selves
+like the basic area but it centers the contents and adds some padding on the sides. it creates a 3X3 grid placing the content in the center cell making the center cell larger then the other cells so that there is enough space for the elements inside it, in this the `centered` class is required because otherwise the contents would not know were in the CSS grid to place them selves
 
 **CSS**
 
@@ -40,7 +40,7 @@ like the basic area but it centers the contents and adds some padding on the sid
 
 ## center contents
 
-this uses css flex box to center the contents to its container, best used to center text inside a div (or other type of container) but can be used with something like images or anything else really
+this uses CSS flex box to center the contents to its container, best used to center text inside a div (or other type of container) but can be used with something like images or anything else really
 
 **CSS**
 
@@ -55,7 +55,7 @@ this uses css flex box to center the contents to its container, best used to cen
 
 ## parallax classes
 
-The following css classes create the parallax effect in the background, though it does not provide a background image, for that create a separate class per background image you want
+The following CSS classes create the parallax effect in the background, though it does not provide a background image, for that create a separate class per background image you want
 
 **CSS**
 
@@ -135,7 +135,7 @@ this creates a black bar on the screen that can accept text in the center, use t
 
 ## description area
 
- creates a space were you can type in some text, I use it for page descriptions, and it is placed in the center of the area and the area takes up all the space it needs for the text while applying padding using css grid, the `parallax_2` class would be were you put your background image etc. 
+ creates a space were you can type in some text, I use it for page descriptions, and it is placed in the center of the area and the area takes up all the space it needs for the text while applying padding using CSS grid, the `parallax_2` class would be were you put your background image etc. 
 
 **HTML**
 
@@ -208,7 +208,7 @@ below is the html necessary for this
 
 **CSS**
 
-I will go through the css in order of how its used in the above html
+I will go through the CSS in order of how its used in the above html
 
 the first class created is the `overlay` class that creates a partially transparent back background for the navigation, that when the animations are applied comes out from the side, it is the container for all the links and button that is used to close the nav overlay.
 ```CSS
@@ -315,14 +315,14 @@ there is also some simple media queries that are used for better responsivity
 
 ## image gallery
 
-creates a image gallery with 8 images around the edges and a video in the center using css grids
+creates a image gallery with 8 images around the edges and a video in the center using CSS grids
 
 **HTML**
 
-place the following code in a div with the [parallax](#parallax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered. css below the html
+place the following code in a div with the [parallax](#parallax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered. CSS below the html
 I would recommend having the following html inside 2 `div`s, one for the `center` and `centered` classes so that the image gallery is properly centered and has some padding around the edges so it looks better. 
 
-first create a div with the `gallery` class which creates the css grid and is a container for the other elements in the gallery, obviously you need a closing div though that is obvious so I only show the start div
+first create a div with the `gallery` class which creates the CSS grid and is a container for the other elements in the gallery, obviously you need a closing div though that is obvious so I only show the start div
 ```HTML
 <div class="gallery">
 ```
@@ -341,7 +341,7 @@ after that create a div like the one below, this one creates the video in the ce
 </div>
 ```
 **CSS**
-the `gallery` class creates the css grid that is the backbone for the image gallery defining the areas that images and videos take up
+the `gallery` class creates the CSS grid that is the backbone for the image gallery defining the areas that images and videos take up
 ```CSS
 /* the image gallery styling */
 .gallery {
@@ -360,7 +360,7 @@ the `gallery_img` class ensures that the images in the `div`s take up the space 
     display: block; 
 }
 ```
-the css classes for the items in the gallery they are `gallery_item-`1-9 were 9 is the class for the video and all the others are the images, they all also have background colors just in case images fail to load. they all also define the areas they take up in the css grid
+the CSS classes for the items in the gallery they are `gallery_item-`1-9 were 9 is the class for the video and all the others are the images, they all also have background colors just in case images fail to load. they all also define the areas they take up in the CSS grid
 ```CSS
 .gallery_item-1 {
     grid-area: 1 / 1 / 3 / 2;
@@ -411,17 +411,17 @@ the css classes for the items in the gallery they are `gallery_item-`1-9 were 9 
 
 ## link section
 
-this creates a link section using css grid with multiple boxes containing a image and a link box to click on to take you to the link
+this creates a link section using CSS grid with multiple boxes containing a image and a link box to click on to take you to the link
 
 **HTML**
 
 place the following code in a div with the [parallax](#paralax-classes) classes provided above in that section and how I used them in [title](#title-area) and the [description area](#description-area) you want along with some area, preferably centered
 
-create a `div` as follows which is the container for the link section and creates the css grid used to lay everything out, also I would recommend putting all of this in a div that uses the `centered` class to center and add padding as seen [above](#paralax-classes)
+create a `div` as follows which is the container for the link section and creates the CSS grid used to lay everything out, also I would recommend putting all of this in a div that uses the `centered` class to center and add padding as seen [above](#paralax-classes)
 ```HTML
 <div class="links_area">
 ```
-then you place in the following html in the `links_area` `div` 3 times, this creates the link section, note here, for the `L1` use it only for the 1st link section use `L2` and `L3` for the other two because they define were in the css grid they are and a sub css grid for the link section its self. 
+then you place in the following html in the `links_area` `div` 3 times, this creates the link section, note here, for the `L1` use it only for the 1st link section use `L2` and `L3` for the other two because they define were in the CSS grid they are and a sub CSS grid for the link section its self. 
 ```HTML
 <div class="L1">
     <div class="BG"></div>
@@ -444,7 +444,7 @@ the `links_area` class creates the CSS grid that lays out the base that the link
     height: 90vh;
 }
 ```
-next we have `L1`, `L2` and `L3` which place them selves in the grid that `links_area` creates and define their own css grids for the actual link sections
+next we have `L1`, `L2` and `L3` which place them selves in the grid that `links_area` creates and define their own CSS grids for the actual link sections
 ```CSS 
 .L1 {
     display: grid;
@@ -469,7 +469,7 @@ next we have `L1`, `L2` and `L3` which place them selves in the grid that `links
     grid-area: 1 / 3 / 2 / 4;
 }
 ```
-`image_area` defines the area that the image representing the page you are going to takes up in the css grid
+`image_area` defines the area that the image representing the page you are going to takes up in the CSS grid
 ```CSS
 .image_area { grid-area: 2 / 2 / 4 / 4; background-color: rgba(255, 0, 0, 0.514);}
 ```
@@ -484,7 +484,7 @@ next we have `L1`, `L2` and `L3` which place them selves in the grid that `links
     background-color: rgba(128, 128, 128, 0.514);
 }
 ```
-`BG` defines the background area for the link card adding the partialy trasnparent background color
+`BG` defines the background area for the link card adding the partially transparent background color
 ```CSSS
 .BG { grid-area: 1 / 1 / 7 / 5; background-color: rgba(0, 0, 0, 0.61);}
 ```
@@ -531,9 +531,9 @@ next we have `L1`, `L2` and `L3` which place them selves in the grid that `links
 }
 ```
 
-there is some more css for the responsive design but that will come latter
+there is some more CSS for the responsive design but that will come latter
 
-## comming soon
+## coming soon
 
 this is a simple one, it creates a section with text within telling viewers that there is more coming soon
 
@@ -570,7 +570,7 @@ place the following code in a div with the [parallax](#paralax-classes) classes 
     <script src="slides.js"></script>
 </div>
 ```
-next create a div with the `sld_show` class on it which denotes the slide show and creates the css grid that lays out the slide show its self
+next create a div with the `sld_show` class on it which denotes the slide show and creates the CSS grid that lays out the slide show its self
 ```HTML
 <div class="sld_show">
 ```
@@ -650,9 +650,8 @@ the `img_area` class creates the next and previous buttons that are used only at
 ```
 
 **CSS**
-
+the first CSS class is `sld_show` which defines the base grid that the slide takes up
 ```CSS
-/* slide show image gallery */
 /* base css grid class */
 .sld_show {
     display: grid;
@@ -661,7 +660,9 @@ the `img_area` class creates the next and previous buttons that are used only at
     gap: 0px 0px;
     height: 90vh;
 }
-
+```
+`top` places its self within `sld_show` and creates its own sub grid, it is at the top of the slide show and within it lies the description for the contents of the slide show 
+```CSS
 /* the description of what will be found in the image gallery*/
 /* the base css grid for this section */
 .top {
@@ -671,6 +672,9 @@ the `img_area` class creates the next and previous buttons that are used only at
     gap: 0px 0px;
     grid-area: 1 / 2 / 2 / 3;
 }
+```
+`what` places its self in the sub grid that `top` creates and is the styling for the description of the slide show
+```CSS
 /* styling for the text and the area it takes up,
 uses css flex to center its self*/
 .what { 
@@ -682,29 +686,41 @@ uses css flex to center its self*/
     font-size: 2rem;
     background-color: rgba(255, 255, 255, 0.493);
 }
-
+```
+`image` creates the container that the contents of the slides are within, placing themselves in the CSS grid created by `sld_show`
+```CSS
+.image { grid-area: 2 / 2 / 3 / 3; }
+```
+`mySlides` makes the slides invisible initially so that the selected one can be selected by the js
+```CSS
 /* images that go in the slides */
 .mySlides {
     display: none;
 }
-.image { grid-area: 2 / 2 / 3 / 3; }
+```
+`img` ensures that the image in the background of the slides takes up the full height given and that it does not repeat etc. 
+```CSS
 .img{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; 
 }
-
+```
+`img_1` and `img_2` ensure that slides take up the full height given and set the background image, this is because I have resorted to use `div`s instead of `img` tags because I have not found a good method of having the `img` resize its self based on its parents and not resize the grid so I have to use `div`s with backgrounds, that is why `img` is necessary because that ensures that the image isn't clipped etc. 
+```CSS
 .img_1{
     height: 100%;
-    background-image: url("../idea page_1.jpg");
+    background-image: url("/");
     /* background-color: rgb(255, 0, 255); */
 }
 .img_2{
     height: 100%;
-    background-image: url("../to be drawn.jpg");
+    background-image: url("/");
     /* background-color: rgb(255, 0, 21); */
 }
-
+```
+`img_area` creates the area that the next and previous buttons for the phone size are placed by placing itself into the grid created by `sld_show` and creates its own sub grid that is used to place the buttons into
+```CSS
 /* styling for the next and previous image buttons on the inside of the image area
 which are for the phone screen size (for the responsive design of this page) */
 .img_area {
@@ -714,6 +730,9 @@ which are for the phone screen size (for the responsive design of this page) */
     gap: 0px 0px;
     grid-area: 2 / 2 / 3 / 3;
 }
+```
+`prev_` and `next_` place themselves in the the grid created by `img_area` and are hidden so that they do not show up on normal screen sizes and are made visible by the responsive CSS by setting it to `visibility:  visible;` 
+```CSS
 /* previous image */
 .prev_ { 
     grid-area: 2 / 1 / 3 / 2;
@@ -724,7 +743,9 @@ which are for the phone screen size (for the responsive design of this page) */
     grid-area: 2 / 3 / 3 / 4;
     visibility:hidden
 }
-
+```
+`caption-container` places its self in the grid created by `sld_show` and creates its own sub grid and is the container for the description of the currently selected slide
+```CSS
 /* the description of what the currently selected slide shows*/
 /* the base css grid for this section */
 .caption-container {
@@ -737,6 +758,9 @@ which are for the phone screen size (for the responsive design of this page) */
 	background-color: rgb(36, 36, 36);
     color: rgb(255, 255, 255);
 }
+```
+the Id `Caption` and the class `about` style the caption of the current slide, were `about` places it in the grid created by `caption-container` and the Id centers the text within its self using flex box sets a background and creates and animation
+```CSS
 /* styling for the text and the area it takes up,
 uses css flex to center its self*/
 #Caption{
@@ -750,7 +774,9 @@ uses css flex to center its self*/
 .about { grid-area: 2 / 2 / 3 / 3; 
     /* background-color: rgb(25, 0, 250); */
 }
-
+```
+`right` places its self to the right of `image` and creates its own sub grid and `next` places its self within that grid that is created by `right`
+```CSS
 /* the styling for the button on the right side of the screen */
 /* the base css grid for this section */
 .right {
@@ -762,6 +788,9 @@ uses css flex to center its self*/
 }
 /* next image */
 .next { grid-area: 2 / 1 / 3 / 2; }
+```
+`left` places its self to the left of `image` and creates its own sub grid and `prev` places its self within that grid that is created by `right`
+```CSS
 /* the styling for the button on the left side of the screen */
 /* the base css grid for this section */
 .left {
@@ -773,6 +802,9 @@ uses css flex to center its self*/
 }
 /* previous image */
 .prev { grid-area: 2 / 2 / 3 / 3; }
+```
+`tabs` creates the sub grid that contains all the tabs for navigation to a specific slide
+```CSS
 /* the tabs at the bottom of the slide show that allow you to go between multiple images */
 /* the base css grid for this section */
 .tabs {
@@ -782,13 +814,18 @@ uses css flex to center its self*/
     gap: 0em 0em;
     grid-area: 4 / 1 / 5 / 4;
 }
-
+```
+`grd_img` ensures that the images in the tabs take up all the space given and that everything work as intended
+```CSS
 .grd_img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block; 
 }
+```
+`grd_1` is the first tab within `tabs` and thus places its self in the right place in the CSS grid ensuring that it takes up 100% of the space given and `grd_img_1` just sets the right background image for the slide
+```CSS
 /* grid area 1 */
 .grd_1 { 
     grid-area: 1 / 2 / 2 / 3;
@@ -797,8 +834,11 @@ uses css flex to center its self*/
     /* background-color: aqua; */
 }
 .grd_img_1{
-    background-image: url('../idea page_1.jpg'); 
+    background-image: url('/'); 
 }
+```
+`grd_2` is the second tab within `tabs` and thus places its self in the right place in the CSS grid ensuring that it takes up 100% of the space given and `grd_img_2` just sets the right background image for the slide
+```CSS
 /* grid area 2 */
 .grd_2 { 
     grid-area: 1 / 4 / 2 / 5; 
@@ -807,8 +847,11 @@ uses css flex to center its self*/
     /* background-color: aqua; */
 }
 .grd_img_2{
-    background-image: url('../to be drawn.jpg'); 
+    background-image: url('/'); 
 }
+```
+`grd_3` is the third tab within `tabs` and thus places its self in the right place in the CSS grid ensuring that it takes up 100% of the space given 
+```CSS
 /* grid area 3 */
 .grd_3 { 
     grid-area: 1 / 6 / 2 / 7;
@@ -816,9 +859,9 @@ uses css flex to center its self*/
     height: 100%;
     /* background-color: aqua; */
 }
-.grd_img_2{
-    background-image: url('../to be drawn.jpg'); 
-}
+```
+`grd_4` is the forth tab within `tabs` and thus places its self in the right place in the CSS grid ensuring that it takes up 100% of the space given 
+```CSS
 /* grid area 4 */
 .grd_4 { 
     grid-area: 1 / 8 / 2 / 9;
@@ -826,9 +869,9 @@ uses css flex to center its self*/
     height: 100%;
     /* background-color: aqua; */
 }
-.grd_img_2{
-    background-image: url('../to be drawn.jpg'); 
-}
+```
+`grd_5` is the fifth tab within `tabs` and thus places its self in the right place in the CSS grid ensuring that it takes up 100% of the space given 
+```CSS
 /* grid area 5 */
 .grd_5 { 
     grid-area: 1 / 10 / 2 / 11; 
@@ -836,10 +879,9 @@ uses css flex to center its self*/
     height: 100%;
     /* background-color: aqua; */
 }
-.grd_img_2{
-    background-image: url('../to be drawn.jpg'); 
-}
-
+```
+below there is some general styling for `next`, `next_`, `prev` and `prev_`, things like outline for text using shadows and having the cursor be pointer when hovering over the next and previous buttons
+```CSS
 /* general styling for the next and previous image buttons in the image gallery */
 .prev,
 .next,
@@ -870,7 +912,9 @@ uses css flex to center its self*/
 .next_:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
+```
+the rest of the CSS is general styling for the tabs things like making them partially transparent when not clicked/selected making it not transparent when hovered on to make it evident which you are selecting and making the cursor use the pointer cursor when hovering over them for clarity
+```CSS
 /* Add a transparency effect for thumbnail images */
 .demo {
     opacity: 0.6;
@@ -884,13 +928,9 @@ uses css flex to center its self*/
 .cursor {
     cursor: pointer;
 }
-
-.demo {
-    opacity: 0.6;
-}
 ```
 **JS**
-there is minimal js required for this it is below
+there is minimal js required for this, it is below
 
 ```js
 var slideIndex = 1;
