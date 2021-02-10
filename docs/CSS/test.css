@@ -14,9 +14,10 @@ body {
   background-color: rgb(128, 128, 128);
   /* Used if the image is unavailable */
   font-family: "Times New Roman", Times, serif;
-  font-size: 23px;
+  font-size: 12px;
   font-weight: 400;
   color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 *,
 *::after,

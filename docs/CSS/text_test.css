@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+::marker{
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+    font-size: 2em;
+}
 /* create the background for text */
 /* light mode */
 .txt_section_light{
@@ -30,6 +39,8 @@ b{
 }
 /* normal text */
 p{
+    padding-top: 0.3em;
+    font-size: 2em;
     font-weight: 100;
 }
 /* standard css for the italicize tag (I wish I could use numbers) */
@@ -145,7 +156,7 @@ img{
 }
 h1{
     display: block;
-    font-size: 3em;
+    font-size: 4em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
     margin-left: 0;
@@ -154,7 +165,7 @@ h1{
 }
 h2 {
     display: block;
-    font-size: 2.5em;
+    font-size: 3.5em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
     margin-left: 0;
@@ -163,7 +174,7 @@ h2 {
 }
 h3 {
     display: block;
-    font-size: 2.17em;
+    font-size: 3.17em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
     margin-left: 0;
@@ -172,7 +183,7 @@ h3 {
 }
 h4 {
     display: block;
-    font-size: 1.85em;
+    font-size: 2.85em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
     margin-left: 0;
@@ -181,7 +192,7 @@ h4 {
 }
 h5 {
     display: block;
-    font-size: 1.53em;
+    font-size: 2.53em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
     margin-left: 0;
@@ -190,7 +201,7 @@ h5 {
 }
 h6 {
     display: block;
-    font-size: 1.27em;
+    font-size: 2.27em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
     margin-left: 0;
@@ -199,7 +210,7 @@ h6 {
 }
 hr {
     display: block;
-    margin-top: 0.3em;
+    margin-top: 1.3em;
     margin-bottom: 0.3em;
     margin-left: auto;
     margin-right: auto;
@@ -209,7 +220,7 @@ hr {
 ul {
     display: block;
     list-style-type: disc;
-    margin-top: 0.1em;
+    margin-top: 1.1em;
     margin-bottom: 0.1em;
     margin-left: 0;
     margin-right: 0;
@@ -218,7 +229,7 @@ ul {
 ol {
     display: block;
     list-style-type: decimal;
-    margin-top: 0.1em;
+    margin-top: 1.1em;
     margin-bottom: 0.1em;
     margin-left: 0;
     margin-right: 0;
@@ -247,6 +258,10 @@ blockquote {
     margin-bottom: 0.8em;
     margin-left: 40px;
     margin-right: 40px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-color: rgb(192, 192, 192);
+    padding-left: 0.2em;
 }
 q {
     display: inline;
@@ -261,28 +276,28 @@ q:after {
 }
 samp {
     font-family: monospace;
-    color: crimson;
+    color: rgb(24, 24, 24);
     background-color: #f1f1f1;
-    font-size: 1.1em;
+    font-size: 0.8em;
 }
 code {
     font-family: monospace;
-    color: crimson;
+    color: rgb(24, 24, 24);
     background-color: #f1f1f1;
-    font-size: 1.1em;
+    font-size: 0.8em;
 }
 kbd {
     font-family: monospace;
     border-radius: 2px;
     padding: 2px;
     border: 1px solid black;
-    font-size: 1.1em;
+    font-size: 0.8em;
 }
 var {
     font-style: italic;
-    color: crimson;
+    color: rgb(24, 24, 24);
     background-color: #f1f1f1;
-    font-size: 1.1em;
+    font-size: 0.8em;
 }
 pre {
     display: block;
@@ -313,7 +328,7 @@ table {
     text-align: center;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     border-collapse: collapse;
 }
 tbody {
