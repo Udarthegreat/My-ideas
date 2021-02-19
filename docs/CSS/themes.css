@@ -1,0 +1,18 @@
+@charset "UTF-8";
+:root {
+    /* dark */
+    --dark_background: rgb(0, 0, 0);
+    --dark_text: rgb(255, 255, 255);
+    --dark_shadow: rgb(180, 180, 180);
+    --dark_secondary: rgb(0, 4, 59);
+    --dark_tertiary: rgb(88, 88, 88);
+    --dark_link: rgb(20, 35, 255);
+    /* light */
+    --light_background: rgb(255, 255, 255);
+    --light_text: rgb(0, 0, 0);
+    --light_shadow: rgb(88, 88, 88);
+    --light_secondary: rgb(20, 35, 255);;
+    --light_tertiary: rgb(180, 180, 180);
+    --light_link: rgb(88, 88, 88);
+    --dark_link: rgb(53, 18, 209);
+  }

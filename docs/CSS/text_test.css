@@ -99,7 +99,9 @@ sup {
 }
 /* standard css for the hyperlinks */
 a{
+    color: var(--dark_link);
     text-decoration: underline;
+    cursor:pointer;
 }
 /* yellow highlight */
 .highlight_y{
@@ -260,7 +262,7 @@ blockquote {
     margin-right: 40px;
     border-left-width: 5px;
     border-left-style: solid;
-    border-color: rgb(192, 192, 192);
+    border-color: var(--dark_tertiary);
     padding-left: 0.2em;
 }
 q {
@@ -282,8 +284,8 @@ samp {
 }
 code {
     font-family: monospace;
-    color: rgb(24, 24, 24);
-    background-color: #f1f1f1;
+    color: var(--dark_text);
+    background-color: var(--dark_tertiary);
     font-size: 0.8em;
 }
 kbd {
@@ -324,11 +326,11 @@ table {
     display: table;
     border-collapse: separate;
     border-spacing: 2px;
-    border-color: rgb(0, 0, 0);
     text-align: center;
+    display: table;
 }
 table, th, td {
-    border: 1px solid rgb(0, 0, 0);
+    border: 2px solid var(--dark_shadow);
     border-collapse: collapse;
 }
 tbody {
