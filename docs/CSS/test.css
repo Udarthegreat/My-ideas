@@ -12,12 +12,23 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 }
 body {
   background-color: rgb(128, 128, 128);
-  /* Used if the image is unavailable */
   font-family: "Times New Roman", Times, serif;
   font-size: 12px;
   font-weight: 400;
-  color: var(--dark_text);
-  background-color: var(--dark_background);
+}
+/* theme switch */
+#page {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+/* I wanted to put this in :root but it seams to not work when I do that so it has to be here */
+.theme-switch:checked + #page{
+  --text-color: var(--light_text);
+  --bg-color: var(--light_bg);
+  --shadow_color: var(--light_shadow);
+  --secondary_color: var(--light_secondary);
+  --tertiary_color: var(--light_tertiary);
+  --link_color: var(--light_link);
 }
 *,
 *::after,
