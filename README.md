@@ -14,6 +14,6 @@ My ideas sorted by page
 This is simple enough at this point were it does not merritt its own file.
  - classes with multiple words in them should be seperated by _ not - 
    - exception for the previous rule is when it is a file then use -
- - indents should be 4 spaces (so tabs should be bound to 4 spaces)
+ - indents (tabs) should be 4 spaces (so tabs should be bound to 4 spaces)
  - have a empty line at the end of every file 
  - 
