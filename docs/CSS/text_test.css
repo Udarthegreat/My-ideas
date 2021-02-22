@@ -33,6 +33,7 @@ p{
     padding-top: 0.3em;
     font-size: 2em;
     font-weight: 100;
+    margin-left: 0.5em;
 }
 /* standard css for the italicize tag (I wish I could use numbers) */
 i{
@@ -155,6 +156,7 @@ h1{
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    text-align: center;
 }
 h2 {
     display: block;
@@ -164,6 +166,7 @@ h2 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    margin-left: 0.5em;
 }
 h3 {
     display: block;
@@ -173,6 +176,7 @@ h3 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    margin-left: 0.5em;
 }
 h4 {
     display: block;
@@ -182,6 +186,7 @@ h4 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    margin-left: 0.5em;
 }
 h5 {
     display: block;
@@ -191,6 +196,7 @@ h5 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    margin-left: 0.5em;
 }
 h6 {
     display: block;
@@ -200,6 +206,7 @@ h6 {
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    margin-left: 0.5em;
 }
 hr {
     display: block;
@@ -377,5 +384,6 @@ pre {
     white-space: pre;
     margin: 1em 0;
     font-size: 2em;
+    margin-left: 0.5em;
 }
 /* normalize css */
