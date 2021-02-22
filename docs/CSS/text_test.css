@@ -276,9 +276,21 @@ samp {
 code {
     font-family: monospace;
     color: var(--text-color);
-    background-color: var(--tertiary_color);
     font-size: 0.8em;
-    border-radius: 15%;
+    background-color: var(--tertiary_color);
+}
+pre>code{
+    display: block;
+    padding: 0.4em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+/* I wish this could be just p.>code */
+p.external>code{
+    display: block;
+    padding: 0.4em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 kbd {
     font-family: monospace;
@@ -358,5 +370,12 @@ dt {
 dd {
     display: block;
     margin-left: 1.6em;
+}
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+    font-size: 2em;
 }
 /* normalize css */

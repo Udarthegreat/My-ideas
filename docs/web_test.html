@@ -132,15 +132,18 @@
                 </li>
             </ul>
             <p>Lorem <code>ipsum</code> dolor sit amet, consectetur adipiscing elit.</p>
-            <p>
-                <code>lorem</code>
+            <p class="external">
+                <code>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                Lorem `ipsum` dolor sit amet, consectetur adipiscing elit.</code>
             </p>
             <hr>
+            <p>Here’s a simple footnote,<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup> and here’s a
+                longer one.<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup></p>
             <p>My favorite search engine is <a href="https://duckduckgo.com"
                     title="The best search engine for privacy">Duck
                     Duck
                     Go</a>.</p>
-            <p>[Lorem] <a href="https://www.markdownguide.org/basic-syntax/#code" title="lorem ipsum generator">1</a>
+            <p>[Lorem] <a href="https://www.markdownguide.org/basic-syntax/#code" title="markdownguide">1</a>
             </p>
             <p class="center_contents"><a href="https://www.pexels.com/photo/mountains-covered-with-snow-1785493/"><img
                         src="https://images.pexels.com/photos/1785493/pexels-photo-1785493.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940"
@@ -209,6 +212,17 @@
                     <p>dolor</p>
                 </li>
             </ul>
+            <hr class="footnotes-sep">
+            <section class="footnotes">
+                <ol class="footnotes-list">
+                    <li id="fn1" class="footnote-item">
+                        <p>lorem <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+                    </li>
+                    <li id="fn2" class="footnote-item">
+                        <p>ipsum <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+                    </li>
+                </ol>
+            </section>
         </div>
     </div>
 </body>

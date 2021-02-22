@@ -39,9 +39,13 @@ ipsum
  
 Lorem `ipsum` dolor sit amet, consectetur adipiscing elit.
  ```
-lorem
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem `ipsum` dolor sit amet, consectetur adipiscing elit.
  ```
 ---
+
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
 
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
@@ -67,5 +71,8 @@ Second Term
 - [ ] dolor
 
 
-[1]: <https://www.markdownguide.org/basic-syntax/#code> (lorem ipsum generator)
+[1]: <https://www.markdownguide.org/basic-syntax/#code> (markdownguide)
 
+[^1]: lorem
+
+[^bignote]: ipsum
