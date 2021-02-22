@@ -14,7 +14,7 @@ My ideas sorted by page
 This is simple enough at this point were it does not merit its own file.
  - classes with multiple words in them should be separated by _ not - though they have to have some sort of separation between so for example `someVar` will not work 
    - exception for the previous rule is when it is a file then use -
- - indents should be 4 spaces (so tabs should be bound to 4 spaces)
+ - indents (tabs) should be 4 spaces (so tabs should be bound to 4 spaces)
  - have a empty line at the end of every file 
  - no external libraries like react, angular, bootstrap and vue, especially react
  - for colors use rgb(a) not hex or other methods
