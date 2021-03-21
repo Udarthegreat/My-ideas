@@ -88,7 +88,7 @@ uses css flex to center its self*/
 
 .img_1{
     height: 100%;
-    background-image: url("../../docs/idea page_1.jpg") !important;
+    background-image: url("../idea page_1.jpg") !important;
     /* background-color: rgb(255, 0, 255); */
 }
 .img_2{
