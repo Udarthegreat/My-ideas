@@ -13,14 +13,24 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; 
 }
-
 body {
-  font-family: "Nunito", sans-serif;
-  color: rgb(255, 255, 255);
-  font-weight: 400;
+  background-color: rgb(128, 128, 128);
+  font-family: "Times New Roman", Times, serif;
   font-size: 12px;
+  font-weight: 400;
+}
+.txt_outline{
+  text-shadow:
+	/* Outline */
+	-1px -1px 0 var(--text-color),
+	1px -1px 0 var(--text-color),
+	-1px 1px 0 var(--text-color),
+	1px 1px 0 var(--text-color),  
+	-2px 0 0 var(--text-color),
+	2px 0 0 var(--text-color),
+	0 2px 0 var(--text-color),
+	0 -2px 0 var(--text-color);
 }
 
 .grid-container {

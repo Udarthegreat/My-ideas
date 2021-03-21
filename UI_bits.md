@@ -1,4 +1,4 @@
-﻿# intro
+# Intro
 
 in this file I am putting snippets for all the bits I have created for the site
 
@@ -18,7 +18,7 @@ This creates an area for content to go in for responsive design, it uses CSS gri
 }
 /* the class for the elemnt inside the area */
 .inside { grid-area: 1 / 1 / 2 / 2; }
- ```
+```
 
 ## center
 
@@ -36,7 +36,7 @@ like the basic area but it centers the contents and adds some padding on the sid
 }
 /* the area inside the css grid that is in the center */
 .centered { grid-area: 2 / 2 / 3 / 3; }
- ```
+```
 
 ## center contents
 
@@ -51,7 +51,7 @@ this uses CSS flex box to center the contents to its container, best used to cen
     justify-content: center;
     align-items: center;
 }
- ```
+```
 
 ## parallax classes
 
@@ -67,7 +67,7 @@ The following CSS classes create the parallax effect in the background, though i
     background-repeat: no-repeat;
     background-size: cover;
 }
- ```
+```
 
 ## black bar
 
@@ -92,7 +92,7 @@ this creates a black bar on the screen that can accept text in the center, use t
 }
 /* were you put your text */
 .blk_bar_center { grid-area: 2 / 2 / 3 / 3; color: white; font-size: 2rem;} 
- ```
+```
 
 ## title area
 
@@ -131,7 +131,7 @@ this creates a black bar on the screen that can accept text in the center, use t
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.37);
 } 
- ```
+```
 
 ## description area
 

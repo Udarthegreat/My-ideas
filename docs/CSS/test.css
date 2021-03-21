@@ -10,6 +10,9 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
   padding: 0;
   margin: 0;
 }
+html {
+  box-sizing: border-box;
+}
 body {
   background-color: rgb(128, 128, 128);
   font-family: "Times New Roman", Times, serif;
@@ -36,6 +39,18 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: inherit; 
+}
+.txt_outline{
+  text-shadow:
+	/* Outline */
+	-1px -1px 0 var(--text-color),
+	1px -1px 0 var(--text-color),
+	-1px 1px 0 var(--text-color),
+	1px 1px 0 var(--text-color),  
+	-2px 0 0 var(--text-color),
+	2px 0 0 var(--text-color),
+	0 2px 0 var(--text-color),
+	0 -2px 0 var(--text-color);
 }
 
 /* temp */

@@ -382,7 +382,8 @@ uses css flex to center its self*/
     align-items: center;
     z-index: 10;
     cursor: pointer;
-    font-size: 2.6rem;
+    /* temp until I fix the issue with the link section */
+    font-size: 1.5rem;
 }
 
 .L2 { grid-area: 2 / 2 / 3 / 3; 
