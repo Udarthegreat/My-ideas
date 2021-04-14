@@ -163,8 +163,8 @@ h2 {
     font-size: 3.5em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
-    margin-left: 0;
     margin-right: 0;
+    margin-left: 1em;
     font-weight: bold;
     margin-left: 0.5em;
 }
@@ -173,7 +173,7 @@ h3 {
     font-size: 3.17em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
-    margin-left: 0;
+    margin-left: 1em;
     margin-right: 0;
     font-weight: bold;
     margin-left: 0.5em;
@@ -183,7 +183,7 @@ h4 {
     font-size: 2.85em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
-    margin-left: 0;
+    margin-left: 1em;
     margin-right: 0;
     font-weight: bold;
     margin-left: 0.5em;
@@ -193,7 +193,7 @@ h5 {
     font-size: 2.53em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
-    margin-left: 0;
+    margin-left: 1em;
     margin-right: 0;
     font-weight: bold;
     margin-left: 0.5em;
@@ -203,7 +203,7 @@ h6 {
     font-size: 2.27em;
     margin-top: 0.1em;
     margin-bottom: 0.1em;
-    margin-left: 0;
+    margin-left: 1em;
     margin-right: 0;
     font-weight: bold;
     margin-left: 0.5em;
@@ -212,7 +212,7 @@ hr {
     display: block;
     margin-top: 1.4em;
     margin-bottom: 0.5em;
-    margin-left: auto;
+    margin-left: 1em;
     margin-right: auto;
     border-style: inset;
     border: 0.15em solid var(--tertiary_color);
@@ -382,8 +382,45 @@ pre {
     display: block;
     font-family: monospace;
     white-space: pre;
-    margin: 1em 0;
+    margin: 1em 0px;
     font-size: 2em;
     margin-left: 0.5em;
+}
+td>p{
+    margin-right: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    padding-top: 0px;
+}
+th>p{
+    margin-right: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    padding-top: 0px;
+}
+
+li.task-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    /* this feels hacky but it works for now */
+    column-gap: 1em;
+}
+li.task-list-item>p{
+    margin-left: 0px;
+    padding-top: 0px;
+}
+
+li{
+    display: list-item;
+}
+ol{
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 40px;
 }
 /* normalize css */

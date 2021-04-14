@@ -1,4 +1,4 @@
-﻿# Heading level 1
+# Heading level 1
 ## Heading level 2
 ### Heading level 3
 #### Heading level 4
@@ -17,6 +17,7 @@ Nulla dignissim id mauris eget gravida. Nam quis velit libero. In rutrum nec lec
 >Donec feugiat velit quis fringilla convallis.
 
 >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+>
 >>Donec feugiat velit quis fringilla convallis.
 
 5. First item  
@@ -36,7 +37,7 @@ Nulla dignissim id mauris eget gravida. Nam quis velit libero. In rutrum nec lec
  - lorem
 ipsum
  - dolor
- 
+
 Lorem `ipsum` dolor sit amet, consectetur adipiscing elit.
  ```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -71,7 +72,7 @@ Second Term
 - [ ] dolor
 
 
-[1]: <https://www.markdownguide.org/basic-syntax/#code> (markdownguide)
+[1]: <https://www.markdownguide.org/basic-syntax/#code> "markdownguide"
 
 [^1]: lorem
 
