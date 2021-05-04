@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url("../webfonts/PermanentMarker_Regular/stylesheet.css");
+@import url("../webfonts/NovaSquare/stylesheet.css");
+@import url("../webfonts/NovaFlat_Regular/stylesheet.css");
+
+article, aside, footer, header, main, nav, section{
+  display: block;
+}
+html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
+  padding: 0;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(128, 128, 128);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: var(--bg-color);
+}
+.title{
+    font-size: 8em;
+    color: var(--text-color);
+}
+.description{
+    font-size: 2em;
+    color: var(--text-color);
+}
+.link{
+    font-size: 1.5em;
+    color: var(--link_color);
+}
+/* theme switch */
+#page {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+/* I wanted to put this in :root but it seams to not work when I do that so it has to be here */
+.theme-switch:checked + #page{
+  --text-color: var(--light_text);
+  --bg-color: var(--light_bg);
+  --shadow_color: var(--light_shadow);
+  --secondary_color: var(--light_secondary);
+  --tertiary_color: var(--light_tertiary);
+  --link_color: var(--light_link);
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+.txt_outline{
+  text-shadow:
+	/* Outline */
+	-1px -1px 0 var(--text-color),
+	1px -1px 0 var(--text-color),
+	-1px 1px 0 var(--text-color),
+	1px 1px 0 var(--text-color),  
+	-2px 0 0 var(--text-color),
+	2px 0 0 var(--text-color),
+	0 2px 0 var(--text-color),
+	0 -2px 0 var(--text-color);
+}
+
+.center{
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  grid-template-rows: 1fr 10fr 1fr;
+  gap: 0px 0px;
+  height: 100vh;
+}
+
+.centered { grid-area: 2 / 2 / 3 / 3; }
+
+.center_contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

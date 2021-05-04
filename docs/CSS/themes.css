@@ -17,8 +17,8 @@
     /* Default mode */
     --text-color: var(--dark_text);
     --bg-color: var(--dark_bg);
+    --link_color: var(--dark_link);
     --shadow_color: var(--dark_shadow);
     --secondary_color: var(--dark_secondary);
     --tertiary_color: var(--dark_tertiary);
-    --link_color: var(--dark_link);
   }
