@@ -40,11 +40,13 @@ body {
 /* I wanted to put this in :root but it seams to not work when I do that so it has to be here */
 .theme-switch:checked + #page{
   --text-color: var(--light_text);
+  --text_secondary: var(--light_text_secondary);
   --bg-color: var(--light_bg);
   --shadow_color: var(--light_shadow);
   --secondary_color: var(--light_secondary);
   --tertiary_color: var(--light_tertiary);
   --link_color: var(--light_link);
+  --partially_transparent: var(--light_partially_transparent);
 }
 *,
 *::after,
@@ -82,4 +84,3 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
