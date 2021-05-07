@@ -1,3 +1,4 @@
+[TOC]
 # Heading level 1
 ## Heading level 2
 ### Heading level 3
@@ -20,18 +21,20 @@ Nulla dignissim id mauris eget gravida. Nam quis velit libero. In rutrum nec lec
 >
 >>Donec feugiat velit quis fringilla convallis.
 
+numbered litst
 5. First item  
 6. Second item  
 7. Third item  
-	1. Indented item  
-	2. Indented item  
+	1. First Indented item 
+	2. Second Indented item  
 8. Fourth item
 
+other lists
 - First item  
 - Second item  
 - Third item  
-	- Indented item  
-	- Indented item  
+	- First Indented item  
+	- Second Indented item  
 - Fourth item
 
  - lorem
@@ -56,10 +59,10 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
 [![some  mountains](https://images.pexels.com/photos/1785493/pexels-photo-1785493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 "some  mountains")](https://www.pexels.com/photo/mountains-covered-with-snow-1785493/)
 
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| 1     |   2   |           3 |
+| :---- | :---: | ----------: |
+| Lorem | ipsum |       dolor |
+| sit   | amet, | consectetur |
 
 
 
@@ -69,7 +72,7 @@ Second Term
 
 - [x] Lorem
 - [ ] ipsum
-- [ ] dolor
+- [x] dolor
 
 
 [1]: <https://www.markdownguide.org/basic-syntax/#code> "markdownguide"
