@@ -54,9 +54,8 @@ body {
 }
 
 .nav_activate{
-	font-size:30px;
-	cursor:pointer;
-	color:var(--text-color);
-	position:fixed;
+	font-size: 20px;
+	cursor: pointer;
+	color: var(--text-color);
 	z-index: 50;
 }

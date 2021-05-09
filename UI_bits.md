@@ -1,3 +1,5 @@
+[TOC]
+
 # Intro
 
 in this file I am putting snippets for all the bits I have created for the site

@@ -1,6 +1,8 @@
+[TOC]
+
 # TODO
 
-### 1
+## 1:
 
 - [x] make the others page and get it were it needs to be
 - [x] fix small graphical glitches
@@ -13,7 +15,7 @@
 - [x] add a section for small projects (name it something like "others)
 - [x] make sure that all pages have the new others page linked in the nav bar
 
-### 2:
+## 2:
 
 - [x] make website responsive on different screen sizes
   - [x]  index
@@ -37,7 +39,7 @@
 - [x] fix up images used
 - [x] take the script tag from inside of climatetabs_1 and move it to climate.js, can't right now because when I do that line won't perform its function
 
-### 3
+## 3:
 
 - [ ] Hoverable Sidenav Button to pop up the navbar click link
 - [x] convert the gallery from earth 2.0 from normal display block using position: absolute; to CSS grid
@@ -68,9 +70,15 @@
 - [ ] add license (CC BY 3.0 I think)
 - [ ] add a markdown file for every page that is readily downloadable
 - [x] make the descriptions work for the 705 size
+- [ ] fix images that are in use (there are some trash in some of the images)
+- [x] add dark and light themes
+  - [x] add theme switcher
+- [x] implement hoverable side navigation menu 
+  - [x] integrate it with nav menu
+  - [x] integrate it with the theme switcher
 - [ ] ~
 
-### 4
+## 4:
 
 - [ ] have all costume html done for every page I have by this point
 - [ ] convert the 250px value to % in climate.css
@@ -79,7 +87,7 @@
 - [ ] host all fonts locally (disconnect from google fonts)
 - [ ] ~
 
-### some point in the future
+## some point in the future
 
 - [ ] try to use as many of my own images in the page as possible
 - [ ] for navbar implement ability to click outside and close navbar
@@ -93,6 +101,5 @@
 - [ ] add a credits
 - [ ] fix error on img_a.onclick = function(){
 - [ ] make the black outline around text using shadow a css class (or what ever their called) so I only have to define it once
-- [ ] fix images that are in use (there are some trash in some of the images)
 - [ ] convert images to svg's at use them instead of the images for obvious reasons
 - [ ] ~

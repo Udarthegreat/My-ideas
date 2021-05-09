@@ -1,7 +1,4 @@
 @charset "UTF-8";
-@import url("../webfonts/PermanentMarker_Regular/stylesheet.css");
-@import url("../webfonts/NovaSquare/stylesheet.css");
-@import url("../webfonts/NovaFlat_Regular/stylesheet.css");
 
 article, aside, footer, header, main, nav, section{
   display: block;
@@ -71,3 +68,62 @@ body {
   align-items: center;
 }
 /* temp */
+
+.sidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.sidenav label {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.sidenav span {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+
+.sidenav a:hover {
+  left: 0;
+}
+
+.sidenav label:hover {
+  left: 0;
+}
+
+.sidenav span:hover {
+  left: 0;
+}
+
+.nav {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+.theme_switcher{
+  top: 80px;
+  background-color: #2196F3;
+}
