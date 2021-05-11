@@ -9,17 +9,6 @@
     text-align-last: start !important;
     font-size: 2em;
 }
-/* these create the font settings for text sections */
-/* light mode */
-.txt_light{
-    color: rgb(0, 0, 0);
-    font-size: 1em;
-}
-/* dark mode */
-.txt_dark{
-    color: rgb(255, 255, 255);
-    font-size: 1em;
-}
 /* only works on block level not something like span */
 .indent{
     text-indent: 2em;

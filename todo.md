@@ -76,6 +76,7 @@
 - [x] implement hoverable side navigation menu 
   - [x] integrate it with nav menu
   - [x] integrate it with the theme switcher
+- [x] re-write nav overlay to use CSS flexbox and CSS grid for layout because that is better for responsive layouts
 - [ ] ~
 
 ## 4:
