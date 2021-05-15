@@ -79,11 +79,40 @@ sup {
     font-style: italic;
 }
 /* standard css for the hyperlinks */
-a{
-    color: var(--link_color);
-    text-decoration: underline;
-    cursor:pointer;
+p a {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    color: var(--text-color);
+    padding: 0.2em 0.2em;
+    transition: color ease 0.35s;
+    z-index: 5;
 }
+
+p a:hover {
+    color: var(--bg-color);
+    z-index: 10;
+}
+
+p a::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 5%;
+    left: 0;
+    bottom: 0;
+    background-color: var(--link_color);
+    transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
+}
+
+p a:hover::after {
+    height: 100%; 
+}
+/* TODO: make it so that the link effect does not effect any image links, 
+find a better way then `p a` to have the effect not apply to the nav overlay; 
+the goal here is to have it so that all links get this effect unless they are images or part of the ui, 
+preferably there would be a css class to exclude a link from having the effect*/
 /* yellow highlight */
 .highlight_y{
     background-color: rgb(255, 255, 0);

@@ -18,8 +18,9 @@ body {
 }
 /* theme switch */
 #page {
-  background: var(--bg-color);
+  background-color: var(--bg-color);
   color: var(--text-color);
+  z-index: 1;
 }
 /* I wanted to put this in :root but it seams to not work when I do that so it has to be here */
 .theme-switch:checked + #page{
@@ -33,7 +34,6 @@ body {
   --partially_transparent: var(--light_partially_transparent);
 }
 .theme-switch{
-  /* visibility: hidden; */
   display: none;
 }
 *,
