@@ -41,7 +41,9 @@
 
 ## 3:
 
-- [ ] Hoverable Sidenav Button to pop up the navbar click link
+- [x] implement hoverable side navigation menu
+  - [x] integrate it with nav menu
+  - [x] integrate it with the theme switcher
 - [x] convert the gallery from earth 2.0 from normal display block using position: absolute; to CSS grid
 - [ ] make standardized CSS and JS for different functions
   - [x] title area
@@ -73,10 +75,9 @@
 - [ ] fix images that are in use (there are some trash in some of the images)
 - [x] add dark and light themes
   - [x] add theme switcher
-- [x] implement hoverable side navigation menu 
-  - [x] integrate it with nav menu
-  - [x] integrate it with the theme switcher
 - [x] re-write nav overlay to use CSS flexbox and CSS grid for layout because that is better for responsive layouts
+- [ ] fix bug with image slide show were in Firefox background images are not showing up
+- [ ] in image slide show use flexbox to place the thumbnails of the slides instead of grid
 - [ ] ~
 
 ## 4:
