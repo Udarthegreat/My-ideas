@@ -3,12 +3,12 @@
     /* dark */
     --dark_bg: rgb(0, 0, 0);
     --dark_text: rgb(255, 255, 255);
-    --dark_text_secondary: rgb(78, 78, 78);
-    --dark_shadow: rgb(180, 180, 180);
+    --dark_text_secondary: rgb(155, 155, 155);
+    --dark_shadow: rgb(82, 82, 82);
     --dark_secondary: rgb(0, 4, 59);
-    --dark_tertiary: rgb(88, 88, 88);
+    --dark_tertiary: rgb(46, 46, 46);
     --dark_link: rgb(20, 35, 255);
-    --dark_partially_transparent: rgba(255, 255, 255, 0.63);
+    --dark_partially_transparent: rgba(0, 0, 0, 0.6); 
     /* light */
     --light_bg: rgb(255, 255, 255);
     --light_text: rgb(0, 0, 0);
