@@ -4,17 +4,8 @@
     "editor.tabSize": 4,
     "cSpell.words": [
         "PEXELS",
-        "arial",
-        "nanum",
-        "barcode",
     ],
     "cSpell.ignoreWords": [
-        "Hoverable",
-        "closebtn",
-        "numbertext",
-        "Sidenav",
-        "tabgroup",
-        "biosolar",
-        "excanvas",
+       
     ],
 }

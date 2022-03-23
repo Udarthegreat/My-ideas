@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\redoing the statick page for earth 2.0\\cloth_sim.js"
+            "program": "${workspaceFolder}"
         }
     ]
 }

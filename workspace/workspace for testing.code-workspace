@@ -5,12 +5,6 @@
 		}
 	],
 	"settings": {
-		"cSpell.words": [
-			"autoplay",
-			"excanvas",
-			"flexbox",
-			"rgba",
-			"svg's"
-		]
+		"liveServer.settings.port": 5501
 	}
 }

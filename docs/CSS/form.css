@@ -48,19 +48,19 @@ input[type=range]{
 I have three versions that look essentially the same but their backgrounds are slightly different
 I will most likely have a style that applies to all fieldset's in the future, but currently non of the styles are final */
 /* TODO: fix the fact that the divs cancel these colors out */
-fieldset:nth-of-type(1n+1) {
+div.center>div.centered>fieldset:nth-of-type(1n+1) {
   background-color: rgba(0, 0, 0, 0.356);
   border-style: solid;
   border-width: 3px;
   border-color: rgb(0, 0, 0);
 }
-fieldset:nth-of-type(2n+2) {
+div.center>div.centered>fieldset:nth-of-type(2n+2) {
   background-color: rgba(49, 49, 49, 0.356);
   border-style: solid;
   border-width: 3px;
   border-color: rgb(0, 0, 0);
 }
-fieldset:nth-of-type(3n+3) {
+div.center>div.centered>fieldset:nth-of-type(3n+3) {
   background-color: rgb(121, 121, 121, 0.356);
   border-style: solid;
   border-width: 3px;
