@@ -12,15 +12,26 @@ html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, ma
 }
 html {
   box-sizing: border-box;
-  font-size: 62.5%; 
 }
 body {
   background-color: rgb(128, 128, 128);
-  /* Used if the image is unavailable */
   font-family: "Times New Roman", Times, serif;
   font-size: 12px;
   font-weight: 400;
-  color: rgb(255, 255, 255);
+}
+/* theme switch */
+#page {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+/* I wanted to put this in :root but it seams to not work when I do that so it has to be here */
+.theme-switch:checked + #page{
+  --text-color: var(--light_text);
+  --bg-color: var(--light_bg);
+  --shadow_color: var(--light_shadow);
+  --secondary_color: var(--light_secondary);
+  --tertiary_color: var(--light_tertiary);
+  --link_color: var(--light_link);
 }
 *,
 *::after,
@@ -28,4 +39,16 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: inherit; 
+}
+.txt_outline{
+  text-shadow:
+	/* Outline */
+	-1px -1px 0 var(--text-color),
+	1px -1px 0 var(--text-color),
+	-1px 1px 0 var(--text-color),
+	1px 1px 0 var(--text-color),  
+	-2px 0 0 var(--text-color),
+	2px 0 0 var(--text-color),
+	0 2px 0 var(--text-color),
+	0 -2px 0 var(--text-color);
 }

@@ -11,20 +11,9 @@ body {
 	z-index: 10;
 	top: 0;
 	left: 0;
-	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0, 0.6);
+	background-color: var(--partially_transparent);
 	overflow-x: hidden;
 	transition: 0.5s;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
 }
 
 .overlay_content {
@@ -33,29 +22,19 @@ body {
 	width: 100%;
 	text-align: center;
 	margin-top: 30px;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
 }
 
 .overlay a {
 	padding: 10px;
 	text-decoration: none;
 	font-size: 36px;
-	color: #818181;
+	color: var(--text_secondary);
 	display: block;
 	transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-	color: #f1f1f1;
+	color: var(--text-color);;
 }
 
 .overlay .closebtn {
@@ -75,19 +54,8 @@ body {
 }
 
 .nav_activate{
-	font-size:30px;
-	cursor:pointer;
-	color:white;
-	position:fixed;
+	font-size: 20px;
+	cursor: pointer;
+	color: var(--text-color);
 	z-index: 50;
-	text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
 }

@@ -44,7 +44,7 @@
 /* black bar outside */
 .blk_bar_center { grid-area: 2 / 2 / 3 / 3; color: white; font-size: 2rem;} 
 
-/* slide show */
+/* slide show image gallery */
 /* base css grid class */
 .sld_show {
     display: grid;
@@ -237,16 +237,6 @@ uses css flex to center its self*/
 .next,
 .prev_,
 .next_ {
-	text-shadow:
-	/* Outline */
-	-1px -1px 0 #000000,
-	1px -1px 0 #000000,
-	-1px 1px 0 #000000,
-	1px 1px 0 #000000,  
-	-2px 0 0 #000000,
-	2px 0 0 #000000,
-	0 2px 0 #000000,
-	0 -2px 0 #000000;
 	cursor: pointer;
 	color: rgb(255, 255, 255);
 	font-weight: bold;

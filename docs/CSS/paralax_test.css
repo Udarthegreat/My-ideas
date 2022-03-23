@@ -9,6 +9,8 @@
 }
 
 /* title section background */
+/* place your image in the URL */
+/* it could be parallax_# were # is any number, as long as you have a image for it */
 .parallax_1{
     background-image: url('../backgrounds/abandoned-forest-hd-wallpaper_optimized.jpg');
 }
@@ -66,14 +68,4 @@
     font-family: 'Nova Flat', cursive;
     font-size: 2rem;
     background-color: rgba(0, 0, 0, 0.349);
-    text-shadow:
-    /* Outline */
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000,  
-    -2px 0 0 #000000,
-    2px 0 0 #000000,
-    0 2px 0 #000000,
-    0 -2px 0 #000000;
 } 
