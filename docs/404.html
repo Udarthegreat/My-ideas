@@ -16,36 +16,40 @@
             document.createElement("section");
         </script>
     <![endif]-->
-    <!--[if IE]><script src = "excanvas.js"></script><![endif]-->
-    <link rel="stylesheet" text="text/css" href="./CSS/404.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="404 page">
+    <link rel="stylesheet" text="text/css" href="./CSS/NAVbar_test.css">
+	<link rel="stylesheet" href="./CSS/404.css">
+    <link rel="stylesheet" text="text/css" href="./CSS/text_test.css">
     <link rel="stylesheet" text="text/css" href="./CSS/themes.css">
-    <link rel="stylesheet" text="text/css" href="./CSS/NAVbar.css">
     <script src="NAVbar.js"></script>
 </head>
 
 <body>
     <input type="checkbox" class="theme-switch" id="theme-switch">
     <div id="page">
-        <section class="nav_section">
-            <div class="nav_div">
-				<div id="Nav" class="overlay">
-					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-					<div class="overlay_content">
-						<a href="index.html">Home</a>
-						<a href="earth 2.0.html">earth 2.0</a>
-						<a href="climate.html">environment</a>
-						<a href="#">singularity</a>
-						<a href="others.html">others</a>
-						<a href="about.html">about</a>
-					</div>
-				</div>
-				<span class="nav_activate" onclick="openNav()">&#9776; navigation</span>
-			</div>
-        </section>
-        <section class="main center">
-            <div class="centered center_contents">
-                <h1 class="title">404 page not found</h1>
-                <p class="description">the page you tried to access does not exist or has been moved</p>
+        <div class="content">
+            <section>
+                <div id="Nav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay_content">
+                        <a href="index.html">Home</a>
+                        <a href="earth 2.0.html">earth 2.0</a>
+                        <a href="climate.html">environment</a>
+                        <a href="#">singularity</a>
+                        <a href="others.html">others</a>
+                        <a href="about.html">about</a>
+                    </div>
+                </div>
+                <div class="sidenav">
+                    <span class="nav_activate nav" onclick="openNav()">&#9776; nav</span>
+                    <label for="theme-switch" class="switch-label theme_switcher"></label>
+                </div>
+            </section>
+        <section class="main center" >
+            <div class="centered center_contents_page" id="page">
+                <h1 class="title"><b>404:</b> page not found</h1>
+                <p class="description">The page you tried to access does not exist (it may have been moved)</p>
                 <p class="link"><a href="index.html">return to home page</a></p>
             </div>
         </section>
