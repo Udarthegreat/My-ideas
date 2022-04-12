@@ -20,10 +20,11 @@
 .centered { grid-area: 2 / 2 / 3 / 3; }
 /* uses flexbox to center the contents of the element it is placed on */
 .center_contents{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1%;
+  }
 .soon{
     height: 40vh;
 }
@@ -189,7 +190,7 @@ uses css flex to center its self*/
     /* background-color: aqua; */
 }
 .grd_img_1{
-    background-image: url('../../docs/idea page_1.jpg') !important; 
+    background-image: url('../idea page_1.jpg') !important; 
 }
 /* grid area 2 */
 .grd_2 { 
@@ -199,7 +200,7 @@ uses css flex to center its self*/
     /* background-color: aqua; */
 }
 .grd_img_2{
-    background-image: url('../../docs/to be drawn.jpg') !important; 
+    background-image: url('../to be drawn.jpg') !important; 
 }
 /* grid area 3 */
 .grd_3 { 

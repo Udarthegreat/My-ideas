@@ -1,7 +1,4 @@
 @charset "UTF-8";
-@import url("../webfonts/PermanentMarker_Regular/stylesheet.css");
-@import url("../webfonts/NovaSquare/stylesheet.css");
-@import url("../webfonts/NovaFlat_Regular/stylesheet.css");
 
 article, aside, footer, header, main, nav, section{
   display: block;
