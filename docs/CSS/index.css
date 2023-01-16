@@ -1,31 +1,31 @@
 @charset "UTF-8";
 
 article, aside, footer, header, main, nav, section{
-  display: block;
+	display: block;
 }
 html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
-  background-color: rgb(128, 128, 128);
-  font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
-  font-weight: 400;
+	background-color: rgb(128, 128, 128);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: 400;
 }
 
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; 
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit; 
 }
 .txt_outline{
-  text-shadow:
+	text-shadow:
 	/* Outline */
 	-1px -1px 0 var(--text-color),
 	1px -1px 0 var(--text-color),
@@ -46,5 +46,5 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-    align-items: center;
+	align-items: center;
 }

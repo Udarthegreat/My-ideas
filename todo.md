@@ -18,7 +18,7 @@
 ## 2:
 
 - [x] make website responsive on different screen sizes
-  - [x]  index
+  - [x] index
   - [x] earth 2.0
   - [x] climate
   - [x] others
@@ -36,7 +36,7 @@
 - [x] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
 - [x] convert others page title positioning from pixel units to something more responsive like %
 - [x] fix up images used
-- [x] take the script tag from inside of climatetabs_1 and move it to climate.js, can't right now because when I do that line won't perform its function
+- [x] take the script tag from inside of `climatetabs_1` and move it to climate.js
 
 ## 3 (before deciding to completely rework this site and the subsequent gutting of the site):
 
@@ -70,14 +70,30 @@
   - [x] add theme switcher
 - [x] re-write nav overlay to use CSS flexbox and CSS grid for layout because that is better for responsive layouts
 
-## 4 (the redesign):
+## 4
 
-- [ ] site is fully generated from markdown 
-- [ ] host all fonts locally (disconnect from google fonts
-- [ ] add license (CC BY 3.0 I think)
-- [ ] add a markdown file for every page that is readily downloadable
-- [ ] create a photography page (only page that will not be able to be generated from markdown from what I can tell)
-- [ ] create other pages
+- [X] gut the different pages comprising the site keeping only what is necessary
+  - [x] index
+  - [x] earth 2.0
+  - [x] environment
+  - [x] about me
+  - [X] others
+  - [x] testing
+- [x] remove CSS no longer used and gut as much from the other CSS files
+- [x] remove Js files.
+- [x] update readme
+- [X] update todo
+- [x] update versions
+
+## 5 (the redesign):
+
+- [ ] site is fully generated from markdown and template files
+- [ ] host all fonts locally (possibly create my own)
+- [ ] add a download button for every page; it would allows you to download the markdown source of the page
+- [ ] create a photography page
+- [ ] add a page in which I describe what I did for OSm for each month
+- [ ] possibly create other pages
+- [ ] new more minimalist design for the pages
 - [ ] ~
 
 ## some point in the future
