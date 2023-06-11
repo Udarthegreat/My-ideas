@@ -38,7 +38,7 @@
 - [x] fix up images used
 - [x] take the script tag from inside of `climatetabs_1` and move it to climate.js
 
-## 3 (before deciding to completely rework this site and the subsequent gutting of the site):
+## 3 (before deciding to completely rework this site and the subsequent gutting of the site)(what I did before committing 2.2):
 
 - [x] implement hoverable side navigation menu
   - [x] integrate it with nav menu
@@ -70,7 +70,7 @@
   - [x] add theme switcher
 - [x] re-write nav overlay to use CSS flexbox and CSS grid for layout because that is better for responsive layouts
 
-## 4
+## 3 (after deciding to completely rework this site and the subsequent gutting of the site)(the gutting):
 
 - [X] gut the different pages comprising the site keeping only what is necessary
   - [x] index
@@ -85,13 +85,13 @@
 - [X] update todo
 - [x] update versions
 
-## 5 (the redesign):
+## 4 (the redesign):
 
 - [ ] site is fully generated from markdown and template files
 - [ ] host all fonts locally (possibly create my own)
 - [ ] add a download button for every page; it would allows you to download the markdown source of the page
 - [ ] create a photography page
-- [ ] add a page in which I describe what I did for OSm for each month
+- [ ] add a page in which I describe what I did for OSM for each month
 - [ ] possibly create other pages
 - [ ] new more minimalist design for the pages
 - [ ] ~
