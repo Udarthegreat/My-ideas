@@ -18,14 +18,13 @@
 ## 2:
 
 - [x] make website responsive on different screen sizes
-  - [x]  index
+  - [x] index
   - [x] earth 2.0
   - [x] climate
   - [x] others
   - [x] about me
 - [x] update the explanation section for earth 2.0
 - [x] finish the home page 
-- [ ] add images to earth 2.0
 - [x] add a page for about me
 - [x] finish about me page
 - [x] make the climate page have the parallax effect and format properly
@@ -37,71 +36,66 @@
 - [x] have to re-write earth 2.0 page to fix issues with the nav bar and many other issues it has been giving me
 - [x] convert others page title positioning from pixel units to something more responsive like %
 - [x] fix up images used
-- [x] take the script tag from inside of climatetabs_1 and move it to climate.js, can't right now because when I do that line won't perform its function
+- [x] take the script tag from inside of `climatetabs_1` and move it to climate.js
 
-## 3:
+## 3 (before deciding to completely rework this site and the subsequent gutting of the site)(what I did before committing 2.2):
 
 - [x] implement hoverable side navigation menu
   - [x] integrate it with nav menu
   - [x] integrate it with the theme switcher
 - [x] convert the gallery from earth 2.0 from normal display block using position: absolute; to CSS grid
-- [ ] make standardized CSS and JS for different functions
+- [x] make standardized CSS and JS for different functions
   - [x] title area
   - [x] description area
   - [x] parallax areas
   - [x] image gallery
   - [x] image slide show
-  - [ ] tabs
-- [ ] complete earth 2.0
-- [ ] make biosolar better
+- [x] complete earth 2.0
+- [x] make biosolar better
 - [x] take all pre's and turn them to p's because of the issues properly formatting pre's especially when it comes to responsivity.
-- [ ] add model effect to all images (all except for the background images)
 - [x] fix description tag for the first slide show's positioning
 - [x] standardize sizing and amounts for different types page parts
 - [x] fix the issue with earth 2.0 were the CSS grid will not become taller then a certain amount
-- [ ] create new costume HTML, or at least the customer image slide show
 - [x] put a images into a images folder and separate images into sub folders per category.
 - [x] update different backgrounds and other size related parts of page and make them more consistent
-- [ ] improve in document documentation through proper commenting especially in the CSS
-- [ ] work more on responsiveness for pages
-  - [ ] index
-  - [ ] earth 2.0
-  - [ ] climate
-  - [ ] about me
-  - [ ] others
-- [ ] add license (CC BY 3.0 I think)
-- [ ] add a markdown file for every page that is readily downloadable
+- [x] improve in document documentation through proper commenting especially in the CSS
+- [x] work more on responsiveness for pages
+  - [x] index
+  - [x] earth 2.0
+  - [x] climate
+  - [x] about me
+  - [x] others
 - [x] make the descriptions work for the 705 size
-- [ ] fix images that are in use (there are some trash in some of the images)
 - [x] add dark and light themes
   - [x] add theme switcher
 - [x] re-write nav overlay to use CSS flexbox and CSS grid for layout because that is better for responsive layouts
-- [ ] fix bug with image slide show were in Firefox background images are not showing up
-- [ ] in image slide show use flexbox to place the thumbnails of the slides instead of grid
-- [ ] ~
 
-## 4:
+## 3 (after deciding to completely rework this site and the subsequent gutting of the site)(the gutting):
 
-- [ ] have all costume html done for every page I have by this point
-- [ ] convert the 250px value to % in climate.css
-- [ ] figure why single digit numbers have no effect only double digit numbers have a effect in CSS but they do when in html
-- [ ] site is fully generated from markdown 
-- [ ] host all fonts locally (disconnect from google fonts)
+- [X] gut the different pages comprising the site keeping only what is necessary
+  - [x] index
+  - [x] earth 2.0
+  - [x] environment
+  - [x] about me
+  - [X] others
+  - [x] testing
+- [x] remove CSS no longer used and gut as much from the other CSS files
+- [x] remove Js files.
+- [x] update readme
+- [X] update todo
+- [x] update versions
+
+## 4 (the redesign):
+
+- [ ] site is fully generated from markdown and template files
+- [ ] host all fonts locally (possibly create my own)
+- [ ] add a download button for every page; it would allows you to download the markdown source of the page
+- [ ] create a photography page
+- [ ] add a page in which I describe what I did for OSM for each month
+- [ ] possibly create other pages
+- [ ] new more minimalist design for the pages
 - [ ] ~
 
 ## some point in the future
 
-- [ ] try to use as many of my own images in the page as possible
-- [ ] for navbar implement ability to click outside and close navbar
-- [ ] take all images from paper to e-paper (this means that most will be vector images not raster)
-- [ ] possibly integrate models into the needed costume html 
-- [ ] turn the image slide show into a custom html element (web component)
-- [ ] create a photography page (only page that will not be able to be generated from markdown from what I can tell)
-- [ ] make as much of the page web components  
-- [ ] fix the coming soon background color (the width)
-- [ ] get the interactive working (for cloth sim)
-- [ ] add a credits
-- [ ] fix error on img_a.onclick = function(){
-- [ ] make the black outline around text using shadow a css class (or what ever their called) so I only have to define it once
-- [ ] convert images to svg's at use them instead of the images for obvious reasons
 - [ ] ~

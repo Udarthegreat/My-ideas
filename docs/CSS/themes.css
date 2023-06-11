@@ -1,30 +1,15 @@
 @charset "UTF-8";
 :root {
-    /* dark */
-    --dark_bg: rgb(0, 0, 0);
-    --dark_text: rgb(255, 255, 255);
-    --dark_text_secondary: rgb(155, 155, 155);
-    --dark_shadow: rgb(82, 82, 82);
-    --dark_secondary: rgb(0, 4, 59);
-    --dark_tertiary: rgb(46, 46, 46);
-    --dark_link: rgb(20, 35, 255);
-    --dark_partially_transparent: rgba(0, 0, 0, 0.6); 
-    /* light */
-    --light_bg: rgb(255, 255, 255);
-    --light_text: rgb(0, 0, 0);
-    --light_text_secondary: rgb(173, 173, 173);
-    --light_shadow: rgb(88, 88, 88);
-    --light_secondary: rgb(20, 35, 255);
-    --light_tertiary: rgb(180, 180, 180);
-    --light_link: rgb(53, 18, 209);
-    --light_partially_transparent: rgba(0, 0, 0, 0.747);
-    /* Default mode */
-    --text-color: var(--dark_text);
-    --text_secondary: var(--dark_text_secondary);
-    --bg-color: var(--dark_bg);
-    --link_color: var(--dark_link);
-    --shadow_color: var(--dark_shadow);
-    --secondary_color: var(--dark_secondary);
-    --tertiary_color: var(--dark_tertiary);
-    --partially_transparent: var(--dark_partially_transparent);
-  }
+	/* dark */
+	--dark_bg: rgb(0, 0, 0);
+	--dark_text: rgb(255, 255, 255);
+	--dark_link: rgb(20, 35, 255);
+	/* light */
+	--light_bg: rgb(255, 255, 255);
+	--light_text: rgb(0, 0, 0);
+	--light_link: rgb(53, 18, 209);
+	/* Default mode */
+	--text-color: var(--dark_text);
+	--bg-color: var(--dark_bg);
+	--link_color: var(--dark_link);
+}

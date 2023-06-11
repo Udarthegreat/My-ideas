@@ -1,44 +1,31 @@
 @charset "UTF-8";
 
 article, aside, footer, header, main, nav, section{
-  display: block;
+	display: block;
 }
 html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
-  background-color: rgb(128, 128, 128);
-  font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
-  font-weight: 400;
+	background-color: rgb(128, 128, 128);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: 400;
 }
-/* theme switch */
-#page {
-  background: var(--bg-color);
-  color: var(--text-color);
-}
-/* I wanted to put this in :root but it seams to not work when I do that so it has to be here */
-.theme-switch:checked + #page{
-  --text-color: var(--light_text);
-  --bg-color: var(--light_bg);
-  --shadow_color: var(--light_shadow);
-  --secondary_color: var(--light_secondary);
-  --tertiary_color: var(--light_tertiary);
-  --link_color: var(--light_link);
-}
+
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; 
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit; 
 }
 .txt_outline{
-  text-shadow:
+	text-shadow:
 	/* Outline */
 	-1px -1px 0 var(--text-color),
 	1px -1px 0 var(--text-color),
@@ -48,4 +35,16 @@ body {
 	2px 0 0 var(--text-color),
 	0 2px 0 var(--text-color),
 	0 -2px 0 var(--text-color);
+}
+
+.main_body{
+	background-color: rgb(0, 0, 0);
+	height: 100vh;
+	color: rgb(255, 255, 255);
+	font-size: 3rem;
+	text-align:center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }

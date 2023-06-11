@@ -1,50 +1,31 @@
 @charset "UTF-8";
 
 article, aside, footer, header, main, nav, section{
-  display: block;
+	display: block;
 }
 html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
-  background-color: rgb(128, 128, 128);
-  font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
-  font-weight: 400;
+	background-color: rgb(128, 128, 128);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: 400;
 }
-/* theme switch */
-#page {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  z-index: 1;
-}
-/* I wanted to put this in :root but it seams to not work when I do that so it has to be here */
-.theme-switch:checked + #page{
-  --text-color: var(--light_text);
-  --text_secondary: var(--light_text_secondary);
-  --bg-color: var(--light_bg);
-  --shadow_color: var(--light_shadow);
-  --secondary_color: var(--light_secondary);
-  --tertiary_color: var(--light_tertiary);
-  --link_color: var(--light_link);
-  --partially_transparent: var(--light_partially_transparent);
-}
-.theme-switch{
-  display: none;
-}
+
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; 
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit; 
 }
 .txt_outline{
-  text-shadow:
+	text-shadow:
 	/* Outline */
 	-1px -1px 0 var(--text-color),
 	1px -1px 0 var(--text-color),
@@ -56,47 +37,14 @@ body {
 	0 -2px 0 var(--text-color);
 }
 
-/* temp */
-.center{
-  display: grid;
-  grid-template-columns: 1fr 10fr 1fr;
-  grid-template-rows: 1fr 10fr 1fr;
-  gap: 0px 0px;
-}
-/* the area inside the css grid that is in the center */
-.centered { grid-area: 2 / 2 / 3 / 3; }
-/* uses flexbox to center the contents of the tag it is placed on */
-.center_contents{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* temp */
-
-.sidenav>a,.sidenav>label,.sidenav>span {
-  position: absolute;
-  left: -80px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 100px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  border-radius: 0 5px 5px 0;
-}
-
-.sidenav>a:hover,label:hover,span:hover {
-  left: 0;
-}
-
-.nav {
-  top: 20px;
-  background-color: var(--bg-color);
-  border: 1px solid var(--text-color);
-}
-
-.theme_switcher{
-  top: 80px;
-  background-color: var(--bg-color);
-  border: 1px solid var(--text-color);
+.main_body{
+	background-color: rgb(0, 0, 0);
+	height: 100vh;
+	color: rgb(255, 255, 255);
+	font-size: 3rem;
+	text-align:center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
