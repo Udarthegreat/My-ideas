@@ -6,11 +6,7 @@ article, aside, footer, header, main, nav, section{
 html, body, h1, h2, h4, h5, h6, ul, li, a, p, article, aside, footer, header, main, nav, section{
 	padding: 0;
 	margin: 0;
-<<<<<<< HEAD
 }
-=======
-	}
->>>>>>> master
 html {
 	box-sizing: border-box;
 }
@@ -32,29 +28,6 @@ body {
 .link{
 	font-size: 1.5em;
 	color: var(--link_color);
-<<<<<<< HEAD
-=======
-}
-/* theme switch */
-#page {
-	background-color: var(--bg-color);
-	color: var(--text-color);
-	z-index: 1;
-}
-/* I wanted to put this in :root but it seams to not work when I do that so it has to be here */
-.theme-switch:checked + #page{
-	--text-color: var(--light_text);
-	--text_secondary: var(--light_text_secondary);
-	--bg-color: var(--light_bg);
-	--shadow_color: var(--light_shadow);
-	--secondary_color: var(--light_secondary);
-	--tertiary_color: var(--light_tertiary);
-	--link_color: var(--light_link);
-	--partially_transparent: var(--light_partially_transparent);
-}
-.theme-switch{
-	display: none;
->>>>>>> master
 }
 *,
 *::after,
@@ -91,43 +64,5 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-<<<<<<< HEAD
 	flex-direction: column;
-=======
-}
-.center_contents_page{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-/* temp */
-
-.sidenav>a,.sidenav>label,.sidenav>span {
-	position: absolute;
-	left: -80px;
-	transition: 0.3s;
-	padding: 15px;
-	width: 100px;
-	text-decoration: none;
-	font-size: 20px;
-	color: white;
-	border-radius: 0 5px 5px 0;
-}
-
-.sidenav>a:hover,label:hover,span:hover {
-	left: 0;
-}
-
-.nav {
-	top: 20px;
-	background-color: var(--bg-color);
-	border: 1px solid var(--text-color);
-}
-
-.theme_switcher{
-	top: 80px;
-	background-color: var(--bg-color);
-	border: 1px solid var(--text-color);
->>>>>>> master
 }
